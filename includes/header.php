@@ -1,6 +1,21 @@
 
   <header>
   
+
+
+ <nav class="desktopNav">
+    <!-- <hr width = "80%" class ="line"/> -->
+    <ul>
+      <li class="rainbow"><a href="index.php">PROJECTS</a></li>
+      <!-- <li class="rainbow"><a href="art.php">ARTWORK</a></li> -->
+      <!-- <li class="rainbow"><a href="writing.php">WRITING</a></li> -->
+      <li class="rainbow"><a href="resume.php">RESUME</a></li>
+      <li class="rainbow"><a href="mailto:af397@cornell.edu">CONTACT</a></li>
+      <!-- <li class="rainbow"><a href="about.php">ABOUT</a></li> -->
+    </ul>
+
+   
+  </nav>
   <!-- <section id="social-icons">
     <div class="icons">
     <a href="mailto:af397@cornell.edu" class="fas fa-envelope med fa-fw"></a>
@@ -9,23 +24,10 @@
     <a href="https://twitter.com/annieefu" class="fab fa-twitter med fa-fw"></a>
     <a href="https://instagram.com/annieefu" class="fab fa-instagram med fa-fw"></a>
 </div>
-
+<hr width="100%" class="secline"/>
 
   </section> -->
 
- <nav class="desktopNav">
-    <!-- <hr width = "80%" class ="line"/> -->
-    <ul>
-      <li class="rainbow"><a href="index.php">PROJECTS</a></li>
-      <!-- <li class="rainbow"><a href="art.php">ARTWORK</a></li> -->
-      <!-- <li class="rainbow"><a href="writing.php">WRITING</a></li> -->
-      <li class="rainbow"><a href="AnnieFuResume2020_1.pdf" target="_blank">RESUME</a></li>
-      <!-- <li class="rainbow"><a href="about.php">ABOUT</a></li> -->
-    </ul>
-
-
-    <hr width="100%" class="secline"/>
-  </nav>
 
   <div class="navbarMobileWrapper">
   <div class="navBarMobile">
@@ -43,4 +45,7 @@
     </div>
   </div>
 </div>
+
+
+
 </header>

@@ -27,7 +27,7 @@ include("includes/init.php");
 <div class="bodybin">
 
 
-<iframe src="AnnieFuResume2020_1.pdf" width="500" height="700" target="_blank">
+<iframe src="AnnieFuResume2020_1.pdf" width="800" height="900" class="center">
 </div>
 
 
