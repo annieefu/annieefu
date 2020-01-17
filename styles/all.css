@@ -342,6 +342,7 @@ p {
 
   /***********INDEX **********/
     .showcase {
+      margin-top: 60px;
       font-family: futura-pt;
       justify-content: space-evenly;
       align-items: center;
@@ -360,6 +361,8 @@ p {
       pointer-events: none;
       text-align: center;
     }
+
+  
     
     .project {
       width: 26.8%;
@@ -371,7 +374,6 @@ p {
          -moz-user-select: none;
           -ms-user-select: none;
               user-select: none;
-      cursor: pointer;
       left: 0;
       transition: .4s;
       top: 0;
@@ -465,12 +467,15 @@ width:4%;
   .desktopNav {
   display: none;
   }
+  
 
   .navBarMobile a {
       font-family: work-sans, sans-serif;
       font-size: 25px;
       font-weight: 300;
       text-decoration: none;
+        border-bottom: 1px solid;
+
     
   }
 
