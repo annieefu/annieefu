@@ -1,0 +1,101 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.lineone {
+  height:3px;
+  fill: white;
+}
+
+.title {
+  font-family: futura-pt;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.42857143;
+  text-align:center;
+
+}
+
+.icons {
+  font-size: 16px;
+}
+
+nav a {
+  font-family: playfair-display, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+
+/* social media icons */
+
+/* font awesome icons */
+.fab, .far, .fas{
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+
+
+#social-icons {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#social-icons a {
+  margin: 5 5px;
+  color: white;
+}
+#social-icons a:link, #social-icons a:visited {
+  opacity: 1;
+}
+
+#social-icons a:hover, #social-icons a:active, #social-icons a:focus {
+  opacity: 1;
+  transition-duration: .25s;
+}
+
+
+
+/********** MOBILE STYLING ************/
+@media (max-width: 600px) {
+.desktopNav {
+display: none;
+}
+}
+
+/********* DESKTOP STYLING **********/
+@media (min-width: 601px) {
+.navBarMobile{
+  display:none;
+}
+
+
+/***** NAV *******/
+
+.desktopNav{
+  text-align: center;
+}
+
+.desktopNav ul > li {
+  list-style-type: none;
+  display:inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.logo {
+  vertical-align: text-bottom;
+}
+}
