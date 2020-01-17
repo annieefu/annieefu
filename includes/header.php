@@ -19,7 +19,7 @@
       <li class="rainbow"><a href="index.php">PROJECTS</a></li>
       <!-- <li class="rainbow"><a href="art.php">ARTWORK</a></li> -->
       <!-- <li class="rainbow"><a href="writing.php">WRITING</a></li> -->
-      <li class="rainbow"><a href="AnnieFuResume2020.pdf" target="_blank">RESUME</a></li>
+      <li class="rainbow"><a href="AnnieFuResume2020_1.pdf" target="_blank">RESUME</a></li>
       <!-- <li class="rainbow"><a href="about.php">ABOUT</a></li> -->
     </ul>
 
