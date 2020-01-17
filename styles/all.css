@@ -464,14 +464,34 @@ width:4%;
   display: none;
   }
 
+  .navBarMobile a {
+      font-family: work-sans, sans-serif;
+      font-size: 25px;
+      font-weight: 300;
+      text-decoration: none;
+    
+  }
+
 .dropdown-content {
     text-align: center;
     margin-top: 20px;
 }
 
+.heading {
+  font-size: 34px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.showcase {
+  font-family: futura-pt;
+  align-items: center;
+  display: block;
+  transition-duration: .5s;
+}
 
-
-
+.project-subname {
+  display: none;
+}
 
 .project-img {
   width: 100%;
@@ -486,11 +506,11 @@ width:4%;
 }
 
 .project {
-  width: 200px;
+  width: 230px;
   flex-shrink: 0;
   margin: auto;
-  padding-bottom:30px;
-  height: 200px;
+  padding-bottom:70px;
+  height: 250px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
