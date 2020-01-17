@@ -40,7 +40,7 @@ p {
 
   a{
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     letter-spacing: .5px;
   }
 
@@ -181,6 +181,7 @@ p {
       font-size:14.5px;
       font-family: work-sans, sans-serif;
       font-weight: 300;
+      text-decoration: none;
     }
   
     .desktopNav a.active{
@@ -188,7 +189,7 @@ p {
     }
   
   
-    .desktopNav a:hover, #social-icons a:hover, header a:hover{
+    .desktopNav a:hover, #social-icons a:hover, header a:hover, body a:hover{
       -webkit-animation:rainbow 1s infinite;
       -ms-animation:rainbow 1s infinite;
       -o-animation:rainbow 1s infinite;
@@ -488,7 +489,7 @@ width:4%;
   width: 200px;
   flex-shrink: 0;
   margin: auto;
-  padding-bottom:20px;
+  padding-bottom:30px;
   height: 200px;
   -webkit-user-select: none;
      -moz-user-select: none;

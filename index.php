@@ -28,36 +28,36 @@ include("includes/init.php");
 
 <div class="bodybin" id="fadein2">
 
-<h2 class="heading"><strong class="rainbow-text">Annie Fu</strong> is a designer and developer currently studying at Cornell University.</h2>
+<h2 class="heading"><strong class="rainbow-text">Annie Fu</strong> is a designer and developer currently studying at <a href="https://cis.cornell.edu/" target="_blank">Cornell University.</a></h2>
 
-<h2 class="heading">Previously, she worked with the <a href="">Cornell Sustainability Office</a> and <a href="">Strand Magazine.</a></h2>
+<h2 class="heading">She's worked with the <a href="https://sustainablecampus.cornell.edu/" target="_blank" class="rainbow" >Cornell Sustainability Office</a> and <a href="https://strandmag.com/" target="_blank" class="rainbow">Strand Magazine.</a></h2>
 
 
 <div class="showcase" id = "fadein">
 
 
-<div class="project">
-    
 
-    <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study"><img class="project-img" src="images/ddoticon.png"/></a>
-    <span class="project-name">Detroit DDOT</span>
-     <p class="project-subname"> Designing to Connect Transit Systems</p>
-  </div>
 
   <div class="project">
-
-<a href="propertypal.php"><img class="project-img" src="images/ppicon.png" /></a>
+<a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/ppicon.png" /></a>
 <span class="project-name">PropertyPal: Student Housing</span>
 <p class="project-subname"> INFO 3450: HCI Design</p>
 </div>
 
-<div class="project">
 
-    <a href="https://uxplanet.org/forsight-a-hackathon-case-study-on-accessible-design-fccb1bffdd5c" alt ="ForSight Hackathon Case Study"> <img class="project-img" src="images/forsight.png" /></a>
+
+<div class="project">
+    <a href="https://uxplanet.org/forsight-a-hackathon-case-study-on-accessible-design-fccb1bffdd5c" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/forsight.png" /></a>
     <span class="project-name">Forsight: Hacking for Accessible Design</span>
       <p class="project-subname"> Big Red//Hacks Fall 2019</p>
   </div>  
   
+
+  <div class="project">
+    <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
+    <span class="project-name">Detroit DDOT</span>
+     <p class="project-subname"> Designing to Connect Transit Systems</p>
+  </div>
  
 
 

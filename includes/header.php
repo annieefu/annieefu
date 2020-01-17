@@ -39,9 +39,9 @@
     </button> -->
     <div class="dropdown-content">
       <a href="index.php">Projects</a><hr width = "70%"/>
-      <a href="writing.php">Writing</a><hr width = "70%"/>
+      <!-- <a href="writing.php">Writing</a><hr width = "70%"/> -->
       <a href="resume.php">Resume</a><hr width = "70%"/>
-      <a href="about.php">About</a>
+      <a href="mailto:af397@cornell.edu">Contact</a>
     </div>
   </div>
 </div>
