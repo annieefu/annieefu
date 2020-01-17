@@ -519,11 +519,11 @@ width:4%;
 }
 
 .project {
-  width: 230px;
+  width: 45%;
   flex-shrink: 0;
   margin: auto;
   padding-bottom:70px;
-  height: 250px;
+  height: 40%;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
