@@ -4,8 +4,6 @@ include("includes/init.php");
 // // DO NOT REMOVE!
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en" >
 <head>
