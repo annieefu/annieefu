@@ -1,0 +1,503 @@
+body{
+    background-color: black;
+    color: white;
+    padding: none;
+  }
+
+.red {
+  text-decoration-line: underline;
+  color: rgb(255, 124, 124);
+  letter-spacing: 2px;
+}
+
+
+.border03{
+  height: 4px;
+  background-image: linear-gradient(50deg, transparent, transparent 15%, black 50%, black 100%), linear-gradient(50deg, #a5a5a5, #5f5f5f, #5e5e5e, #3a3a3a, #202020);
+  background-size: 20px 3px, 100% 3px;
+  border: none;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(to left, cyan, blue, violet);   -webkit-background-clip: text; background-clip: text;
+  color: transparent;
+}
+
+  .heading strong {
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+  }
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+
+  a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: .5px;
+  }
+
+
+  .line {
+    border-color: #505050;
+  }
+
+  .secline {
+      border-color: #505050;
+      border-width:.5px;
+  }
+
+
+
+
+
+  .title {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-size: 52px;
+    margin-top: 55px;
+    margin-bottom:33px;
+    text-align:center;
+    letter-spacing: 1px;
+
+  }
+
+  .icons {
+    font-size: 17px;
+    letter-spacing: 2px;
+  }
+
+  nav a, .dropdown-content{
+    font-family: playfair-display, serif;
+  font-weight: 400;
+  }
+
+
+  /* social media icons */
+
+  /* font awesome icons */
+  .fab, .far, .fas{
+    text-decoration: none;
+  }
+
+
+
+  #social-icons {
+    color: white;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #social-icons a {
+    color: white;
+  }
+
+
+  @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  
+  .heading {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
+    font-size: 42px;
+    text-align:left;
+    letter-spacing: 2px;
+  }
+
+
+
+.hero-deets {
+  list-style: none;
+  margin-left: 0px;
+  margin-top: 35px;
+}
+
+.hero-deets li{
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-deets li strong{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 4px rgb(199, 199, 199);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  /********* DESKTOP STYLING **********/
+  @media (min-width: 601px) {
+    .navBarMobile{
+      display:none;
+    }
+  
+  
+    /***** NAV *******/
+  
+    .desktopNav{
+      text-align: left;
+      margin: auto;
+      margin-top: 38px;
+      width: 80%;
+      padding: none;
+    }
+    .desktopNav a {
+      font-size:14.5px;
+      font-family: work-sans, sans-serif;
+      font-weight: 300;
+    }
+  
+    .desktopNav a.active{
+      text-decoration: underline;
+    }
+  
+  
+    .desktopNav a:hover, #social-icons a:hover, header a:hover{
+      -webkit-animation:rainbow 1s infinite;
+      -ms-animation:rainbow 1s infinite;
+      -o-animation:rainbow 1s infinite;
+      animation:rainbow 1s infinite;
+      }
+      @-webkit-keyframes rainbow {
+      0% {color: #ff0000;}
+      10% {color: #ff8000;}
+      20% {color: #ffff00;}
+      30% {color: #80ff00;}
+      40% {color: #00ff00;}
+      50% {color: #00ff80;}
+      60% {color: #00ffff;}
+      70% {color: #0080ff;}
+      80% {color: #0000ff;}
+      90% {color: #8000ff;}
+      100% {color: #ff0080;}
+      }
+      @-ms-keyframes rainbow {
+      0% {color: #ff0000;}
+      10% {color: #ff8000;}
+      20% {color: #ffff00;}
+      30% {color: #80ff00;}
+      40% {color: #00ff00;}
+      50% {color: #00ff80;}
+      60% {color: #00ffff;}
+      70% {color: #0080ff;}
+      80% {color: #0000ff;}
+      90% {color: #8000ff;}
+      100% {color: #ff0080;}
+      }
+      @-o-keyframes rainbow {
+      0% {color: #ff0000;}
+      10% {color: #ff8000;}
+      20% {color: #ffff00;}
+      30% {color: #80ff00;}
+      40% {color: #00ff00;}
+      50% {color: #00ff80;}
+      60% {color: #00ffff;}
+      70% {color: #0080ff;}
+      80% {color: #0000ff;}
+      90% {color: #8000ff;}
+      100% {color: #ff0080;}
+      }
+      @keyframes rainbow {
+      0% {color: #ff0000;}
+      10% {color: #ff8000;}
+      20% {color: #ffff00;}
+      30% {color: #80ff00;}
+      40% {color: #00ff00;}
+      50% {color: #00ff80;}
+      60% {color: #00ffff;}
+      70% {color: #0080ff;}
+      80% {color: #0000ff;}
+      90% {color: #8000ff;}
+      100% {color: #ff0080;}
+      }
+  
+ 
+    .desktopNav li {
+      padding-right: 3%;
+      list-style-type: none;
+      display:inline-block;
+    }
+  
+  
+    .logo {
+      vertical-align: text-bottom;
+    }
+  
+    @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+    
+    
+    body {
+      font-family: 'DM Sans', sans-serif;
+    }
+    
+  
+  
+  
+  /**** FADE IN******/
+  
+  #fadein2{
+  
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+  }
+  
+  
+  
+  
+  #fadein{
+  
+    -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 8s; /* Firefox < 16 */
+        -ms-animation: fadein 8s; /* Internet Explorer */
+         -o-animation: fadein 8s; /* Opera < 12.1 */
+            animation: fadein 8s;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  /* Opera < 12.1 */
+  @-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  
+
+
+  
+  .bodybin{
+    width: 80%;
+    margin:auto;
+    padding: none;
+  }
+  
+  
+
+
+
+
+
+  /***********INDEX **********/
+    .showcase {
+      font-family: futura-pt;
+      justify-content: space-evenly;
+      align-items: center;
+      display: flex;
+      transition-duration: .5s;
+    }
+    
+
+    .project-img {
+      width: 100%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      -o-object-position: center;
+         object-position: center;
+      display: block;
+      pointer-events: none;
+      text-align: center;
+    }
+    
+    .project {
+      width: 26.8%;
+      height: 26.8%;
+      flex-shrink: 0;
+      margin: 0 5%;
+      height: 30%;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      cursor: pointer;
+      left: 0;
+      transition: .4s;
+      top: 0;
+      position: relative;
+    }
+    
+    .project-name {
+      position: absolute;
+      margin-left:0px;
+  
+      width: 300px;
+      text-decoration: overline;
+      text-align: left;
+      margin-top: 14px;
+      font-size: 16px;
+      font-weight: 500;
+      color: white;
+      opacity: 1;
+    }
+  
+    .project-subname {
+      margin-top: 34px;
+      margin-left:0px;
+      width: 300px;
+      font-size: 13px;
+      font-weight: 300;
+      color: white;
+      opacity: .6;
+    }
+
+/***********   PROJECTS     ***********/
+/***********   PROJECTS     ***********/
+/***********   PROJECTS     ***********/
+/***********   PROJECTS     ***********/
+/***********   PROJECTS     ***********/
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 86%;
+}
+
+
+.hero-left {
+  order:1;
+  width:50%;
+}
+.hero-middle {
+order: 2;
+width:4%;
+}
+
+.hero-right {
+  width:50%;
+  order:3;
+}
+
+.hero-img {
+  width: 90%;
+  box-shadow: 15px 15px 15px #333333;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+    
+  
+    }
+  
+    
+
+
+
+/********** MOBILE STYLING ************/
+/********** MOBILE STYLING ************/
+/********** MOBILE STYLING ************/
+/********** MOBILE STYLING ************/
+/********** MOBILE STYLING ************/
+/********** MOBILE STYLING ************/
+/********** MOBILE STYLING ************/
+/********** MOBILE STYLING ************/
+/********** MOBILE STYLING ************/
+/********** MOBILE STYLING ************/
+/********** MOBILE STYLING ************/
+  @media (max-width: 768px) {
+
+  .desktopNav {
+  display: none;
+  }
+
+.dropdown-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  display: block;
+  pointer-events: none;
+  text-align: center;
+}
+
+.project {
+  width: 200px;
+  flex-shrink: 0;
+  margin: auto;
+  padding-bottom:20px;
+  height: 200px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  left: 0;
+  transition: .4s;
+  top: 0;
+  position: relative;
+}
+
+
+}
