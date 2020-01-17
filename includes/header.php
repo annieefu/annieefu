@@ -14,7 +14,7 @@
       <!-- <li class="rainbow"><a href="about.php">ABOUT</a></li> -->
     </ul>
 
-   
+    <hr width="100%" class="secline"/>
   </nav>
   <!-- <section id="social-icons">
     <div class="icons">
@@ -24,7 +24,7 @@
     <a href="https://twitter.com/annieefu" class="fab fa-twitter med fa-fw"></a>
     <a href="https://instagram.com/annieefu" class="fab fa-instagram med fa-fw"></a>
 </div>
-<hr width="100%" class="secline"/>
+
 
   </section> -->
 
