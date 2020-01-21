@@ -25,10 +25,10 @@ margin-left: 15%;
   color: transparent;
 }
 
-  .heading strong {
-    font-weight: 500;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 42px;
+.heading strong {
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 42px;
   }
 
 p {
