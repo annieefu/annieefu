@@ -28,7 +28,7 @@ include("includes/init.php");
 
 <div class="bodybin" id="fadein2">
 
-<h2 class="heading"><strong class="rainbow-text">Annie Fu</strong> is a designer and developer studying at <a href="https://cis.cornell.edu/" target="_blank">Cornell University.</a> She's worked with the <a href="https://sustainablecampus.cornell.edu/" target="_blank" class="rainbow" >Cornell Sustainability Office</a> and <a href="https://strandmag.com/" target="_blank" class="rainbow">Strand Magazine.</a></h2>
+<h2 class="heading"><strong class="rainbow-text">Annie Fu</strong> is a designer and developer studying at <a href="https://cis.cornell.edu/" target="_blank">Cornell University.</a> </h2> <h2 class="heading">She's worked with the <a href="https://sustainablecampus.cornell.edu/" target="_blank" class="rainbow" >Cornell Sustainability Office</a> and <a href="https://strandmag.com/" target="_blank" class="rainbow">Strand Magazine.</a></h2>
 
 
 <div class="showcase" id = "fadein">
