@@ -31,9 +31,12 @@ margin-left: 15%;
 }
 
 .heading strong {
-  font-weight: 500;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 49px;
+  font-family: benton-modern-display, serif;
+
+font-weight: 300;
+
+font-style: normal;
+  font-size: 58px;
   }
 
 p {
