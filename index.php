@@ -12,15 +12,21 @@ include("includes/init.php");
   <meta charset="UTF-8">
 <meta name="viewport" content="initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="styles/all.css">
 
-  <!-- <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/> -->
   <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+
+  <script type="text/javascript" src="scripts/activelink.js"></script>
+  <script type="text/javascript" src="scripts/scroll.js"></script>
+  <script type = "text/javascript" src = "scripts/modal.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://use.typekit.net/opt0ipj.css">
 
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-  <title>Annie Fu</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+
+<link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+<title>Annie Fu</title>
 
 </head>
 <body class="home">
@@ -33,12 +39,72 @@ include("includes/init.php");
 
 <div class="showcase" id = "fadein">
 
-
-
-
   <div class="project">
 <a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/ppicon.png" /></a>
 <span class="project-name">PropertyPal: Student Housing</span>
+<p class="project-subname"> Fall 2019</p>
+</div>
+
+
+
+<div class="project">
+    <a href="https://uxplanet.org/forsight-a-hackathon-case-study-on-accessible-design-fccb1bffdd5c" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/forsight.png" /></a>
+    <span class="project-name">Forsight: Hacking for Accessible Design</span>
+      <p class="project-subname"> Big Red//Hacks Fall 2019</p>
+  </div>  
+  
+
+  <div class="project">
+    <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
+  
+    <span class="project-name">Connecting Transit Systems</span>
+     <p class="project-subname"> Winter 2018</p>
+  </div>
+</div>
+
+<!-- 
+<section>
+<p class="scroll-message">More projects below</p>
+<a href="#" class="scroll-down" address="true"></a>
+</section>
+<section class="scrolled">
+
+<div class="showcase2">
+
+
+  <div class="project">
+<a href="librarybabel.php"><img class="project-img" src="images/library-bab.png" /></a>
+<span class="project-name">The Library of Babel: Virtual Reality Design</span>
+<p class="project-subname"> Fall 2019</p>
+</div>
+
+
+
+<div class="project">
+    <a href="" alt ="ForSight Hackathon Case Study"> <img class="project-img" src="images/sustainablemob.png" /></a>
+    <span class="project-name">Sustainabile Mobility</span>
+      <p class="project-subname"> Cornell University Sustainable Design</p>
+  </div>  
+  
+
+  <div class="project">
+    <a href="" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
+  
+    <span class="project-name">Developing a Pali Reader</span>
+     <p class="project-subname">Sirimangalo International</p>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="showcase2">
+
+  <div class="project">
+<a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/ppicon.png" /></a>
+<span class="project-name">Ecouture 2018: </span>
 <p class="project-subname"> INFO 3450: HCI Design</p>
 </div>
 
@@ -53,44 +119,20 @@ include("includes/init.php");
 
   <div class="project">
     <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
+  
     <span class="project-name">Detroit DDOT</span>
      <p class="project-subname"> Designing to Connect Transit Systems</p>
   </div>
- 
-
-
-  
 </div>
 
 
-</div>
 
-<!-- 
 
-<div class="showcase">
-  
-  <div class="project">
 
-  <span class="card-name">Sustainability</span>
-    <img class="project-img" src="images/ddot.png"/>
-    <span class="project-name">Detroit Transit Systems</span>
-  </div>
-  <div class="project">
-
-  <span class="card-name">Inclusivity</span>
-    <img class="project-img" src="images/forsight.png" />
-    <span class="project-name">Forsight: Big Red//Hacks Winner 2019</span>
-  </div>
-  <div class="project">
-
-  <span class="card-name">Discovery</span>
-    <img class="project-img" src="images/soc.png" />
-    <span class="project-name">PhD Research: Modelling Economic Sociology</span>
-  </div>
-  
-  <div class="drop">Drag and Drop a Card</div>
-</div>
-  <script  src="scripts/dragdrop.js"></script> -->
+</section>
+ -->
 
 </body>
+
+
 </html>

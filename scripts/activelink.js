@@ -1,4 +1,6 @@
-$("desktopNav a").click(function() {
-    $("desktopNav a").removeClass("active");
-    $(this).addClass("active");
+$(document).ready(function(){
+  $('a').click(function(){
+      $('a').removeClass("active");
+      $(this).addClass("active");
   });
+});
