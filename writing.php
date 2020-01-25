@@ -3,6 +3,11 @@
 include("includes/init.php");
 
 // DO NOT REMOVE!
+
+$index = "notcurrentpage";
+$writing = "currentpage";
+$resume = "notcurrentpage";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

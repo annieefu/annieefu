@@ -4,10 +4,77 @@ body{
     padding: none;
   }
 
-  .active{
-    background-color: lightgrey;
-    text-decoration: underline;
+
+  .currentpage {
+    background-color: #eeeeee;
+  padding: 14px;
   }
+
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+
+  .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    height: 84%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .content {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .content:hover .content-details{
+    top: 40%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+
+
+  .notcurrentpage {
+    padding: 14px;
+  }
+
+
 
 .red {
   text-decoration-line: underline;
@@ -19,10 +86,15 @@ margin-left: 15%;
 }
 
 .border03{
-  height: 4px;
-  background-image: linear-gradient(50deg, transparent, transparent 15%, black 50%, black 100%), linear-gradient(50deg, #a5a5a5, #5f5f5f, #5e5e5e, #3a3a3a, #202020);
-  background-size: 20px 3px, 100% 3px;
-  border: none;
+    margin-top: 30px;
+    height: 1px;
+    background: #E500FF;
+background: -moz-linear-gradient(left, #E500FF 0%, #1B00FF 50%, #00E2FF 100%);
+background: -webkit-linear-gradient(left, #E500FF 0%, #1B00FF 50%, #00E2FF 100%);
+background: linear-gradient(to right, #E500FF 0%, #1B00FF 50%, #00E2FF 100%);
+    
+    background-size: 100% 20px, 100% 15px;
+border-color: white;
 }
 
 .rainbow-text {
@@ -60,6 +132,7 @@ p {
   .secline {
       border-color: #505050;
       border-width:.5px;
+      margin-top: -5px;;
   }
 
 
@@ -104,7 +177,7 @@ p {
   }
 
   #social-icons a {
-    color: white;
+    color: black;
   }
 
 
@@ -156,6 +229,7 @@ p {
 
 
 
+
   /********* DESKTOP STYLING **********/
   /********* DESKTOP STYLING **********/
   /********* DESKTOP STYLING **********/
@@ -172,27 +246,34 @@ p {
     .navBarMobile{
       display:none;
     }
-  
-  
+ 
     /***** NAV *******/
   
     .desktopNav{
       text-align: left;
       margin: auto;
-      margin-top: 38px;
+      margin-top: 15px;
       width: 80%;
       padding: none;
     }
+
+    .desktopNav ul{
+      text-align: left;
+      margin-left: -40px;
+      margin-bottom: none;
+      padding: none;
+    }
+
+
+
     .desktopNav a {
       font-size:14.5px;
       font-family: work-sans, sans-serif;
       font-weight: 300;
       text-decoration: none;
+      padding: 14px;
     }
-  
-    .desktopNav a.active{
-      text-decoration: underline;
-    }
+
   
   
     .desktopNav a:hover, #social-icons a:hover, header a:hover, body a:hover{
@@ -256,7 +337,6 @@ p {
   
  
     .desktopNav li {
-      padding-right: 3%;
       list-style-type: none;
       display:inline-block;
     }
@@ -359,13 +439,13 @@ p {
     
 
     .showcase2 {
-      margin-top: px;
       font-family: futura-pt;
       justify-content: space-evenly;
-      align-items: center;
+      align-items: left;
       display: flex;
       transition-duration: .5s;
     }
+
 
     .project-img {
       width: 100%;
@@ -376,16 +456,16 @@ p {
       display: block;
       pointer-events: none;
       text-align: center;
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: 5px 9px 7px #999999;
     }
 
   
     
     .project {
-      width: 30%;
-      height: 30%;
+      width: 30.5%;
+      height: 30.5%;
       flex-shrink: 0;
-      margin: 0 2.5%;
+      margin: 0 2.2%;
       height: 30%;
       -webkit-user-select: none;
          -moz-user-select: none;
@@ -474,23 +554,20 @@ section {
 
 
 .scroll-message{
-  margin-top: 30px;
+  margin-top: 10px;
   font-family: work-sans, sans-serif;
   font-size: 18px;
   color: darkgrey;
   text-align: center;
-  top: 0px;
-  bottom: 40px;
 }
 
 .scrolled {
-  margin-top: 0px;
+  margin-top: 40px;
 }
 
 
 .scroll-down {
-
-  color: darkgrey;
+  color: black;
   opacity: 1;
   -webkit-transition: all .5s ease-in 3s;
   transition: all .5s ease-in 3s;
@@ -504,8 +581,8 @@ section {
   display: block;
   width: 32px;
   height: 32px;
-  color: darkgrey;
-  border: 2px solid darkgrey;
+  color: black;
+  border: 2px solid black;
   background-size: 14px auto;
   border-radius: 100%;
   z-index: 2;
@@ -517,7 +594,7 @@ section {
 }
 
 .scroll-down:before {
-  color: darkgrey;
+  color: black;
     position: absolute;
     top: calc(50% - 8px);
     left: calc(50% - 6px);
@@ -541,31 +618,49 @@ section {
     transform: translateY(0);
   }
   40% {
-    -webkit-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
   }
   60% {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
   }
   
 }
 
 
 
+.project2 {
 
-/********** MODALS *************/
-/********** MODALS *************/
-/********** MODALS *************/
-/********** MODALS *************/
-/********** MODALS *************/
+  margin: 0 2.2%;
+  color: darkgrey;
+  width: 100%;
+  text-align: left;
+  padding-top: 8%;
+  padding-left: none;
+  padding-right: none;
+}
 
+.showcase2 .project {
+  margin-right: 2.2%;
+}
 
+.project2 q{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 22px;
+color: #605D63;
+text-align: left;
+}
 
+.project2 p {
+  font-size: 18px;
+}
 
-
+.author{
+  text-align: right;
+}
 
 
 }
@@ -589,7 +684,14 @@ section {
   .desktopNav {
   display: none;
   }
+   
+  .content {
+    display: none;
+  }
   
+  .scroll-message {
+    display:none;
+  }
 
   .navBarMobile a {
       font-family: work-sans, sans-serif;
@@ -605,7 +707,7 @@ section {
   }
   .bodybin a {
     border-bottom: 1px solid black;
-    color: white;
+    color: black;
   }
 
 .dropdown-content {
@@ -619,6 +721,14 @@ section {
   margin-right: 2%;
 }
 .showcase {
+  margin-top: 50px;
+  font-family: futura-pt;
+  align-items: center;
+  display: block;
+  transition-duration: .5s;
+}
+
+.showcase2 {
   font-family: futura-pt;
   align-items: center;
   display: block;
@@ -658,11 +768,17 @@ section {
   position: relative;
 }
 
+.project2 {
+  display: none;
+}
+
+
+
+
 
 
 
 }
-
 
 
 
