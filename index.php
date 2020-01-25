@@ -89,7 +89,7 @@ $resume = "notcurrentpage";
 
 
 
-
+<!-- 
 <div class="showcase">
 
   <div class="project"><div class= "content">
@@ -107,7 +107,7 @@ $resume = "notcurrentpage";
 <div class="project2">
 <pre><q><i>I drifted on through the midst of this passionate music and motion, </br> &#9;&#9; across many a glen, from ridge to ridge; </br>     &#9;&#9;&#9; &#9;&#9;    often halting in the lee of a rock for shelter, </br>   &#9; &#9;&#9;&#9;&#9; &#9;&#9;&#9;&#9;&#9;&#9;    or to gaze and listen.</pre></i></q><p class="author"> - John Muir</p>
 
-  </div>  
+  </div>   -->
 
 <!-- <div class="project">
     <a href="https://uxplanet.org/forsight-a-hackathon-case-study-on-accessible-design-fccb1bffdd5c" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/forsight.png" /></a>
