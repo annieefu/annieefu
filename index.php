@@ -26,8 +26,8 @@ University.</a> </h2> <h2 class="heading container">She's worked with
   Magazine.</a></h2>
 
 
-<div class="container space">
-  <div class="row">
+<div class="container">
+  <div class="row space">
     <div class="col">
     <a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/ppicon.png" /></a>
 <span class="project-name">PropertyPal: Student Housing</span>
