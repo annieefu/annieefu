@@ -67,4 +67,5 @@ include("includes/init.php");
 
 
 </body>
+<?php include("includes/footer.php"); ?>
 </html>

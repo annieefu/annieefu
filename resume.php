@@ -13,7 +13,7 @@ $resume = "currentpage";
 <?php include("includes/header.php"); ?>
 
 <body class="home">
-<div class="bodybin">
+<div class="container">
 
 
 <iframe src="AnnieFu_Resume_1.pdf" width="800" height="900" class="center">
@@ -23,4 +23,5 @@ $resume = "currentpage";
 
 
 </body>
+<?php include("includes/footer.php"); ?>
 </html>
