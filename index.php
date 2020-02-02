@@ -86,7 +86,7 @@ University.</a> </h2> <h2 class="heading container">She's worked with
 <div class="container wrap">
   <div class="row">
     <div class="col">
-    <a href="eco.php" target="_blank"><img class="project-img" src="images/ECO.png" /></a>
+    <a href="eco.php" target="_blank"><img class="project-img" src="images/ECO.PNG" /></a>
 <span class="project-name">Ecouture 2018: </span>
 <p class="project-subname"> INFO 3450: HCI Design</p>
     </div>
