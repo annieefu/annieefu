@@ -19,8 +19,8 @@ $resume = "notcurrentpage";
 <hr width= "100%" class="border03"></div>
 <div class = "hero container">
 <div class ="hero-left">
-<p> This semester, I've been working with Sirimangalo International to build the beta version of their Digital Pali Reader! </p>
-<p>I've been learning a great deal about working on UX in teams. Updates to come soon!</p>
+<p> This semester, I've been working with Sirimangalo International to build the beta version of their Digital Pali Reader. </p>
+<p>I've been learning a great deal about working on UX in teams, React for efficient developing, and the Pali language. Updates to come soon!</p>
 </ul>
 </p><p>
     <ul class="hero-deets">
