@@ -19,7 +19,7 @@ $resume = "notcurrentpage";
 <hr width= "100%" class="border03"></div>
 <div class = "hero container">
 <div class ="hero-left">
-<p> I had the opportunity to work with my good friend Kate Wang and design for Cornell's annual sustainability fashion show, Ecouture! </p>
+<p> I had the opportunity to work with my good friend Kate Wang and design for Cornell's annual sustainability fashion show, <a href="https://news.cornell.edu/stories/2018/04/cornell-students-paint-fashion-runway-green" class="red">Ecouture.</a> </p>
 <p>We conceptualized this corset, made from duct tape and old CDs/DVDs, with a matching skirt from tulle scraps.</p>
 </ul>
 </p><p>
