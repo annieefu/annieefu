@@ -61,7 +61,7 @@ University.</a> </h2> <h2 class="heading container">She's worked with
 <p class="project-subname"> Fall 2019</p>
     </div>
     <div class="col">
-    <a href="mobility.php" alt ="Sustainble Mobility Work Case Study"> <img class="project-img" src="images/sustainablemob.png" /></a>
+    <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" target="_blank"> <img class="project-img" src="images/sustainablemob.png" /></a>
 
 
 

@@ -37,6 +37,7 @@ $resume = "notcurrentpage";
 
 </div>
 </div>
+</div>
 <!-- <div>
 
 <p class="scroll-message">Read more</p>
@@ -61,7 +62,7 @@ $resume = "notcurrentpage";
       </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-md-12 hero">
+        <div class="col-xs-12 col-md-12">
 
           <p>Our professor challenged us to design a virtual reality experience that <strong>organically displayed a collection of 
               3D Models</strong> we had rendered in previous assignments, including a hollowed log of petrified wood. The virtual space needed to
@@ -241,12 +242,12 @@ interacts meaningfully with the artifacts of each era, from print media to telev
 
 
 
-   -->
+  
 
 
 
 
-
+ -->
 
 
 
