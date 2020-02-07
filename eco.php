@@ -14,7 +14,7 @@ $resume = "notcurrentpage";
 <?php include("includes/header.php"); ?>
 <body class="home">
 <div class="bodybin">
-<h2 class="heading container space">Designing & Developing a Buddhist Pali Reader</h2>
+<h2 class="heading container space">Sustainable Apparel Design for Ecouture 2018</h2>
 </div><div class="container">
 <hr width= "100%" class="border03"></div>
 <div class = "hero container">
