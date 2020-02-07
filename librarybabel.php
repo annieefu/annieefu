@@ -17,8 +17,9 @@ $resume = "notcurrentpage";
 <h2 class="heading container space">Borges's Library of Babel: Virtual Reality Interaction Design</h2>
 </div><div class="container">
 <hr width= "100%" class="border03"></div>
-<div class = "hero container">
-<div class ="hero-left">
+<div class = "container hero">
+      <div class="row">
+        <div class="col-lg-6">
 <p> In Fall of 2019, I collaborated with my friends Alex and Yaoyao to bring one my favorite pieces of literature to Virtual Reality: <strong>The Library of Babel by Jorge Luis Borges.</strong>
 </ul>
 </p><p>
@@ -30,13 +31,11 @@ $resume = "notcurrentpage";
 <li><strong>Tools:</strong> Unreal Engine, Adobe Creative Cloud, Valve, Oculus, Autodesk Recap Photo</li>
 <li><strong>Team Members:</strong> Yaoyao Ma (Developer), Alex Htet (Modeller)</li>
 </p>
-</div>
-<div class = "hero-middle"></div>
-<div class = "hero-right">
+</div><div class="col-lg-6">
 <img src="/images/tv.png" class = "hero-img babel-hide" alt="An open sky with TVs"></img>
 </div>
 
-
+</div>
 </div>
 <!-- <div>
 
@@ -214,7 +213,7 @@ interacts meaningfully with the artifacts of each era, from print media to telev
 </div>
           <p class="text-center"> We formed <strong>three different word clouds</strong> to
           establish distinct tones of design for each of the eras:</p>
-        <div class="wordcloud">
+        <div class=" container-fluid wordcloud">
 
 <span class="word1">ominous</span><span class="word1">magical</span><span class="word1">cinematic</span><span class="word1">fantasy</span><span class="word1">natural</span>
 <div class="wordcloud">

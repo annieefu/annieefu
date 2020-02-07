@@ -12,11 +12,18 @@ $resume = "currentpage";
 
 <?php include("includes/header.php"); ?>
 
-<body class="home">
+<body>
 <div class="container">
 
+<div class="col-12">
 
-<iframe src="annie-fu-resume.pdf" width="800" height="900" class="center">
+<object data="annie-fu-resume.pdf" type="application/pdf" width="100%" height="800px"> 
+  <p>It appears you don't have a PDF plugin for this browser.
+   No biggie... you can <a href="annie-fu-resume.pdf">click here to
+  download the PDF file.</a></p>  
+</object>
+
+</div>
 </div>
 
 

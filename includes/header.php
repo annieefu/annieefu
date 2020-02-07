@@ -5,7 +5,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <meta name="viewport" content="initial-scale=1"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
   <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
@@ -30,7 +29,7 @@
   
 
  <nav class="desktopNav">
-    <ul class="container" >
+    <ul class="container">
       <li class="rainbow <?php echo ($projects); ?>"><a href="index.php">PROJECTS</a></li>
       <!-- <li class="rainbow"><a href="art.php">ARTWORK</a></li> -->
       <!-- <li class="rainbow <?php echo ($writing); ?>"><a href="writing.php">WRITING</a></li> -->
@@ -38,11 +37,11 @@
       <li class="rainbow <?php echo ($contact); ?>"><a href="mailto:af397@cornell.edu">CONTACT</a></li>
       <!-- <li class="rainbow"><a href="about.php">ABOUT</a></li> -->
     </ul>
-<div class="container">
+
+  </nav>
+  <div class="container">
     <hr width= "100%" class="secline"/>
 </div>
-  </nav>
-
 
 
   <div class="navbarMobileWrapper">

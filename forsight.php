@@ -29,8 +29,9 @@ include("includes/init.php");
 </div>
 <!-- <hr width = "80%" class ="line"/> -->
 <hr width= "80%" class="border03">
-<div class = "hero bodybin">
-<div class ="hero-left">
+<div class = "container">
+      <div class="row">
+        <div class="col-lg-6">
 <p> <ul class="hero-deets">
 <li>Best Hack for Social Good at <a href="https://www.bigredhacks.com/" class="red"> BigRed//Hacks Fall 2019</a></li>
 </ul>
@@ -43,8 +44,7 @@ include("includes/init.php");
 <li><a href="https://devpost.com/software/foresite-b2w7fm" class="red">DevPost</a>
 </p>
 </div>
-<div class = "hero-middle"></div>
-<div class = "hero-right">
+        <div class="col-lg-6">
 <img src="/images/iMac-Pro-Mockup.png" class = "hero-img" alt="a picture of detroit's department of transportation logo"></img>
 </div>
 
@@ -53,7 +53,7 @@ include("includes/init.php");
 
 
 </div>
-
+</div>
 
 <div class = "content1 bodybin">
 
