@@ -17,7 +17,7 @@ $resume = "notcurrentpage";
 <h2 class="heading container space">Sustainable Apparel Design for Ecouture 2018</h2>
 </div><div class="container">
 <hr width= "100%" class="border03"></div>
-<div class = "container">
+<div class = "container hero">
       <div class="row">
         <div class="col-lg-6">
 <p> I had the opportunity to work with my good friend Kate Wang and design for Cornell's annual sustainability fashion show, <a href="https://news.cornell.edu/stories/2018/04/cornell-students-paint-fashion-runway-green" class="red">Ecouture.</a> </p>
@@ -35,7 +35,7 @@ $resume = "notcurrentpage";
 </div>
 </div>
 
-<div class="container hero">
+<div class="container text-center">
 
 
 
