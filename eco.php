@@ -26,7 +26,7 @@ $resume = "notcurrentpage";
     <ul class="hero-deets">
 <li><strong>Event:</strong> Ecouture 2018 Sustainable Fashion Show </li>
 <li><strong>My Role:</strong> Designer</li>
-<li><strong>Tools:</strong> Pen + Paper</li>
+<li><strong>Tools:</strong> Pen + Paper, duct tape, compact CDs, hot glue</li>
 </p>
 </div>
 <div class = "hero-middle"></div>
