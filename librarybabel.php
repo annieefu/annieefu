@@ -81,8 +81,6 @@ $resume = "notcurrentpage";
       <div class="row">
         <div class="col-xs-12 col-md-4 text-left">
 
-
-          <i class="fa fa-4x fa-code wow bounceIn"></i>
           <p class="text-center"> 1</p>
           <img src = "images/brainstorm1.png" alt = " a sketch of our first idea."  class="portfolio-img text-center"></img>
 
@@ -117,30 +115,86 @@ $resume = "notcurrentpage";
       </div>
     </div>
   </section>
+
+
+
+
+
+
+
+
+
+  
+
+
+  <section id="inspirations" class="sec-inspirations sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-left">
+          <h1>Inspirations</h1>
+          <h3> Drawing ideas from our favorite libraries through time.</h3>
+          <hr />
+        </div>
+      </div>
+    <div class="container-fluid">
+
+    <q>The library will endure; it is the universe. As for us, everything has not been written; we are not turning into phantoms. 
+      We walk the corridors, searching the shelves and rearranging them, looking for lines of 
+      meaning amid leagues of cacophony and incoherence, reading the history of the past and our future, 
+      collecting our thoughts and collecting the thoughts of others, and every so often glimpsing mirrors, 
+      in which we may recognize creatures of the information.</q> - Jorge Luis Borges, <em>The Library of Babel</em>
+
+      
+      <div class="row">
+        <div class="col-xs-12 col-md-4 text-left">
+
+          <p class="text-center"> 1</p>
+          <img src = "images/brainstorm1.png" alt = " a sketch of our first idea."  class="portfolio-img text-center"></img>
+
+          <p>A vast field is filled with wildlife and covered by a starry night sky. People lie scattered on their backs, resting, stargazing and dreaming. The walker can approach
+              these people and indulge in their daydreams by approaching them at rest.
+          </p><br>
+        </div>
+
+        <div class="col-xs-12 col-md-4 text-left">
+
+        <p class="text-center"> 2</p>
+          <img src = "images/brainstorm2.png" alt = " a sketch of our second idea."  class="portfolio-img text-center"></img>
+          
+
+          <p>Playing on the increasingly immersive quality of social media, we create an interactive media environment where the walker can "step into" tagged destinations and view posted videos with a 360 effect.</p><br>
+
+        </div>
+        <div class="col-xs-12 col-md-4 text-left">
+        <p class="text-center"> 3</p>
+
+          <img src = "images/brainstorm3.png" alt = " a sketch of our third idea."  class="portfolio-img text-center"></img>
+          
+
+          <p>Bringing to life an amalgam of our favorite infinite libraries in TV, film, and literature, we introduce the walker to a timeless library of various interactive media models.</p><br>
+        </div>
+      </div>
+
+
+          <p>We decided to pursue <strong>option three,</strong> since it excited us the most, contained more flexibility for implementing interactivity, and sparked thought of how media will progress past the status quo.</div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  
+
+
+
+
+
  -->
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
 
 
 
