@@ -37,7 +37,6 @@ $resume = "notcurrentpage";
 
 </div>
 </div>
-</div>
 <!-- <div>
 
 <p class="scroll-message">Read more</p>
@@ -62,7 +61,7 @@ $resume = "notcurrentpage";
       </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-md-12">
+        <div class="col-xs-12 col-md-12 hero">
 
           <p>Our professor challenged us to design a virtual reality experience that <strong>organically displayed a collection of 
               3D Models</strong> we had rendered in previous assignments, including a hollowed log of petrified wood. The virtual space needed to
@@ -204,7 +203,7 @@ $resume = "notcurrentpage";
       </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-md-12 text-left hero">
+        <div class="col-xs-12 col-md-12 text-left">
 
 <p> 
 Establishing that our library wanted to convey a sense of time converging in one spacial experience, we decided to split our design
@@ -242,12 +241,12 @@ interacts meaningfully with the artifacts of each era, from print media to telev
 
 
 
-  
+   -->
 
 
 
 
- -->
+
 
 
 

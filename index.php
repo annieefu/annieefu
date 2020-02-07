@@ -56,17 +56,14 @@ University.</a> </h2> <h2 class="heading container">She's worked with
 <div class="container">
   <div class="row">
     <div class="col">
-    <a href="librarybabel.php"><img class="project-img" src="images/library-bab.png" /></a>
+    <a href="librarybabel.php" alt = "Virtual Reality Case Study" target="_blank"><img class="project-img" src="images/library-bab.png" /></a>
 <span class="project-name">The Library of Babel: Virtual Reality Design</span>
 <p class="project-subname"> Fall 2019</p>
     </div>
+
+
     <div class="col">
     <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" target="_blank"> <img class="project-img" src="images/sustainablemob.png" /></a>
-
-
-
-
-
 
     <span class="project-name">Sustainabile Mobility</span>
       <p class="project-subname"> Cornell University Sustainable Design</p>
@@ -75,7 +72,7 @@ University.</a> </h2> <h2 class="heading container">She's worked with
 
     <div class="col">
     <a href="pali.php" alt ="Developing for a International Buddhist Organization" target="_blank"><img class="project-img" src="images/wheel-of-dharma-2.png"/></a>
- 
+
     <span class="project-name">Developing a Pali Reader</span>
      <p class="project-subname">Sirimangalo International</p>
     </div>
