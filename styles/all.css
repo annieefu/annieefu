@@ -4,6 +4,11 @@ body{
     padding: none;
   }
 
+
+  .giphy-embed{
+    background-size: 230% 230%;
+  }
+
   .col a {
     height: 100%;
   }
@@ -18,6 +23,11 @@ body{
   .space {
     margin-top:55px;
   }
+
+  .doublespace {
+    margin-top:110px;
+  }
+
 .footernav {
   bottom: 15px;
   margin-top: 50px;
@@ -213,7 +223,7 @@ font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 500;
   letter-spacing: 2px;
   text-shadow: 1px 1px 4px rgb(199, 199, 199);
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 20px;
 }
 
@@ -280,9 +290,9 @@ font-family: neue-haas-grotesk-display, sans-serif;
   
 }
 
-.sec h2 {
+/* .sec h2 {
   margin: 1em 0;
-}
+} */
 
 .sec h3 {
  font-family: Georgia, 'Times New Roman', Times, serif;
@@ -395,11 +405,12 @@ font-style: italic;
 .wordcloud{
   text-align: center;
   margin-top: 35px;
-  width:inherit;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .word1 {
-  width:100%;
+  display: inline-flex;
   color: black;
   background-color: lightgrey;
   border-radius: 18px;
@@ -410,7 +421,8 @@ font-style: italic;
 }
 
 .word2 {
-  width:100%;
+
+  display: inline-flex;
   color: black;
   background-color: lightblue;
   border-radius: 18px;
@@ -421,7 +433,8 @@ font-style: italic;
 }
 
 .word3 {
-  width:100%;
+
+  display: inline-flex;
   color: black;
   background-color: lavender;
   border-radius: 18px;
@@ -430,6 +443,55 @@ font-style: italic;
   margin-top: 35px;
     padding: 13px;
 }
+
+
+/* LEARNED */
+
+
+.sec-learned {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 6em 0;
+  color: black;
+  background: lavender;
+  background-size: cover;
+}
+
+.sec-learned h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.sec-learned p {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
+/***** FORWARD ******/
+
+
+.sec-forward {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 6em 0;
+  color: white;
+  background: #013220;
+  background-size: cover;
+}
+
+.sec-forward p {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+
 
 
 
@@ -714,7 +776,7 @@ section {
 }
 
 .scrolled {
-  margin-top: 40px;
+  margin-top: 70px;
   width: auto;
 }
 

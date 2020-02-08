@@ -32,19 +32,19 @@ $resume = "notcurrentpage";
 <li><strong>Team Members:</strong> Yaoyao Ma (Developer), Alex Htet (Modeller)</li>
 </p>
 </div><div class="col-lg-6">
-<img src="/images/tv.png" class = "hero-img babel-hide" alt="An open sky with TVs"></img>
+<img src="/images/TVworld.png" class = "hero-img babel-hide" alt="An open sky with TVs"></img>
 </div>
 
 </div>
 </div>
-<!-- <div>
+<div>
 
 <p class="scroll-message">Read more</p>
 <a href="#" class="scroll-down" address="true"></a></div>
 <div class="scrolled">
 <div class="container">
 
-<img src="/images/tv.png" class = "portfolio-img" alt="An open sky with TVs"></img>
+<img src="/images/TVworld.png" class = "portfolio-img" alt="An open sky with TVs"></img>
 <img src = "images/world3.png" class="portfolio-img" alt="a transparent, holographic world with items floating around"></img>
 
 </div>
@@ -61,7 +61,7 @@ $resume = "notcurrentpage";
       </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-md-12 hero">
+        <div class="col-xs-12 col-md-12">
 
           <p>Our professor challenged us to design a virtual reality experience that <strong>organically displayed a collection of 
               3D Models</strong> we had rendered in previous assignments, including a hollowed log of petrified wood. The virtual space needed to
@@ -159,7 +159,7 @@ $resume = "notcurrentpage";
           <img src = "images/lib-bab.jpg" alt = "a greyscale picture of a vast library"  class="portfolio-img text-center"></img>
 
           <p>I took a writing class about literary labyrinths in my freshman year, where Borges's concept of a universal and infinite library
-            remained in the back of my mind as a learned more about the intersection of computing and literature.</p><p>
+            lingered on my mind increasingly as I learned more about the intersection of computing and literature.</p><p>
             <em> The Library of Babel </em> is constructed as an archival artifact that contains every possible combination of letters, thus containing nearly 
           every book that ever has been and every book that ever could be.
 
@@ -175,7 +175,7 @@ $resume = "notcurrentpage";
           through gravity. </p><p>
           
           Moving within a fifth dimension capable of transcending linear time, Matthew McConaughey's character pulls physical, chronological strings 
-          to interact his daughter in various time periods.
+          to interact with his daughter in various time periods.
         </p><br>
 
         </div>
@@ -193,43 +193,257 @@ $resume = "notcurrentpage";
 </section>
 
 
-      <section id="design" class="sec-design sec">
+
+
+
+
+<section id="services" class="sec-design sec">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <h1>Our Design</h1>
-          <hr color = "white"/>
+          <hr color="white"/>
         </div>
       </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-md-12 text-left">
-
-<p> 
-Establishing that our library wanted to convey a sense of time converging in one spacial experience, we decided to split our design
-into three different areas, each representing a different era of media and technology. The walker travels freely through each of the realms and 
+        <div class="col-xs-12 col-md-12">
+        <p> 
+Establishing that our library wanted to convey a sense of time converging in one spacial experience, we decided to <strong> split our design
+into three different areas, each representing a different era of media and technology.</strong> The walker travels freely through each of the realms and 
 interacts meaningfully with the artifacts of each era, from print media to television displays to cloud-computing data structures.
 </p>
-</div>
-          <p class="text-center"> We formed <strong>three different word clouds</strong> to
+          
+<p class="text-center"> We formed <strong>three different word clouds</strong> to
           establish distinct tones of design for each of the eras:</p>
-        <div class=" container-fluid wordcloud">
-
-<span class="word1">ominous</span><span class="word1">magical</span><span class="word1">cinematic</span><span class="word1">fantasy</span><span class="word1">natural</span>
-<div class="wordcloud">
-<span class="word2">retro</span><span class="word2">industrial</span><span class="word2">nostalgic</span><span class="word2">metallic</span>
+<div class="text-center">
+<div class="word1">ominous</div><div class="word1">magical</div><div class="word1">cinematic</div><div class="word1">fantasy</div><div class="word1">natural</div>
 </div>
 
-<div class="wordcloud">
-<span class="word3">futuristic</span><span class="word3">abstract</span><span class="word3">floating</span><span class="word3">infinite</span><span class="word3">cloud</span><span class="word3">minimal</span><span class="word3">clean</span><span class="word3">holographic</span>
+<div class="text-center">
+<div class="word2">retro</div><div class="word2">industrial</div><div class="word2">nostalgic</div><div class="word2">metallic</div>
+</div>
+<div class="text-center">
+<div class="word3">futuristic</div><div class="word3">abstract</div><div class="word3">floating</div><div class="word3">infinite</div><div class="word3">cloud</div><div class="word3">minimal</div><div class="word3">clean</div><div class="word3">holographic</div>
 </div>
 
-
 </div>
+</div> 
+
+
+<hr color="white" class="doublespace"/>
+ <!-- ROW -->
+
+<div class="row space">
+        <div class="col-xs-6 col-md-6">
+
+ <h2> Adaptable Pod Model</h2>
+        <p class="text-left">We used one tiered, asymmetrical Rhino model to serve as the base for all three eras, 
+          applying different materials and shapes to fit the model to the design and engineering needs of each 
+          atmosphere.
+        </p>
+</div>
+
+<div class="col-xs-6 col-md-6">
+      <img src="images/annie1.png" class="portfolio-img" alt="a white modular pod"></img>
         
+</div>
+</div> 
+
+
+      
+      <div class="row">
+        <div class="col-xs-12 col-md-4 text-left">
+
+          <p class="text-center"> <strong>Era 1:</strong> Poured Concrete</p>
+          <img src = "images/concrete.png" alt = " a concrete circular model"  class="portfolio-img text-center"></img><br>
+        <p> The concrete was luminous, subtle, and created a feeling of myth and fantasy.</p>
+        </div>
+
+        <div class="col-xs-12 col-md-4 text-left">
+
+        <p class="text-center"> <strong>Era 2:</strong> Television Panels</p>
+          <img src = "images/TV.png" alt = " a circular formation of TV screens"  class="portfolio-img text-center"></img>
+          <p> Splitting the model up into a wall of fragmented panels evoked a psychological perception of ubiquitous, impersonal media during this era.</p>
+        </div>
+        <div class="col-xs-12 col-md-4 text-left">
+        <p class="text-center"> <strong>Era 3:</strong> Glass</p>
+
+          <img src = "images/glass.png" alt = " a glass bulb model"  class="portfolio-img text-center"></img>
+          <p> Glass created a feeling of instability, as if the walker was floating, and also fragmented physical models into abstract illusions and reflections.
+</div>
+      </div>
+
+
+
+
+
+
+<!-- ROW -->
+<hr color="white" class="doublespace"/>
+<div class="row space">
+
+        <div class="col-xs-6 col-md-6">
+
+ <h2> Engineered Virtual Interactions</h2>
+        <p class="text-left">Using the Unreal Engine's <strong>Blueprint </strong>programming interface and <strong>C++</strong> programming language, each world
+        contained a set of meaningful interactions for the walker to engage with our models.
+        </p>
+
+        <p class="text-left">Our goal was to take the walker through the emotions related to the <strong>intimate experience of print media</strong>, the <strong>loss of control in the automated era,</strong> and the <strong>imperceptability of big data and cloud computing. </strong>
+        </p>
+</div>
+
+<div class="col-xs-6 col-md-6">
+      <img src="images/work.jpg" class="portfolio-img" alt="two people intensely working at a laptop"></img>
+        
+</div>
+</div> 
+
+
+      <div class="row space">
+        <div class="col-xs-12 col-md-4 text-left">
+
+          <p class="text-center"> <strong>Era 1:</strong> Opening, Throwing Books</p>
+              <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/Uv2bNElYLfB10KoxKE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/Uv2bNElYLfB10KoxKE">via GIPHY</a></p>
+            <p><strong>Tools: </strong>VR mesh interaction, trigger boxes</p>
+              </div>
+
+              <div class="col-xs-12 col-md-4 text-left">
+
+        <p class="text-center"> <strong>Era 2:</strong> Turning on TVs</p>
+        <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/Xf7MEhRs8NRGf1IHmj" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/Xf7MEhRs8NRGf1IHmj">via GIPHY</a></p>
+          <p><strong>Tools: </strong>Trigger boxes, media player blueprinting, video editing</p>
+          </div>
+        <div class="col-xs-12 col-md-4 text-left">
+        <p class="text-center"> <strong>Era 3: </strong> Hologram Transformations</p>
+        <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/KCdW03qLVNYBYJDOnP" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/KCdW03qLVNYBYJDOnP">via GIPHY</a></p>
+         
+          <p> <strong>Tools: </strong>Custom material blueprinting, trigger boxes, spline animation</p>
+
+        </div></div>
+<h2 class="space text-center"> Video of all the implemented interactions:</h3>
+<div class="text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t1DrEnHWVjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div> </div>
+
+      </div>
+
+</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  <section id="services" class="sec-learned sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Lessons Learned</h1>
+          <hr />
+        </div>
+      </div>
+    <div class="container-fluid">
+
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+<ul>
+         <li> <h3>Utilizing Open Source Resources</h3></li>
+</ul>
+        </div>
+          <div class="col-xs-12 col-md-6">
+<p>I've never consulted the internet for more resources or information than I did with this project. I learned <strong> immense gratitude for the Information Age!!</strong>
+  For a project that in part reminisces about the pre-technological age of print media, this is <strong>a bold statement, literally.</strong>
+</p>
+          <p></div>
         </div>
 
 
+
+      <div class="row space">
+        <div class="col-xs-12 col-md-6">
+<ul>
+         <li> <h3>Multidimensional User Testing</h3></li>
+</ul>
+        </div>
+          <div class="col-xs-12 col-md-6">
+<p>Designing and developing in Virtual Reality for the first time brought a steep learning curve, which calls for copious user testing. 
+  We would debug one feature and <strong>test three times</strong>, in keyboard-control player mode, on the Oculus Headset, and on the Valve headset.
+Each test would highlight new issues, and <strong>sometimes solving an issue in one headset would cause a problem in the other.</strong>
+We needed to make compromises for the sake of compatability.
+</p>
+          </p></div>
+        </div>
+
+        <div class="row space">
+        <div class="col-xs-12 col-md-6">
+<ul>
+         <li> <h3>Environmental Analysis & Design</h3></li>
+</ul>
+        </div>
+          <div class="col-xs-12 col-md-6">
+
+          <p>In other UX design situations, interactions and design changes are more black and white;
+            either they work the way the designer intends, or they don't.
+            <strong>Environmental UX design, however, involves countless metrics contributing to a smooth user experience.
+</strong> Scaling, interaction, and lighting all worked in a more nuanced way in VR than
+we imagined, and lots of our debugging revolved around <strong>making items appear and interact naturally/comfortably within their built environment.</strong>
+
+          </p></div>
+        </div>
+
+
+        <div class="row space">
+        <div class="col-xs-12 col-md-6">
+<ul>
+         <li> <h3>Stepwise Development</h3></li>
+</ul>
+        </div>
+          <div class="col-xs-12 col-md-6">
+<p>We experienced a couple painful times the <strong>consequences of developing too many features at once</strong>, facing a bug, and not knowing what feature was causing the problem.
+  By the end of the process, we were saving and testing after even the slightest changes, and though tedious, it saved us a lot of time towards the end.
+</p>
+          <p></div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  <section id="services" class="sec-forward sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Moving Forward</h1>
+          <hr color="white"/>
+        </div>
+      </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <p>As one of the most interdisciplinary and challenging projects I've completed, the skills and resources I gained
+            from the experience have enriched my understanding of what it means to be a designer and developer. Unreal Engine is a 
+          powerful tool that I'll no doubt use again for showcasing architectural and experiential design, and I now know
+          the potential VR has to completely change how we interact with technology.
+         </p>
+        <p>
+          From immersive user testing of products to uses in film and literature consumption, <strong>VR enhances our ability to create worlds of escape
+          from our imaginations,</strong> in an increasingly realist and connected world.
+        </p>
+
+        <h2 class="doublespace">Thank you for reading!</h2>
+        
+        </div>
         </div>
       </div>
 
@@ -241,7 +455,12 @@ interacts meaningfully with the artifacts of each era, from print media to telev
 
 
 
-   -->
+
+
+
+
+
+  
 
 
 
