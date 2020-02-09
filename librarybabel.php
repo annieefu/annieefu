@@ -29,7 +29,7 @@ $resume = "notcurrentpage";
 
 <li><strong>Duration:</strong> 2 weeks</li>
 <li><strong>Tools:</strong> Unreal Engine, Adobe Creative Cloud, Valve, Oculus, Autodesk Recap Photo</li>
-<li><strong>Team Members:</strong> Yaoyao Ma (Developer), Alex Htet (Modeller)</li>
+<li><strong>Team Members:</strong> Yaoyao Ma (Developer), Alex Kyaw (Modeller)</li>
 </p>
 </div><div class="col-lg-6">
 <img src="/images/TVworld.png" class = "hero-img babel-hide" alt="An open sky with TVs"></img>
@@ -267,7 +267,7 @@ $resume = "notcurrentpage";
         <div class="col-xs-12 col-md-4 text-left">
 
         <p class="text-center"> <strong>Era 2:</strong> Television Panels</p>
-          <img src = "images/TV.png" alt = "a circular formation of TV screens"  class="portfolio-img text-center"></img>
+          <img src = "images/tvpreview.png" alt = "a circular formation of TV screens"  class="portfolio-img text-center"></img>
           <p> Splitting the model up into a wall of fragmented panels evoked a psychological perception of ubiquitous, impersonal media during this era.</p>
         </div>
 
