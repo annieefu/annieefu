@@ -391,13 +391,13 @@ $resume = "notcurrentpage";
 <div class="row">
   <div class="col-xs-12 text-center">
           <h2 class="space text-center"> Video of all the implemented interactions:</h2>
-            <iframe width="500px" height="380px" src="https://www.youtube.com/embed/t1DrEnHWVjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> 
+
+          <div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/t1DrEnHWVjA" frameborder="0" allowfullscreen></iframe></div>
+                </div> 
 
             </div>
 
             </div>
-
     <div class="space"></div>
   </section>
 
