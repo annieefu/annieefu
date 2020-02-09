@@ -190,6 +190,9 @@ $resume = "notcurrentpage";
           </p><br>
         </div>
       </div>
+</div>
+</div>
+</div>
 </section>
 
 
@@ -197,158 +200,220 @@ $resume = "notcurrentpage";
 
 
 
-<section id="services" class="sec-design sec">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
+
+
+
+
+<section id="design" class="sec-design sec">
+<div class="container">
+      <div class="row space">
+      
+        <div class="col-lg-12 col-md-12">
           <h1>Our Design</h1>
           <hr color="white"/>
-        </div>
-      </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-md-12">
-        <p> 
-Establishing that our library wanted to convey a sense of time converging in one spacial experience, we decided to <strong> split our design
-into three different areas, each representing a different era of media and technology.</strong> The walker travels freely through each of the realms and 
-interacts meaningfully with the artifacts of each era, from print media to television displays to cloud-computing data structures.
-</p>
-          
-<p class="text-center"> We formed <strong>three different word clouds</strong> to
-          establish distinct tones of design for each of the eras:</p>
-<div class="text-center">
-<div class="word1">ominous</div><div class="word1">magical</div><div class="word1">cinematic</div><div class="word1">fantasy</div><div class="word1">natural</div>
-</div>
+            <p> 
+              Establishing that our library wanted to convey a sense of time converging in one spacial experience, we decided to <strong> split our design
+              into three different areas, each representing a different era of media and technology.</strong> The walker travels freely through each of the realms and 
+              interacts meaningfully with the artifacts of each era, from print media to television displays to cloud-computing data structures.
+            </p>
+                      
+            <p class="text-center"> We formed <strong>three different word clouds</strong> to
+                      establish distinct tones of design for each of the eras:
+            </p>
 
-<div class="text-center">
-<div class="word2">retro</div><div class="word2">industrial</div><div class="word2">nostalgic</div><div class="word2">metallic</div>
-</div>
-<div class="text-center">
-<div class="word3">futuristic</div><div class="word3">abstract</div><div class="word3">floating</div><div class="word3">infinite</div><div class="word3">cloud</div><div class="word3">minimal</div><div class="word3">clean</div><div class="word3">holographic</div>
-</div>
+            <div class="text-center">
+              <div class="word1">ominous</div><div class="word1">magical</div><div class="word1">cinematic</div><div class="word1">fantasy</div><div class="word1">natural</div>
+            </div>
 
-</div>
-</div> 
+            <div class="text-center">
+              <div class="word2">retro</div><div class="word2">industrial</div><div class="word2">nostalgic</div><div class="word2">metallic</div>
+            </div>
 
+            <div class="text-center">
+              <div class="word3">futuristic</div><div class="word3">abstract</div><div class="word3">floating</div><div class="word3">infinite</div><div class="word3">cloud</div><div class="word3">minimal</div><div class="word3">clean</div><div class="word3">holographic</div>
+            </div>
 
-<hr color="white" class="doublespace"/>
+          </div>
+      </div> 
+
+  <hr color="white" class="doublespace"/>
  <!-- ROW -->
 
-<div class="row space">
-        <div class="col-xs-6 col-md-6">
+    <div class="row">
+                    <div class="col-xs-6 col-md-6">
 
- <h2> Adaptable Pod Model</h2>
-        <p class="text-left">We used one tiered, asymmetrical Rhino model to serve as the base for all three eras, 
-          applying different materials and shapes to fit the model to the design and engineering needs of each 
-          atmosphere.
-        </p>
-</div>
+            <h2> Adaptable Pod Model</h2>
+                    <p class="text-left">We used one tiered, asymmetrical Rhino model to serve as the base for all three eras, 
+                      applying different materials and shapes to fit the model to the design and engineering needs of each 
+                      atmosphere.
+                    </p>
+            </div>
 
-<div class="col-xs-6 col-md-6">
-      <img src="images/annie1.png" class="portfolio-img" alt="a white modular pod"></img>
-        
-</div>
-</div> 
+            <div class="col-xs-6 col-md-6">
+                  <img src="images/annie1.png" class="portfolio-img" alt="a white modular pod"></img>
+              </div>
+    </div> 
 
 
-      
-      <div class="row">
+  <!------ ROW ----->
+    <div class="row">
         <div class="col-xs-12 col-md-4 text-left">
 
           <p class="text-center"> <strong>Era 1:</strong> Poured Concrete</p>
-          <img src = "images/concrete.png" alt = " a concrete circular model"  class="portfolio-img text-center"></img><br>
+          <img src = "images/concrete.png" alt = "a concrete circular model"  class="portfolio-img text-center"></img><br>
         <p> The concrete was luminous, subtle, and created a feeling of myth and fantasy.</p>
         </div>
 
         <div class="col-xs-12 col-md-4 text-left">
 
         <p class="text-center"> <strong>Era 2:</strong> Television Panels</p>
-          <img src = "images/TV.png" alt = " a circular formation of TV screens"  class="portfolio-img text-center"></img>
+          <img src = "images/TV.png" alt = "a circular formation of TV screens"  class="portfolio-img text-center"></img>
           <p> Splitting the model up into a wall of fragmented panels evoked a psychological perception of ubiquitous, impersonal media during this era.</p>
         </div>
+
         <div class="col-xs-12 col-md-4 text-left">
         <p class="text-center"> <strong>Era 3:</strong> Glass</p>
 
-          <img src = "images/glass.png" alt = " a glass bulb model"  class="portfolio-img text-center"></img>
+          <img src = "images/glass.png" alt = "a glass bulb model"  class="portfolio-img text-center"></img>
           <p> Glass created a feeling of instability, as if the walker was floating, and also fragmented physical models into abstract illusions and reflections.
-</div>
+        </div>
       </div>
+ </div>   
 
 
 
 
 
-
-<!-- ROW -->
-<hr color="white" class="doublespace"/>
-<div class="row space">
-
-        <div class="col-xs-6 col-md-6">
-
- <h2> Engineered Virtual Interactions</h2>
-        <p class="text-left">Using the Unreal Engine's <strong>Blueprint </strong>programming interface and <strong>C++</strong> programming language, each world
-        contained a set of meaningful interactions for the walker to engage with our models.
-        </p>
-
-        <p class="text-left">Our goal was to take the walker through the emotions related to the <strong>intimate experience of print media</strong>, the <strong>loss of control in the automated era,</strong> and the <strong>imperceptability of big data and cloud computing. </strong>
-        </p>
-</div>
-
-<div class="col-xs-6 col-md-6">
-      <img src="images/work.jpg" class="portfolio-img" alt="two people intensely working at a laptop"></img>
-        
-</div>
-</div> 
+<!-- 
 
 
-      <div class="row space">
+ <div class="container">
+  <hr color="white" class="doublespace"/> -->
+ <!-- ROW -->
+<!-- 
+    <div class="row">
+                    <div class="col-xs-6 col-md-6">
+
+            <h2> Adaptable Pod Model</h2>
+                    <p class="text-left">We used one tiered, asymmetrical Rhino model to serve as the base for all three eras, 
+                      applying different materials and shapes to fit the model to the design and engineering needs of each 
+                      atmosphere.
+                    </p>
+            </div>
+
+            <div class="col-xs-6 col-md-6">
+                  <img src="images/annie1.png" class="portfolio-img" alt="a white modular pod"></img>
+              </div>
+    </div>  -->
+
+
+  <!------ ROW ----->
+    <!-- <div class="row">
         <div class="col-xs-12 col-md-4 text-left">
 
-          <p class="text-center"> <strong>Era 1:</strong> Opening, Throwing Books</p>
+          <p class="text-center"> <strong>Era 1:</strong> Poured Concrete</p>
+          <img src = "images/concrete.png" alt = "a concrete circular model"  class="portfolio-img text-center"></img><br>
+        <p> The concrete was luminous, subtle, and created a feeling of myth and fantasy.</p>
+        </div>
+
+        <div class="col-xs-12 col-md-4 text-left">
+
+        <p class="text-center"> <strong>Era 2:</strong> Television Panels</p>
+          <img src = "images/TV.png" alt = "a circular formation of TV screens"  class="portfolio-img text-center"></img>
+          <p> Splitting the model up into a wall of fragmented panels evoked a psychological perception of ubiquitous, impersonal media during this era.</p>
+        </div>
+
+        <div class="col-xs-12 col-md-4 text-left">
+        <p class="text-center"> <strong>Era 3:</strong> Glass</p>
+
+          <img src = "images/glass.png" alt = "a glass bulb model"  class="portfolio-img text-center"></img>
+          <p> Glass created a feeling of instability, as if the walker was floating, and also fragmented physical models into abstract illusions and reflections.
+        </div>
+      </div>
+ </div>  
+                      -->
+                    
+            
+
+
+        <!-- ROW -->
+
+                      </div>
+
+
+<div class="container">
+     <hr color="white" class="doublespace"/>
+        <div class="row">
+
+                <div class="col-xs-6 col-md-6">
+
+                        <h2> Engineered Virtual Interactions</h2>
+                        <p>Using the Unreal Engine's <strong>Blueprint </strong>programming interface and <strong>C++</strong> programming language, each world
+                        contained a set of meaningful interactions for the walker to engage with our models.
+                        </p>
+
+                        <p class="text-left sec">Our goal was to take the walker through the emotions related to the <strong>intimate experience of print media</strong>, the <strong>loss of control in the automated era,</strong> and the <strong>imperceptability of big data and cloud computing. </strong>
+                        </p>
+                </div>
+
+                <div class="col-xs-6 col-md-6">
+                      <img src="images/work.jpg" class="portfolio-img" alt="two people intensely working at a laptop"></img>
+                        
+                </div>
+          </div> 
+
+
+      <div class="row">
+        <div class="col-xs-12 col-md-4 text-left">
+
+            <p class="text-center"> <strong>Era 1:</strong> Opening, Throwing Books</p>
               <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/Uv2bNElYLfB10KoxKE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/Uv2bNElYLfB10KoxKE">via GIPHY</a></p>
             <p><strong>Tools: </strong>VR mesh interaction, trigger boxes</p>
-              </div>
+        </div>
 
-              <div class="col-xs-12 col-md-4 text-left">
-
-        <p class="text-center"> <strong>Era 2:</strong> Turning on TVs</p>
-        <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/Xf7MEhRs8NRGf1IHmj" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/Xf7MEhRs8NRGf1IHmj">via GIPHY</a></p>
-          <p><strong>Tools: </strong>Trigger boxes, media player blueprinting, video editing</p>
-          </div>
         <div class="col-xs-12 col-md-4 text-left">
-        <p class="text-center"> <strong>Era 3: </strong> Hologram Transformations</p>
-        <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/KCdW03qLVNYBYJDOnP" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/KCdW03qLVNYBYJDOnP">via GIPHY</a></p>
+
+              <p class="text-center"> <strong>Era 2:</strong> Turning on TVs</p>
+              <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/Xf7MEhRs8NRGf1IHmj" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/Xf7MEhRs8NRGf1IHmj">via GIPHY</a></p>
+                <p><strong>Tools: </strong>Trigger boxes, media player blueprinting, video editing</p>
+        </div>
+        <div class="col-xs-12 col-md-4 text-left">
+              <p class="text-center"> <strong>Era 3: </strong> Hologram Transformations</p>
+              <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/KCdW03qLVNYBYJDOnP" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/KCdW03qLVNYBYJDOnP">via GIPHY</a></p>
          
           <p> <strong>Tools: </strong>Custom material blueprinting, trigger boxes, spline animation</p>
 
-        </div></div>
-<h2 class="space text-center"> Video of all the implemented interactions:</h3>
-<div class="text-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t1DrEnHWVjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div> </div>
-
-      </div>
-
-</div>
         </div>
-      </div>
+      
+              </div>
+            
 
-    </div>
+<div class="row">
+  <div class="col-xs-12 text-center">
+          <h2 class="space text-center"> Video of all the implemented interactions:</h2>
+            <iframe width="500px" height="380px" src="https://www.youtube.com/embed/t1DrEnHWVjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+
+            </div>
+
+            </div>
+
+    <div class="space"></div>
   </section>
 
 
 
 
 
-  <section id="services" class="sec-learned sec">
-    <div class="container">
+  <section id="learned" class="sec-learned sec">
+  <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <h1>Lessons Learned</h1>
           <hr />
         </div>
       </div>
-    <div class="container-fluid">
+    <div class="container">
 
     <div class="row">
         <div class="col-xs-12 col-md-6">
@@ -428,7 +493,7 @@ we imagined, and lots of our debugging revolved around <strong>making items appe
           <hr color="white"/>
         </div>
       </div>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-12">
           <p>As one of the most interdisciplinary and challenging projects I've completed, the skills and resources I gained
