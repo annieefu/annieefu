@@ -39,10 +39,9 @@ University.</a> </h2> <h2 class="heading container">She's worked with
       <p class="project-subname"> Big Red//Hacks Fall 2019</p>
     </div>
     <div class="col">
-    <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
-  
-  <span class="project-name">Connecting Transit Systems</span>
-   <p class="project-subname"> Winter 2018</p>
+    <a href="librarybabel.php" alt = "Virtual Reality Case Study" target="_blank"><img class="project-img" src="images/library-bab.png" /></a>
+  <span class="project-name">The Library of Babel: Virtual Reality</span>
+   <p class="project-subname"> Fall 2019</p>
     </div>
   </div>
 </div>
@@ -56,9 +55,9 @@ University.</a> </h2> <h2 class="heading container">She's worked with
 <div class="container">
   <div class="row">
     <div class="col">
-    <a href="librarybabel.php" alt = "Virtual Reality Case Study" target="_blank"><img class="project-img" src="images/library-bab.png" /></a>
-<span class="project-name">The Library of Babel: Virtual Reality Design</span>
-<p class="project-subname"> Fall 2019</p>
+    <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
+  <span class="project-name">Connecting Transit Systems</span>
+<p class="project-subname"> Winter 2018</p>
     </div>
 
 
