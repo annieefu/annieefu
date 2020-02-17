@@ -7,7 +7,7 @@ include("includes/init.php");
 $index = "notcurrentpage";
 $writing = "currentpage";
 $resume = "notcurrentpage";
-
+$about="notcurrentpage";
 ?>
 <!DOCTYPE html>
 <html lang="en">

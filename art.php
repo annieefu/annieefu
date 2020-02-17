@@ -23,10 +23,9 @@ include("includes/init.php");
 
 
 <body>
-<div class = "artbin">
-  <!--ALL THESE IMAGES ON THIS PAGE ARE MINE.-->
-  <h2> Photography</h2>
-<?php include("includes/photobin.php"); ?>
+<div id = "#artbin">
+
+
 </div>
 
 

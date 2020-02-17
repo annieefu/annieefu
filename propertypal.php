@@ -2,6 +2,11 @@
 // DO NOT REMOVE!
 include("includes/init.php");
 // // DO NOT REMOVE!
+$projects = "currentpage";
+$writing = "notcurrentpage";
+$resume = "notcurrentpage";
+$about="notcurrentpage";
+
 ?>
 
 

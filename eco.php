@@ -4,8 +4,9 @@ include("includes/init.php");
 // // DO NOT REMOVE!
 
 $projects = "currentpage";
-$writing = "notcurrent";
+$writing = "notcurrentpage";
 $resume = "notcurrentpage";
+$about="notcurrentpage";
 
 
 ?>
