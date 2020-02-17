@@ -997,7 +997,9 @@ text-align: left;
   #link1 a, #link2 a, #link3 a, #link4 a, #link5 a, #link7 a{
     text-decoration: underline;
   } 
-
+#video2{
+  display:none;
+}
 
 .photodiv {
   display:none;

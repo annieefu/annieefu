@@ -204,7 +204,7 @@ $('#link7').hover(function(){
       <figcaption><i>Finch Study:</i> Watercolor</figcaption>
       <figcaption><i>Bike Dream:</i> Pencil + Pen</figcaption>
       <figcaption><i>Invisible Cities:</i> Multimedia</figcaption>
-      <figcaption><i>Flight 3</i> Paper, Pencil, Multimedia </figcaption></video>
+      <figcaption><i>Flight 3</i> Paper, Pencil, Multimedia </figcaption>
 </div>
 
 
