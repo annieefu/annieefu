@@ -223,7 +223,7 @@ $('#link7').hover(function(){
 
 
 </div>
-<div class="col-sm-12 col-lg-4">
+<div class="col-sm-4 col-lg-4">
 <img src="/images/prof2.JPG" class = "about-img" alt="A girl "></img>
 </div>
 
