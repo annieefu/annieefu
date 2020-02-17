@@ -228,7 +228,7 @@ $('#link7').hover(function(){
 </div>
 
 </div>
-
+</div>
 </div>
 
 </body>
