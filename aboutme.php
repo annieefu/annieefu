@@ -218,12 +218,12 @@ $('#link7').hover(function(){
       <div id="img1" style="display:none;"> <img src="images/titles.png" class="thumb1-img"></img></div>
       <div id = "img2" style="display:none;"><img src="images/fka1.png" class="thumb-img"></img><figcaption>FKA Twigs; musician, dancer, fashion icon</figcaption></div>
       <div id = "img3" style="display:none;"><img src="images/wcon.JPG" class="thumb-img"></img><figcaption>Me and my sister Connie (I'm on the right)</figcaption></div>
-      <div id = "img4" style="display:none;"><img src="images/run.jpg" class="thumb-img"></img><figcaption>I <3 half marathons</figcaption></div>
+      <div id = "img4" style="display:none;"><img src="images/run.jpg" class="thumb-img"></img><figcaption>I love half marathons</figcaption></div>
 
 
 
 </div>
-<div class="col-sm-12 col-lg-4">
+<div class="col-sm-4 col-lg-4">
 <img src="/images/prof2.JPG" class = "about-img" alt="A girl "></img>
 </div>
 
