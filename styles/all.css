@@ -1065,10 +1065,11 @@ text-align: left;
 }
 
 .about-img {
-  width: 80%;
+  width: 100%;
   box-shadow: 15px 15px 15px #333333;
-  margin: auto;
+  margin-top: 5px;
   padding: none;
+  margin-bottom: 0px;
 }
 
 .headingabout {
