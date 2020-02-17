@@ -987,7 +987,9 @@ text-align: left;
     display:none;
   }
 
-
+.hidedis{
+  display: none;
+}
 
 
   #link6 a{
