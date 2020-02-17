@@ -960,9 +960,7 @@ text-align: left;
 }
 
 
-    .hoverlink{
-      text-decoration: underline;
-    }
+
 
 
 
@@ -979,7 +977,7 @@ text-align: left;
 /********** MOBILE STYLING ************/
 /********** MOBILE STYLING ************/
 /********** MOBILE STYLING ************/
-@media (max-device-width: 601px) {
+@media only screen and (max-device-width: 601px) {
    
   .content {
     display: none;
@@ -990,16 +988,20 @@ text-align: left;
   }
 
 
-  .hoverlink{
-    text-decoration: underline;
+
+
+  #link6 a{
+    text-decoration: none;
   }
 
-  #link1 a, #link2 a, #link3 a, #link4 a, #link5 a, #link7 a{
+  #link1, #link2, #link3, #link4, #link5, #link7{
     text-decoration: underline;
   } 
 #video2{
   display:none;
 }
+
+
 
 .photodiv {
   display:none;
