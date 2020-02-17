@@ -172,14 +172,18 @@ $('#link7').hover(function(){
 <div class = "container hero">
       <div class="row">
         <div class="col-sm-12 col-lg-8">
-<p> Hello! Thanks for browsing my work. I'm a designer and developer who loves to use code and creavity 
+<p> Hello! Welcome to my work. I'm a designer and developer who enjoys using code and creavity 
     to enrich the human experience. I believe well-designed technology holds the capability to <strong>heal, strengthen, and educate communities.</strong></p>
 
     <p>My work is often inspired by my favorite <strong> <a href="#" id="link1" class="hoverlink"> literature,</a>
     <a href="#" id="link2" class="hoverlink"> artists,</a> and <a href="#" id="link3" class="hoverlink">my friends and family.</a></strong></p>
     
 
-<p> In my free time, I like to <strong><a href="#" id="link4" class="hoverlink">run,</a> <a href="#" id="link5" class="hoverlink"> shoot film,</a> <a href="#" id="link6" class="hoverlink">play & teach piano,</a> <a href="#" id="link7" class="hoverlink"> and draw.</a></strong></p>
+<p> In my free time, I like to <strong><a href="#" id="link4" class="hoverlink">run,</a> <a href="#" id="link5" class="hoverlink"> shoot in 35mm,</a> <a href="#" id="link6" class="hoverlink">play & teach piano,</a> <a href="#" id="link7" class="hoverlink"> and draw.</a></strong></p>
+<p>I hope you enjoy browsing my work, and I'm always looking for new opportunities to learn and work. Feel free to reach out with questions or musings!</p>
+<p class="right"><strong>-Annie</strong></p>
+
+
 <div id="photodiv" style="display: none; text-align: center; margin-top: 10px;">
 <img src="images/photo1.jpg" class="thumb2-img"></img>
 <img src="images/photo3.jpg" class="thumb2-img"></img>
