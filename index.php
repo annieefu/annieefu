@@ -64,7 +64,7 @@ University.</a> </h2> <h2 class="heading container">She's worked with
     <div class="col">
     <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" target="_blank"> <img class="project-img" src="images/sustainablemob.png" /></a>
 
-    <span class="project-name">Sustainabile Mobility</span>
+    <span class="project-name">Sustainable Mobility</span>
       <p class="project-subname"> UX Research, Industrial Design</p>
     </div>
 
