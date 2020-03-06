@@ -61,7 +61,7 @@ $about="notcurrentpage";
       </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-md-12">
+        <div class="col-xs-12 col-md-12 letterspace">
 
           <p>Our professor challenged us to design a virtual reality experience that <strong>organically displayed a collection of 
               3D Models</strong> we had rendered in previous assignments, including a hollowed log of petrified wood. The virtual space needed to

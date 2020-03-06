@@ -39,7 +39,9 @@ body{
 
 
   
-
+.letterspace {
+  letter-spacing: 2px;
+}
 
   .video-container {
     position: relative;
