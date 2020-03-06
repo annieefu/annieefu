@@ -32,7 +32,7 @@ $about="notcurrentpage";
 <li><strong>Team Members:</strong> Yaoyao Ma (Developer), Alex Kyaw (Modeller)</li>
 </p>
 </div><div class="col-lg-6">
-<img src="/images/TVworld.png" class = "hero-img babel-hide" alt="An open sky with TVs"></img>
+<img src="/images/TVworld-final.png" class = "hero-img babel-hide" alt="An open sky with TVs"></img>
 </div>
 
 </div>
@@ -44,7 +44,7 @@ $about="notcurrentpage";
 <div class="scrolled">
 <div class="container">
 
-<img src="/images/TVworld.png" class = "portfolio-img" alt="An open sky with TVs"></img>
+<img src="/images/TVworld-final.png" class = "portfolio-img" alt="An open sky with TVs"></img>
 <img src = "images/world3.png" class="portfolio-img" alt="a transparent, holographic world with items floating around"></img>
 
 </div>
