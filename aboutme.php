@@ -172,7 +172,7 @@ $('#link7').hover(function(){
 <div class = "container heroabout">
       <div class="row">
         <div class="col-sm-12 col-lg-8">
-<p> Hello! Welcome to my work. I'm a designer and developer who enjoys using code and creavity 
+<p> Hello! Welcome to my work. I'm a designer and developer who enjoys using code and creativity 
     to enrich the human experience. I believe well-designed technology holds the capability to <strong>heal, strengthen, and educate communities.</strong></p>
 
     <p>My work is often inspired by my favorite <strong> <a href="#" id="link1" class="hoverlink"> literature,</a>
