@@ -30,6 +30,7 @@ $about="notcurrentpage";
 <li><strong>Duration:</strong> 2 weeks</li>
 <li><strong>Tools:</strong> Unreal Engine, Adobe Creative Cloud, Valve, Oculus, Autodesk Recap Photo</li>
 <li><strong>Team Members:</strong> Yaoyao Ma (Developer), Alex Kyaw (Modeller)</li>
+</ul>
 </p>
 </div><div class="col-lg-6">
 <img src="/images/TVworld-final.png" class = "hero-img babel-hide" alt="An open sky with TVs"></img>
@@ -280,60 +281,6 @@ $about="notcurrentpage";
       </div>
  </div>   
 
-
-<!-- 
-
-
- <div class="container">
-  <hr color="white" class="doublespace"/> -->
- <!-- ROW -->
-<!-- 
-    <div class="row">
-                    <div class="col-xs-6 col-md-6">
-
-            <h2> Adaptable Pod Model</h2>
-                    <p class="text-left">We used one tiered, asymmetrical Rhino model to serve as the base for all three eras, 
-                      applying different materials and shapes to fit the model to the design and engineering needs of each 
-                      atmosphere.
-                    </p>
-            </div>
-
-            <div class="col-xs-6 col-md-6">
-                  <img src="images/annie1.png" class="portfolio-img" alt="a white modular pod"></img>
-              </div>
-    </div>  -->
-
-
-  <!------ ROW ----->
-    <!-- <div class="row">
-        <div class="col-xs-12 col-md-4 text-left">
-
-          <p class="text-center"> <strong>Era 1:</strong> Poured Concrete</p>
-          <img src = "images/concrete.png" alt = "a concrete circular model"  class="portfolio-img text-center"></img><br>
-        <p> The concrete was luminous, subtle, and created a feeling of myth and fantasy.</p>
-        </div>
-
-        <div class="col-xs-12 col-md-4 text-left">
-
-        <p class="text-center"> <strong>Era 2:</strong> Television Panels</p>
-          <img src = "images/TV.png" alt = "a circular formation of TV screens"  class="portfolio-img text-center"></img>
-          <p> Splitting the model up into a wall of fragmented panels evoked a psychological perception of ubiquitous, impersonal media during this era.</p>
-        </div>
-
-        <div class="col-xs-12 col-md-4 text-left">
-        <p class="text-center"> <strong>Era 3:</strong> Glass</p>
-
-          <img src = "images/glass.png" alt = "a glass bulb model"  class="portfolio-img text-center"></img>
-          <p> Glass created a feeling of instability, as if the walker was floating, and also fragmented physical models into abstract illusions and reflections.
-        </div>
-      </div>
- </div>  
-                      -->
-                    
-            
-
-
-        <!-- ROW -->
 
                       </div>
 

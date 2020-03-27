@@ -57,7 +57,7 @@ University.</a> </h2> <h2 class="heading container">She's worked with
     <div class="col">
     <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
   <span class="project-name">Connecting Transit Systems</span>
-<p class="project-subname"> UX Research, Design, Writing</p>
+<p class="project-subname"> UX Research + Design + Writing</p>
     </div>
 
 
@@ -65,7 +65,7 @@ University.</a> </h2> <h2 class="heading container">She's worked with
     <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" target="_blank"> <img class="project-img" src="images/sustainablemob.png" /></a>
 
     <span class="project-name">Sustainable Mobility</span>
-      <p class="project-subname"> UX Research, Industrial Design</p>
+      <p class="project-subname"> UX Research + Design</p>
     </div>
 
 

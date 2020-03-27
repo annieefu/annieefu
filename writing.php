@@ -1,38 +1,123 @@
 <?php
 // DO NOT REMOVE!
 include("includes/init.php");
+// // DO NOT REMOVE!
 
-// DO NOT REMOVE!
-
-$index = "notcurrentpage";
+$projects = "notcurrentpage";
 $writing = "currentpage";
 $resume = "notcurrentpage";
 $about="notcurrentpage";
-?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
-  <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
-<link rel="stylesheet" href="https://use.typekit.net/opt0ipj.css">
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.typekit.net/opt0ipj.css">
-  <title>Annie Fu</title>
-</head>
+?>
 
 
 <?php include("includes/header.php"); ?>
+<body class="home">
+<div class="bodybin">
+<h2 class="heading container space">Writing Samples</h2>
+</div><div class="container">
+<hr width= "100%" class="border03"></div>
+
+<section id="services" class="sec-writing sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Policy Memo To Mark Zuckerberg: Facebook Speech Moderation</h2>
+          <hr color="lightgrey"/>
+        </div>
+        <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <p>
+          "Facebook's ever-increasing power to rapidly spread false information and hateful rhetoric means its speech moderation policy is critical for our political climate and nationwide security."
+          <ul class="hero-deets">
+<li><strong>Course:</strong> INFO 1200: Information Ethics, Law, and Policy</li>
+<li><strong>Date:</strong> Spring 2019</li>
+</ul></p>
+<p class="halfspace">
+<a class="button rainbow" target="_blank" href="https://docs.google.com/document/d/1FfcP1fDQPSn9oFA_fxpx4VO9rSrvgcK-16ni3RM-jvI/edit?usp=sharing">Read the memo</a>
 
 
-<body>
+         </p>
+
+        
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <p>
+          <a href="https://docs.google.com/document/d/1FfcP1fDQPSn9oFA_fxpx4VO9rSrvgcK-16ni3RM-jvI/edit?usp=sharing" alt ="A preview image of a typed word document." target="_blank"> <img class="project-img" src="images/memoprev1.png" /></a>
+
+</p>
+
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+<section id="services" class="sec-writing sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Op-Ed: Returning Depop Users to their Sustainable Roots</h2>
+          <hr color="lightgrey"/>
+        </div>
+        <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <p>
+          "A change to the Depop’s search algorithm makes ethical, value-based purchasing easier and more beneficial for the future of the app, its users, and our planet." <ul class="hero-deets">
+<li><strong>Course:</strong> INFO 4240: Designing Technology for Social Impact</li>
+<li><strong>Date:</strong> Spring 2018</li>
+</ul></p>
+<p class="halfspace">
+<a class="button rainbow" target="_blank" href="https://docs.google.com/document/d/1DE8x5yv_yAG_LjyCeb79bHNPISB6Db7MklDySlKjm20/edit?usp=sharing">Read the Op-Ed</a>
+
+
+         </p>
+
+        
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <p>
+          <a href="https://docs.google.com/document/d/1DE8x5yv_yAG_LjyCeb79bHNPISB6Db7MklDySlKjm20/edit?usp=sharing" alt ="A preview image of a typed word document." target="_blank"> <img class="project-img" src="images/opednew.png" /></a>
+
+</p>
+
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  
+
 
 
 
 </body>
 <?php include("includes/footer.php"); ?>
-
 </html>
