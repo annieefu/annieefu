@@ -7,8 +7,8 @@ include("includes/init.php");
 $projects = "notcurrentpage";
 $writing = "notcurrentpage";
 $resume = "notcurrentpage";
-$about = "currentpage"
-
+$about = "currentpage";
+$art = "notcurrentpage";
 
 ?>
 
@@ -164,7 +164,7 @@ $('#link7').hover(function(){
     <a href="mailto:af397@cornell.edu" class="aboutnav fas fa-envelope sm fa-fw" target="_blank" ></a>
     <a href="https://linkedin.com/in/annie--fu/" class="aboutnav fab fa-linkedin sm fa-fw" target="_blank"></a>
     <a href="https://medium.com/@annie99fu" class="fab fa-medium-m med fa-fw" target="_blank"></a>
-    <a href="https://instagram.com/annieefu" class="fab fa-instagram med fa-fw" target="_blank"></a>
+    <!-- <a href="https://instagram.com/annieefu" class="fab fa-instagram med fa-fw" target="_blank"></a> -->
     <a href="https://twitter.com/annieefu" class="fab fa-twitter med fa-fw" target="_blank"></a>
 </h2>
 <div class="container">
