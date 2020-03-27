@@ -18,9 +18,7 @@ $about="notcurrentpage";
 
 <div id="fadein2">
 
-<h2 class="heading container"><strong class="rainbow-text">Annie Fu</strong> is a 
-designer and developer studying at <a href="https://cis.cornell.edu/" target="_blank">Cornell 
-University.</a> </h2> <h2 class="heading container">She's worked with 
+<h2 class="heading container"><strong class="rainbow-text">Annie Fu</strong> is a passionate, curious designer studying at <a href="https://cis.cornell.edu/" target="_blank">Cornell.</a> </h2> <p></p><p></p><h2 class="heading container">She's worked with 
   the <a href="https://sustainablecampus.cornell.edu/" target="_blank" class="rainbow" >Cornell 
   Sustainability Office</a> and <a href="https://strandmag.com/" target="_blank" class="rainbow">Strand 
   Magazine.</a></h2>
