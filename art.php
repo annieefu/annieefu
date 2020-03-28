@@ -23,7 +23,7 @@ $art = "currentpage";
 </div>
 
 <div class="halfspace"></div>
-<h2 class="heading">  Photojournalism: Cornell Football & The Band</h2>
+<h2 class="heading">  Photojournalism: The Big Red Marching Band</h2>
 <div class="albumbucket">
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/166798564@N04/albums/72157699576273911" title="Documenting the Big Red Marching Band"><img src="https://live.staticflickr.com/1891/42777081240_9eff205648_z.jpg" width="640" height="427" alt="Documenting the Big Red Marching Band"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
