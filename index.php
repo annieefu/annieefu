@@ -8,7 +8,7 @@ $projects = "currentpage";
 $writing = "notcurrentpage";
 $resume = "notcurrentpage";
 $about="notcurrentpage";
-
+$art = "notcurrentpage";
 ?>
 
 <?php include("includes/header.php"); ?>
@@ -18,7 +18,7 @@ $about="notcurrentpage";
 
 <div id="fadein2">
 
-<h2 class="heading container"><strong class="rainbow-text">Annie Fu</strong> is a passionate, curious designer studying at <a href="https://cis.cornell.edu/" target="_blank">Cornell.</a> </h2> <p></p><p></p><h2 class="heading container">She's worked with 
+<h2 class="heading container"><a href="aboutme.php" class="rainbow-text"><strong class="rainbow-text">Annie Fu</a></strong> is a passionate, curious designer studying at <a href="https://cis.cornell.edu/" target="_blank">Cornell.</a> </h2> <p></p><p></p><h2 class="heading container">She's worked with 
   the <a href="https://sustainablecampus.cornell.edu/" target="_blank" class="rainbow" >Cornell 
   Sustainability Office</a> and <a href="https://strandmag.com/" target="_blank" class="rainbow">Strand 
   Magazine.</a></h2>
@@ -52,14 +52,14 @@ $about="notcurrentpage";
 
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
   <span class="project-name">Connecting Transit Systems</span>
 <p class="project-subname"> UX Research + Design + Writing</p>
     </div>
 
 
-    <div class="col">
+    <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" target="_blank"> <img class="project-img" src="images/sustainablemob.png" /></a>
 
     <span class="project-name">Sustainable Mobility</span>
@@ -67,7 +67,7 @@ $about="notcurrentpage";
     </div>
 
 
-    <div class="col">
+    <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="pali.php" alt ="Developing for a International Buddhist Organization" target="_blank"><img class="project-img" src="images/wheel-of-dharma-2.png"/></a>
 
     <span class="project-name">Sirimangalo Int.: Developing a Pali Reader</span>
@@ -79,7 +79,7 @@ $about="notcurrentpage";
 
 <div class="container wrap">
   <div class="row">
-    <div class="col">
+    <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="eco.php" target="_blank"><img class="project-img" src="images/ECO.PNG" /></a>
 <span class="project-name">Ecouture 2018</span>
 <p class="project-subname"> Sustainable Apparel Design</p>
@@ -87,7 +87,7 @@ $about="notcurrentpage";
 
     
     
-    <div class="project2 col-8">
+    <div class="project2 col-xs-12 col-md-8 col-lg-8">
    
 <img src ="images/muirr.png" width="100%" alt="a quote from Muir."></img>
     </div>
