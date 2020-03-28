@@ -26,17 +26,17 @@ $art = "notcurrentpage";
 
 <div class="container">
   <div class="row space">
-    <div class="col">
+    <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/ppicon.png" /></a>
 <span class="project-name">PropertyPal: Student Housing</span>
 <p class="project-subname"> UX Research + Design</p>
     </div>
-    <div class="col">
+    <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://uxplanet.org/forsight-a-hackathon-case-study-on-accessible-design-fccb1bffdd5c" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/forsight.png" /></a>
     <span class="project-name">Forsight: Hacking for Accessible Design</span>
       <p class="project-subname">UX Design, Front-end Development</p>
     </div>
-    <div class="col">
+    <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="librarybabel.php" alt = "Virtual Reality Case Study" target="_blank"><img class="project-img" src="images/library-bab.png" /></a>
   <span class="project-name">The Library of Babel: Virtual Reality</span>
    <p class="project-subname"> UX + VR Design, Front-end Development</p>
