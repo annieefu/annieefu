@@ -7,7 +7,7 @@ $projects = "currentpage";
 $writing = "notcurrentpage";
 $resume = "notcurrentpage";
 $about="notcurrentpage";
-
+$art = "notcurrentpage";
 ?>
 
 <?php include("includes/header.php"); ?>

@@ -1,32 +1,58 @@
 <?php
 // DO NOT REMOVE!
 include("includes/init.php");
-// DO NOT REMOVE!
-?>
-<!DOCTYPE html>
-<html lang="en">
+// // DO NOT REMOVE!
 
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
-  <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
-<link rel="stylesheet" href="https://use.typekit.net/opt0ipj.css">
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.typekit.net/opt0ipj.css">
-  <title>Annie Fu</title>
-</head>
+$projects = "notcurrentpage";
+$writing = "notcurrentpage";
+$resume = "notcurrentpage";
+$about="notcurrentpage";
+$art = "currentpage";
+?>
 
 
 <?php include("includes/header.php"); ?>
 
 
 <body>
-<div id = "#artbin">
+<div class="container sec">
+<div class="halfspace"></div>
+<h2 class="heading"> Photojournalism: Cornell University Library</h2>
+<div class="albumbucket">
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/166798564@N04/albums/72157702048854081" title="Views from the Cornell Library"><img src="https://live.staticflickr.com/4897/31994319368_1e3332b68c_z.jpg" width="640" height="427" margin="auto"  alt="Views from the Cornell Library"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
+<div class="halfspace"></div>
+<h2 class="heading">  Photojournalism: Cornell Football & The Band</h2>
+<div class="albumbucket">
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/166798564@N04/albums/72157699576273911" title="Documenting the Big Red Marching Band"><img src="https://live.staticflickr.com/1891/42777081240_9eff205648_z.jpg" width="640" height="427" alt="Documenting the Big Red Marching Band"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
+
+
+
+
+<div class="halfspace"></div>
+<h2 class="heading"> Film: Minolta SRT 201</h2>
+
+<div class="albumbucket">
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/166798564@N04/albums/72157695330067380" title="Upper Michigan in Film"><img src="https://live.staticflickr.com/65535/44587427281_9f67f5ba17_z.jpg" width="640" height="496" alt="Upper Michigan in Film"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></div>
+
+</div>
+<div class="halfspace">
+
+</div>
+
+
+
+
 
 
 </div>
+
+
+
+
 
 
 </body>

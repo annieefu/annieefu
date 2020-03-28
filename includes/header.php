@@ -4,7 +4,9 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
   <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
@@ -12,10 +14,7 @@
   <script type="text/javascript" src="scripts/activelink.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
   <script type = "text/javascript" src = "scripts/modal.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://use.typekit.net/opt0ipj.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
-
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
 
@@ -31,8 +30,9 @@
  <nav class="desktopNav">
     <ul class="container">
       <li class="rainbow <?php echo ($projects); ?>"><a href="index.php">PROJECTS</a></li>
-      <!-- <li class="rainbow"><a href="art.php">ARTWORK</a></li> -->
+      <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</a></li>
       <li class="rainbow <?php echo ($writing); ?>"><a href="writing.php">WRITING</a></li>
+      
       <li class="rainbow <?php echo ($resume); ?>"><a href="resume.php">RESUME</a></li>
       <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">ABOUT</a></li>
     </ul>

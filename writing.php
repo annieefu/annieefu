@@ -7,7 +7,7 @@ $projects = "notcurrentpage";
 $writing = "currentpage";
 $resume = "notcurrentpage";
 $about="notcurrentpage";
-
+$art = "notcurrentpage";
 ?>
 
 
