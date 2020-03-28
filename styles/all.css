@@ -1155,7 +1155,7 @@ text-align: left;
 
 .desktopNav .container {
   justify-content: space-evenly;
-  display: inline;
+  display: block;
   white-space: nowrap;
 }
 

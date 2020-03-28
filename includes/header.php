@@ -27,7 +27,7 @@
   <header>
   
 
- <nav class="desktopNav">
+ <!-- <nav class="desktopNav">
     <ul class="container">
       <li class="rainbow <?php echo ($projects); ?>"><a href="index.php">PROJECTS</a></li>
       <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</a></li>
@@ -37,29 +37,51 @@
       <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">ABOUT</a></li>
     </ul>
 
-  </nav>
+  </nav> -->
+<div class="container">
+
+  <nav class="navbar navbar-expand-lg navbar-light desktopNav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active <?php echo ($projects); ?>">
+        <a class="nav-link" href="index.php">PROJECTS</a>
+      </li>
+      <li class="nav-item <?php echo ($art); ?>">
+        <a class="nav-link" href="art.php">PHOTO</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+</div>
+
+
   <div class="container">
     <hr width= "100%" class="secline"/>
 </div>
 
-
+<!-- 
   <div class="navbarMobileWrapper">
-  <div class="navBarMobile">
+  <div class="navBarMobile"> -->
     <!--
       MAKE THIS PRETTY LATER?
 
     <button class="dropdownMenu">Menu
       <i class="dropdown"> </i>
     </button> -->
-    <div class="dropdown-content" id = "activeNav">
+    <!-- <div class="dropdown-content" id = "activeNav">
       <a href="index.php">Projects</a><hr width = "70%"/>
-      <!-- <a href="writing.php">Writing</a><hr width = "70%"/> -->
+       <a href="writing.php">Writing</a><hr width = "70%"/>
       <a href="resume.php">Resume</a><hr width = "70%"/>
       <a href="mailto:af397@cornell.edu">Contact</a>
     </div>
   </div>
-</div>
+</div> 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+-->
 </header>
