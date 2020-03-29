@@ -1096,6 +1096,26 @@ text-align: left;
   text-align: right;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
 
 
 
@@ -1123,6 +1143,13 @@ text-align: left;
   
   .scroll-message {
     display:none;
+  }
+   /* .desktopNav{
+    display: none;
+  }  */
+
+  .show {
+    display: block;
   }
 
 .hidedis{
@@ -1158,6 +1185,8 @@ text-align: left;
   display: inline;
   white-space: nowrap;
 }
+
+
 
 .desktopNav a{
   display:inline;
