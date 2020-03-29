@@ -101,7 +101,6 @@ $art = "notcurrentpage";
       <p class="project-subname"> </p>
   </div>  
   
-
   <div class="project">
     <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
   
@@ -109,7 +108,6 @@ $art = "notcurrentpage";
      <p class="project-subname"> Designing to Connect Transit Systems</p>
   </div>
 </div>
-
 -->
 
 
