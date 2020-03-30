@@ -21,14 +21,19 @@ $art = "notcurrentpage";
 <div class = "container hero">
       <div class="row">
         <div class="col-lg-6">
-<p> This semester, I've been working with Sirimangalo International to build the beta version of their Digital Pali Reader. </p>
-<p>I've been learning a great deal about working on UX in teams, React for efficient developing, and the Pali language. Updates to come soon!</p>
-</ul>
-</p><p>
+<p> This semester, I worked with Sirimangalo International to build and refine two iterations of their Digital Pali Reader. </p>
+<p>I learned a great deal about working on UX in teams, tried my hand in React for efficient developing, and got a taste of the Pali language. 
     <ul class="hero-deets">
 <li><strong>Organization:</strong> Sirimangalo International</li>
 <li><strong>My Role:</strong> UX/UI Designer, Frontend Developer</li>
-<li><strong>Tools:</strong> HTML/CSS, User Testing, React, Javascript</li>
+<li><strong>Tools:</strong> HTML/CSS, Javascript, User Testing</li>
+</ul>
+</p>
+
+<p class="halfspace">
+<a class="button rainbow" target="_blank" href="
+https://www.digitalpalireader.online/DPRHTML/index.html">Try the Reader!</a>
+
 </p>
 </div>
         <div class="col-lg-6">
