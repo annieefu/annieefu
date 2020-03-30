@@ -179,7 +179,7 @@ $('#link7').hover(function(){
     <a href="#" id="link2" class="hoverlink"> artists,</a> and <a href="#" id="link3" class="hoverlink">my friends and family.</a></strong></p>
     
 
-<p> In my free time, I like to <strong><a href="#" id="link4" class="hoverlink">run,</a> <a href="#" id="link5" class="hoverlink"> shoot in 35mm,</a> <a href="#" id="link6" class="hoverlink">play & teach piano,</a> <a href="#" id="link7" class="hoverlink"> and draw.</a></strong></p>
+<p> In my free time, I like to <strong><a href="#" id="link4" class="hoverlink">run,</a> <a href="#" id="link5" class="hoverlink"> shoot in 35mm,</a> <a href="#" id="link7" class="hoverlink"> and draw.</a></strong></p>
 <p>I hope you enjoy browsing my work, and I'm always looking for new opportunities to learn and create. Feel free to reach out with questions or musings!</p>
 <p class="right"><strong>-Annie</strong></p>
 
