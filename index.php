@@ -18,7 +18,7 @@ $art = "notcurrentpage";
 
 <div id="fadein2">
 
-<h2 class="heading container"><a href="aboutme.php" class="rainbow-text"><strong class="rainbow-text">Annie Fu</a></strong> is a curious designer and coder studying at <a href="https://cis.cornell.edu/" target="_blank">Cornell.</a> </h2> <p></p><p></p><h2 class="heading container">She's worked with energy data at the
+<h2 class="heading container"><a href="aboutme.php" class="rainbow-text"><strong class="rainbow-text">Annie Fu</a></strong> is a curious designer and coder studying at <a href="https://cis.cornell.edu/" target="_blank">Cornell.</a> </h2> <p></p><p></p><h2 class="heading container">She's worked with energy at the
   <a href="https://sustainablecampus.cornell.edu/" target="_blank" class="rainbow" >Cornell 
   Sustainability Office</a> and audiences at <a href="https://strandmag.com/" target="_blank" class="rainbow">Strand 
   Magazine.</a></h2>
