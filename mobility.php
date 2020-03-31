@@ -27,7 +27,7 @@ $about="notcurrentpage";
     <ul class="hero-deets">
 <li><strong>Project Team:</strong> Cornell University Sustainable Design</li>
 <li><strong>My Role:</strong> UX Researcher/Designer</li>
-<li><strong>Tools:</strong> Contextual Interviews, Data Modelling, UX Writing</li>
+<li><strong>Tools:</strong> Empathy Fieldwork (Observation, Contextual Interviews), Persona Creation, Use Case Diagrams, Prototyping, UX Writing</li>
 </p>
 </div>
         <div class="col-lg-6">

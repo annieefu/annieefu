@@ -33,15 +33,17 @@ $art = "notcurrentpage";
 <p class="project-subname"> UX Research + Design</p>
     </div>
     <div class="col-xs-4 col-md-4 col-lg-4">
-    <a href="https://uxplanet.org/forsight-a-hackathon-case-study-on-accessible-design-fccb1bffdd5c" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/forsight.png" /></a>
-    <span class="project-name">Forsight: Hacking for Accessible Design</span>
-      <p class="project-subname">UX Design, Front-end Development</p>
-    </div>
-    <div class="col-xs-4 col-md-4 col-lg-4">
     <a href="librarybabel.php" alt = "Virtual Reality Case Study" target="_blank"><img class="project-img" src="images/library-bab.png" /></a>
   <span class="project-name">The Library of Babel: Virtual Reality</span>
    <p class="project-subname"> UX + VR Design, Front-end Development</p>
     </div>
+    <div class="col-xs-4 col-md-4 col-lg-4">
+    <a href="https://uxplanet.org/forsight-a-hackathon-case-study-on-accessible-design-fccb1bffdd5c" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/forsight.png" /></a>
+    <span class="project-name">Forsight: Hacking for Accessible Design</span>
+      <p class="project-subname">UX Design, Front-end Development</p>
+    </div>
+    
+
   </div>
 </div>
 
