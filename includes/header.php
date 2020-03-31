@@ -30,8 +30,9 @@
  <nav class="desktopNav">
     <ul class="container">
       <li class="rainbow <?php echo ($projects); ?>"><a href="index.php">PROJECTS</a></li>
-      <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</a></li>
+
       <li class="rainbow <?php echo ($writing); ?>"><a href="writing.php">WRITING</a></li>
+      <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</a></li>
       
       <li class="rainbow <?php echo ($resume); ?>"><a href="resume.php">RESUME</a></li>
       <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">ABOUT</a></li>
