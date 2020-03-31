@@ -21,7 +21,7 @@ $art = "notcurrentpage";
 <div class = "container herog">
       <div class="row">
         <div class="col-lg-6">
-<p> I spent the summer of 2019 learning more about statistical programming with <a href="http://www.abshahid.com/" class="red">Abdullah Shahid</a>, 
+<p> I spent the summer of 2019 learning more about statistical programming with <a href="http://www.abshahid.com/" class="red">Abdullah Shahid</a> under <a href="https://sociology.cornell.edu/david-strang">Professor David Strang, 
 quantitatively evaluating the emergence and spread of financial institutions to better understand globalization. </p>
 <ul class="hero-deets">
 <li><strong>Organization:</strong> Cornell Department of Sociology</li>
