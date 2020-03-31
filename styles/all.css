@@ -181,8 +181,9 @@ p {
   }
 
 
-
-
+.middle {
+  width: 40%;
+}
 
   .title {
     font-family: neue-haas-grotesk-display, sans-serif;
