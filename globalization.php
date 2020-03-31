@@ -15,7 +15,7 @@ $art = "notcurrentpage";
 <?php include("includes/header.php"); ?>
 <body class="home">
 <div class="bodybin">
-<h2 class="heading container space">The Globalization of an Idea: Research in Computational Sociology</h2>
+<h2 class="heading container space">Modelling Globalization: Research in Computational Sociology</h2>
 </div><div class="container">
 <hr width= "100%" class="border03"></div>
 <div class = "container herog">
@@ -25,8 +25,8 @@ $art = "notcurrentpage";
 quantitatively evaluating the emergence and spread of financial institutions to better understand globalization. </p>
 
 <p> My work involved writing web parsing and scraping scripts in Python, compiling datasets from cleaned and formatted data based on various search queries, 
-    preparing data visualizations from the data, and working with statistical packages to follow different research hypotheses.</p>
-<p>  For confidentiality purposes, I cannot disclose further information about the project itself, but if you're interested in learning more about the process and methodology, please reach out and we can discuss!</p>
+    and generating data visualizations to pursue topical hypotheses.</p>
+<p>  For confidentiality purposes, I cannot disclose further information about the project, but if you're interested in learning more about the process and methodology, please reach out and we can discuss!</p>
 
 <p> My experience on this project was so informative and compelling, as I got hands-on experience in graduate level research and interdisciplinary computation.
     Most of all, I got to put a wide variety of different statistical packages and modelling methods into practice.
@@ -41,7 +41,8 @@ quantitatively evaluating the emergence and spread of financial institutions to 
 </p>
 </div>
         <div class="col-lg-6">
-<img src="/images/pali.png" class = "hero-img" alt="A lot of Pali text"></img>
+<img src="/images/dataset.png" class = "hero-img" alt="Cornell Sociology Logo"></img>
+<p class='right halfspace'>The pandas frame that started it all.</p>
 </div>
 
 </div>
