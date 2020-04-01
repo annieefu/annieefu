@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -14,6 +13,7 @@
   <script type="text/javascript" src="scripts/activelink.js"></script>
   <script type="text/javascript" src="scripts/scroll.js"></script>
   <script type = "text/javascript" src = "scripts/modal.js"></script>
+  <script type = "text/javascript" src = "scripts/dropdownnav.js"></script>
 <link rel="stylesheet" href="https://use.typekit.net/opt0ipj.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
@@ -27,38 +27,54 @@
   <header>
   
 
- <nav class="desktopNav">
-    <ul class="container">
-      <li class="rainbow <?php echo ($projects); ?>"><a href="index.php">PROJECTS</a></li>
+ <nav class="navbar-expand-lg navbar-light desktopNav">
 
-      <li class="rainbow <?php echo ($writing); ?>"><a href="writing.php">WRITING</a></li>
-      <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</a></li>
-      
-      <li class="rainbow <?php echo ($resume); ?>"><a href="resume.php">RESUME</a></li>
-      <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">ABOUT</a></li>
-    </ul>
-
-  </nav>
-  <div class="container">
-    <hr width= "100%" class="secline"/>
+ <button onClick="myFunction()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div id="myDropdown" class="dropdown-content">
 </div>
 
-
-  <div class="navbarMobileWrapper">
-  <div class="navBarMobile">
-    <!--
-      MAKE THIS PRETTY LATER?
-
-    <button class="dropdownMenu">Menu
-      <i class="dropdown"> </i>
-    </button> -->
-    <div class="dropdown-content" id = "activeNav">
-      <a href="index.php">Projects</a><hr width = "70%"/>
-      <!-- <a href="writing.php">Writing</a><hr width = "70%"/> -->
-      <a href="resume.php">Resume</a><hr width = "70%"/>
-      <a href="mailto:af397@cornell.edu">Contact</a>
+    <div class="collapse navbar-collapse block" id="navbarSupportedContent">
+      <ul class="container">
+        <li class="rainbow <?php echo ($projects); ?>"> <a href="index.php">PROJECTS</li></a>
+        <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</li></a>
+        <li class="rainbow <?php echo ($writing); ?>"><a href="writing.php">WRITING</li></a>
+        
+        <li class="rainbow <?php echo ($resume); ?>"><a href="resume.php">RESUME</li></a>
+        <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">ABOUT</li></a>
+      </ul>
     </div>
-  </div>
+
+  </nav>
+
+
+
+  <!-- <nav class="navbar-expand-lg navbar-light mobileNav">
+
+<button onClick="myFunction()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div id="myDropdown" class="dropdown-content">
+</div>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="container">
+    <li class="rainbow <?php echo ($projects); ?>"> <a href="index.php">PROJECTS</li></a>
+    <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</li></a>
+    <li class="rainbow <?php echo ($writing); ?>"><a href="writing.php">WRITING</li></a>
+    
+    <li class="rainbow <?php echo ($resume); ?>"><a href="resume.php">RESUME</li></a>
+    <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">ABOUT</li></a>
+  </ul>
+</div>
+
+</nav> -->
+
+
+
+  <div class="container">
+    <hr width= "100%" class="secline"/>
 </div>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
