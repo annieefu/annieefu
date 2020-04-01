@@ -38,8 +38,9 @@
     <div class="collapse navbar-collapse block" id="navbarSupportedContent">
       <ul class="container">
         <li class="rainbow <?php echo ($projects); ?>"> <a href="index.php">PROJECTS</li></a>
-        <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</li></a>
+
         <li class="rainbow <?php echo ($writing); ?>"><a href="writing.php">WRITING</li></a>
+        <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</li></a>
         
         <li class="rainbow <?php echo ($resume); ?>"><a href="resume.php">RESUME</li></a>
         <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">ABOUT</li></a>
@@ -50,26 +51,7 @@
 
 
 
-  <!-- <nav class="navbar-expand-lg navbar-light mobileNav">
-
-<button onClick="myFunction()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-<div id="myDropdown" class="dropdown-content">
-</div>
-
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="container">
-    <li class="rainbow <?php echo ($projects); ?>"> <a href="index.php">PROJECTS</li></a>
-    <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</li></a>
-    <li class="rainbow <?php echo ($writing); ?>"><a href="writing.php">WRITING</li></a>
-    
-    <li class="rainbow <?php echo ($resume); ?>"><a href="resume.php">RESUME</li></a>
-    <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">ABOUT</li></a>
-  </ul>
-</div>
-
-</nav> -->
+ 
 
 
 
