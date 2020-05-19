@@ -17,9 +17,9 @@ $art = "notcurrentpage";
 
 <div class="col-12">
 
-<object data="AnnieFu_Resume_S20.pdf" type="application/pdf" width="100%" height="1000px"> 
+<object data="AnnieFu_Resume.pdf" type="application/pdf" width="100%" height="1000px"> 
   <p>It appears you don't have a PDF plugin for this browser.
-   No biggie... you can <a href="AnnieFu_Resume_S20.pdf" target="_blank">click here to
+   No biggie... you can <a href="AnnieFu_Resume.pdf" target="_blank">click here to
   download the PDF file.</a></p>  
 </object>
 
