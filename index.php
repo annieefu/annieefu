@@ -55,10 +55,6 @@ $art = "notcurrentpage";
 </div>
 
 
-<p class="scroll-message">More projects below</p>
-<a href="#" class="scroll-down" address="true"></a>
-<div class="scrolled">
-
 <div class="container">
   <div class="row">
 
@@ -73,7 +69,7 @@ $art = "notcurrentpage";
 
 
     <div class="col-xs-4 col-md-4 col-lg-4">
-    <a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/ppicon.png" /></a>
+    <a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/prop3.png" /></a>
 <span class="project-name">PropertyPal: Student Housing</span>
 <p class="project-subname"> UX Research + Design</p>
     </div>
@@ -140,7 +136,6 @@ $art = "notcurrentpage";
 
 
 
-</div>
 </div>
 </div>
 </body>
