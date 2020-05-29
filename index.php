@@ -38,7 +38,7 @@ $art = "notcurrentpage";
     </div>
     
     <div class="col-xs-4 col-md-4 col-lg-4">
-    <a href="https://uxplanet.org/forsight-a-hackathon-case-study-on-accessible-design-fccb1bffdd5c" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/forsight.png" /></a>
+    <a href="https://medium.com/@annie99fu/forsight-proactively-refining-ux-design-to-prioritize-accessibility-5e42c2da0370?source=friends_link&sk=cfb8e9891c501f7b701d550757d82006" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/forsight.png" /></a>
     <span class="project-name">Forsight: Hacking for Accessible Design</span>
       <p class="project-subname">UX Design, Front-end Development</p>
     </div>
