@@ -30,17 +30,17 @@ $art = "notcurrentpage";
   <div class="row space">
 
 
-
-    <div class="col-xs-4 col-md-4 col-lg-4">
-    <a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/ppicon.png" /></a>
-<span class="project-name">PropertyPal: Student Housing</span>
-<p class="project-subname"> UX Research + Design</p>
-    </div>
     
     <div class="col-xs-4 col-md-4 col-lg-4">
     <a href="https://medium.com/@annie99fu/forsight-proactively-refining-ux-design-to-prioritize-accessibility-5e42c2da0370?source=friends_link&sk=cfb8e9891c501f7b701d550757d82006" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/forsight.png" /></a>
     <span class="project-name">Forsight: Hacking for Accessible Design</span>
       <p class="project-subname">UX Design, Front-end Development</p>
+    </div>
+
+    <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
+  <span class="project-name">Connecting Transit Systems</span>
+<p class="project-subname"> UX Research + Design + Writing</p>
     </div>
 
   <div class="col-xs-4 col-md-4 col-lg-4">
@@ -72,10 +72,10 @@ $art = "notcurrentpage";
     </div>
 
 
-    <div class="col-xs-12 col-md-4 col-lg-4">
-    <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
-  <span class="project-name">Connecting Transit Systems</span>
-<p class="project-subname"> UX Research + Design + Writing</p>
+    <div class="col-xs-4 col-md-4 col-lg-4">
+    <a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/ppicon.png" /></a>
+<span class="project-name">PropertyPal: Student Housing</span>
+<p class="project-subname"> UX Research + Design</p>
     </div>
 
 
