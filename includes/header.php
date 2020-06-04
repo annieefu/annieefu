@@ -44,7 +44,9 @@
         <li class="rainbow <?php echo ($writing); ?>"><a href="writing.php">WRITING</li></a>
         <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</li></a>
         
-        <li class="rainbow <?php echo ($resume); ?>"><a href="resume.php">RESUME</li></a>
+        <!-- <li class="rainbow -->
+        <!-- <?php echo ($resume); ?> -->
+        <!--"><a href="resume.php">RESUME</li></a> -->
         <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">ABOUT</li></a>
       </ul>
     </div>
