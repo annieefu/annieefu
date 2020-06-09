@@ -14,9 +14,9 @@ $art = "notcurrentpage";
 <?php include("includes/header.php"); ?>
 <body class="home">
 <div class="bodybin">
-<h2 class="heading container space">Writing Samples</h2>
+<!-- <h2 class="heading container space">Writing Samples</h2> -->
 </div><div class="container">
-<hr width= "100%" class="border03"></div>
+<!-- <hr width= "100%" class="border03"></div> -->
 
 <section id="services" class="sec-writing sec">
     <div class="container">

@@ -52,7 +52,7 @@ $art = "notcurrentpage";
 
 
 
-  <section id="services" class="sec-services sec">
+  <section id="services" class="sec-inspirations sec">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -76,7 +76,7 @@ $art = "notcurrentpage";
 
 
 
-  <section id="brainstorming" class="sec-brainstorming sec">
+  <section id="brainstorming" class="sec-inspirations sec">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-left">
@@ -125,15 +125,6 @@ $art = "notcurrentpage";
     </div>
   </section>
 
-
-
-
-
-
-
-
-
-  
 
 
   <section id="inspirations" class="sec-inspirations sec">
@@ -429,7 +420,7 @@ we imagined, and lots of our debugging revolved around <strong>making items appe
 
 
 
-  <section id="services" class="sec-forward sec">
+  <section id="services" class="sec-inspirations sec">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">

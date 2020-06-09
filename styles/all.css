@@ -1,7 +1,16 @@
 body{
-  background-color: white;
+  /* background-color: rgb(230, 230, 230); */
   color: black;
   padding: none;
+}
+.navwrap {
+  text-align: center;
+  width: 100%;
+}
+
+.center2{
+  margin: auto;
+  text-align: center;
 }
 
 .right{
@@ -29,6 +38,10 @@ display: center;
   text-align:center;
   width: 30%;
 }
+h1 {
+  text-align: center;
+  margin-bottom: 0px;
+}
 
 #img1, #img2, #img3, #img4{
   width: 100%;
@@ -42,6 +55,9 @@ display: center;
 .letterspace {
 letter-spacing: 2px;
 }
+
+
+
 
 .video-container {
   position: relative;
@@ -94,12 +110,14 @@ margin-bottom: 25px;
   overflow: visible;
 }
 .row {
-  width: 100%;
+  width: 103%;
   /* display: flex;  
    flex-wrap: wrap; */
   justify-content: space-evenly;
   margin-bottom: 5%;
 }
+
+
 
 .row .project {
   display: flex;  
@@ -107,13 +125,14 @@ margin-bottom: 25px;
 }
 
 .currentpage {
-  background-color: #eeeeee;
+  text-decoration: underline;
 padding: 14px;
-}
+
+  }
 
 .notcurrentpage {
   padding: 14px;
-}
+  }
 
 
 
@@ -150,11 +169,11 @@ color: transparent;
 
 .heading strong {
 font-family: benton-modern-display, serif;
-
 font-weight: 300;
-
 font-style: normal;
-font-size: 58px;
+font-size: 55px;
+text-align: center;
+line-height: 1.5;
 }
 
 p {
@@ -232,14 +251,32 @@ body {
 
 .heading {
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 200;
-  font-size: 2.3em;
+  font-weight: 100;
+  font-size: 2em;
   text-align:left;
   letter-spacing: 2px;
+  margin-top: 15px;
+}
+
+.homeheading {
+  font-family: futura-pt; 
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-align:left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.special {
+  font-size: 1.8em;
+}
+
+#bobmap {
+  margin-left: -3%;
 }
 
 .heading a {
-  border-bottom: 1px solid;
   color: black;
 }
 
@@ -267,9 +304,10 @@ margin-top: 35px;
 
 
 .hero-deets li{
-font-family: neue-haas-grotesk-display, sans-serif;
+/* font-family: neue-haas-grotesk-display, sans-serif; */
+font-family: futura-pt;
 font-weight: 200;
-letter-spacing: 2px;
+/* letter-spacing: 2px; */
 font-size: 16px; 
 margin-bottom: 20px;
 }
@@ -431,7 +469,7 @@ height: 23%
 position: relative;
 max-width: 100%;
 max-height: 100%;
-padding: 7em 0;
+padding: 3em 0;
 color: black;
 background: white;
 background-size: cover;
@@ -702,6 +740,10 @@ margin: 40px;
 object-fit: cover;
 }
 
+body{
+  width: 70%;
+  margin: auto;
+}
 
 
 /********* DESKTOP STYLING **********/
@@ -714,10 +756,17 @@ object-fit: cover;
   .navBarMobile{
     display:none;
   }
+
+  .page_wrapper {
+    width:90%;
+    max-width:850px;
+    margin:auto;
+    background-color: white;
+  }
   
   .secline {
-    border-color: #505050;
-    border-width:.5px;
+    border-color: #e6e9eb;
+    border-width:1px;
     margin-top: -5px;
 }
 
@@ -731,10 +780,13 @@ object-fit: cover;
   }
 
   .desktopNav a {
-    font-size:14.5px;
-    font-family: work-sans, sans-serif;
-    font-weight: 300;
+    font-size:18px;
+    /* font-family: "Work Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: futura-pt;
+    font-weight: 400;
+    color: cornflowerblue;
     text-decoration: none;
+    word-spacing: 30px;
     padding: 14px;
   }
 
@@ -904,7 +956,7 @@ object-fit: cover;
     display: block;
     pointer-events: none;
     text-align: center;
-box-shadow: 5px 9px 7px #999999;
+box-shadow: 4px 6px 6px #999999;
   }
 
 
@@ -930,14 +982,26 @@ box-shadow: 5px 9px 7px #999999;
   .project-name {
     position: absolute;
     margin-left:0px;
-
     font-family: futura-pt;
-    font-size: 16px;
+    font-size: 16.5px;
     font-weight: 500;
     width: 300px;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 12px;
     color: black;
+    opacity: 1;
+  }
+
+
+  .project-subname {
+    margin-top: 35px;
+    margin-left:0px;
+    font-family: futura-pt;
+    width: 300px;
+    font-size: 11px;
+    font-weight: 400;
+    color: black;
+    letter-spacing:1px;
     opacity: 1;
   }
 
@@ -956,15 +1020,6 @@ box-shadow: 5px 9px 7px #999999;
     opacity: 1;
   }
 
-  .project-subname {
-    margin-top: 34px;
-    margin-left:0px;
-    width: 300px;
-    font-size: 13px;
-    font-weight: 300;
-    color: black;
-    opacity: .6;
-  }
 
 /***********   PROJECTS     ***********/
 /***********   PROJECTS     ***********/
@@ -1234,6 +1289,8 @@ color: grey;
 font-size: 15px;
 margin: 0px;
 }
+
+
 
 
 }

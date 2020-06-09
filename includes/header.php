@@ -21,13 +21,24 @@
 
 <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
 
+<meta name="viewport" content="initial-scale=1">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+
 <title>Annie Fu</title>
 
 
 </head>
   
   <header>
-  
+    
+  <div class="navwrap">
+</br></br>
+<h1 class="heading container"><a href="aboutme.php"><strong class="rainbow-text">Annie Fu</a></strong></h2>
+<h2 class="homeheading container"> Data Analyst and Digital Product Designer from Detroit, MI.</h2>
+</div>
 
  <nav class="navbar-expand-lg navbar-light desktopNav">
 
@@ -38,17 +49,19 @@
 </div>
 
     <div class="collapse navbar-collapse block" id="navbarSupportedContent">
-      <ul class="container">
-        <li class="rainbow <?php echo ($projects); ?>"> <a href="index.php">PROJECTS</li></a>
+      <div class="navwrap">
+      <ul class="container center2">
+        <li class="headerlink <?php echo ($projects); ?>"> <a href="index.php">projects</li></a>
 
-        <li class="rainbow <?php echo ($writing); ?>"><a href="writing.php">WRITING</li></a>
-        <li class="rainbow <?php echo ($art);?>"><a href="art.php">PHOTO</li></a>
+        <li class="headerlink <?php echo ($writing); ?>"><a href="writing.php">writing</li></a>
+        <li class="headerlink <?php echo ($art);?>"><a href="art.php">photo</li></a>
         
         <!-- <li class="rainbow -->
         <!-- <?php echo ($resume); ?> -->
         <!--"><a href="resume.php">RESUME</li></a> -->
-        <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">ABOUT</li></a>
+        <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">about</li></a>
       </ul>
+</div>
     </div>
 
   </nav>
