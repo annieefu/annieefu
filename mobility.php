@@ -14,7 +14,7 @@ $about="notcurrentpage";
 <?php include("includes/header.php"); ?>
 <body class="home">
 <div class="bodybin">
-<h2 class="heading container space">Community-Centered Design: Revitalizing Ithaca's Parking Garages</h2>
+<h2 class="headingEDIT container space">Ithaca Downtown Garage Design</h2>
 </div><div class="container">
 <hr width= "100%" class="border03"></div>
 <div class = "container hero">

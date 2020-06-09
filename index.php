@@ -18,7 +18,7 @@ $art = "notcurrentpage";
 
 <div class="container">
 
-  <div class="row space">
+  <div class="row rowspace space">
 
     
     <div class="col-xs-4 col-md-4 col-lg-4">
@@ -34,7 +34,7 @@ $art = "notcurrentpage";
     </div>
 
   <div class="col-xs-4 col-md-4 col-lg-4">
-    <a href="librarybabel.php" alt = "Virtual Reality Case Study" target="_blank"><img class="project-img" src="images/library-bab.png" /></a>
+    <a href="librarybabel.php" alt = "Virtual Reality Case Study" ><img class="project-img" src="images/library-bab.png" /></a>
   <span class="project-name">The Library of Babel in Virtual Reality</span>
    <p class="project-subname"> INTERACTION DESIGN, VR DEVELOPMENT</p>
     </div>
@@ -46,12 +46,12 @@ $art = "notcurrentpage";
 
 
 <div class="container">
-  <div class="row">
+  <div class="row rowspace">
 
 
 
   <div class="col-xs-12 col-md-4 col-lg-4">
-    <a href="globalization.php" target="_blank"><img class="project-img" src="images/cornellsoc1.png" /></a>
+    <a href="globalization.php" ><img class="project-img" src="images/cornellsoc1.png" /></a>
 <span class="project-name">How Ideas Spread: Globalization in Code
 </span>
 <p class="project-subname"> COMPUTATIONAL RESEARCH</p>
@@ -66,7 +66,7 @@ $art = "notcurrentpage";
 
 
     <div class="col-xs-12 col-md-4 col-lg-4">
-    <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" target="_blank"> <img class="project-img" src="images/sustainablemob.png" /></a>
+    <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" > <img class="project-img" src="images/sustainablemob.png" /></a>
 
     <span class="project-name">Sustainable Mobility</span>
       <p class="project-subname"> INDUSTRIAL DESIGN, SYSTEMS ENGINEERING</p>
@@ -78,12 +78,12 @@ $art = "notcurrentpage";
 
 
 <div class="container wrap">
-  <div class="row">
+  <div class="row rowspace">
 
 
 
   <div class="col-xs-12 col-md-4 col-lg-4">
-    <a href="pali.php" alt ="Developing for a International Buddhist Organization" target="_blank"><img class="project-img" src="images/siri_3.png"/></a>
+    <a href="pali.php" alt ="Developing for a International Buddhist Organization" ><img class="project-img" src="images/siri_3.png"/></a>
 
     <span class="project-name">Buddhist Pali Reader</span>
      <p class="project-subname">UX/UI DESIGN</p>
@@ -91,7 +91,7 @@ $art = "notcurrentpage";
 
 
     <div class="col-xs-12 col-md-4 col-lg-4">
-    <a href="eco.php" target="_blank"><img class="project-img" src="images/ECO.PNG" /></a>
+    <a href="eco.php"><img class="project-img" src="images/ECO.PNG" /></a>
 <span class="project-name">Ecouture 2018</span>
 <p class="project-subname"> APPAREL DESIGN</p>
     </div>

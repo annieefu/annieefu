@@ -15,7 +15,7 @@ $art = "notcurrentpage";
 <?php include("includes/header.php"); ?>
 <body class="home">
 <div class="bodybin">
-<h2 class="heading container space">Modelling Globalization: Research in Computational Sociology</h2>
+<h2 class="headingEDIT container space">Modeling Globalization</h2>
 </div><div class="container">
 <hr width= "100%" class="border03"></div>
 <div class = "container herog">

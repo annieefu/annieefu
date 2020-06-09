@@ -39,7 +39,6 @@ display: center;
   width: 30%;
 }
 h1 {
-  text-align: center;
   margin-bottom: 0px;
 }
 
@@ -51,10 +50,6 @@ h1 {
 
 
 
-
-.letterspace {
-letter-spacing: 2px;
-}
 
 
 
@@ -87,6 +82,15 @@ margin-top: 50px;
 box-shadow: 15px 15px 15px #333333;
 }
 
+
+.mini-image2{
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 15px 15px 15px #333333;
+  }
+
 .space {
   margin-top:55px;
 }
@@ -111,10 +115,11 @@ margin-bottom: 25px;
 }
 .row {
   width: 103%;
-  /* display: flex;  
-   flex-wrap: wrap; */
   justify-content: space-evenly;
-  margin-bottom: 5%;
+}
+
+.rowspace {
+  margin-bottom:5%;
 }
 
 
@@ -248,14 +253,28 @@ body {
   font-family: 'DM Sans', sans-serif;
 }
 
-
 .heading {
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 100;
+  /* font-family: neue-haas-grotesk-display, sans-serif; */
+  font-family: work-sans;
+  font-weight: 500;
+  color: #415161;
   font-size: 2em;
   text-align:left;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-top: 15px;
+}
+
+.headingEDIT {
+  /* font-family: neue-haas-grotesk-display, sans-serif; */
+  font-family: work-sans;
+  font-weight: 500;
+  color: #415161;
+  font-size: 2em;
+  text-align:center;
+  letter-spacing: 1px;
+  margin-top: 35px;
+
+  margin-bottom: 15px;
 }
 
 .homeheading {
@@ -300,6 +319,7 @@ body {
 list-style: none;
 margin-left: 0px;
 margin-top: 35px;
+text-align: center;
 }
 
 
@@ -309,18 +329,23 @@ font-family: futura-pt;
 font-weight: 200;
 /* letter-spacing: 2px; */
 font-size: 16px; 
-margin-bottom: 20px;
+
+text-align: center;
+padding: 20px;
+margin: auto;
+display: inline;
 }
+
 .hero {
-margin-bottom: 40px;
+margin-bottom: 20px;
 }
 
 .hero p {
-font-family: neue-haas-grotesk-display, sans-serif;
-font-weight: 200;
-letter-spacing: 2px;
-font-size: 18px;
-margin-bottom: 20px;
+  font-size: 1em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: work-sans;
+  color: black;
 }
 
 .herog p {
@@ -334,44 +359,44 @@ margin-bottom: 20px;
 .heroabout p {
 font-family: neue-haas-grotesk-display, sans-serif;
 font-weight: 200;
-letter-spacing: 2px;
-font-size: 16px;
+font-size: 14px;
 margin-bottom: 20px;
+color: black;
 }
 
 .heroabout p strong{
+
 font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-shadow: 1px 1px 4px rgb(199, 199, 199);
-  font-size: 19px;
-  margin-bottom: 20px;
+font-weight: 200;
+font-size: 14px;
+margin-bottom: 20px;
+color: black;
 }
 
 .hero p strong{
-font-family: neue-haas-grotesk-display, sans-serif;
-font-weight: 500;
-letter-spacing: 2px;
-text-shadow: 1px 1px 4px rgb(199, 199, 199);
-font-size: 19px;
-margin-bottom: 20px;
+
+  font-size: 1.1em;
+  line-height: 1.6;
+  font-weight: 500;
+  font-family: work-sans;
+  color: #415161;
 }
 .herog ul strong{
-font-family: neue-haas-grotesk-display, sans-serif;
+
+  font-size: 1.1em;
+  line-height: 1.6;
   font-weight: 500;
-  letter-spacing: 2px;
-  text-shadow: 1px 1px 4px rgb(199, 199, 199);
-  font-size: 17px;
-  margin-bottom: 20px;
+  font-family: work-sans;
+  color: #415161;
 }
 
 .hero li strong{
-font-family: neue-haas-grotesk-display, sans-serif;
-font-weight: 500;
-letter-spacing: 2px;
-text-shadow: 1px 1px 4px rgb(199, 199, 199);
-font-size: 16px;
-margin-bottom: 20px;
+
+  font-size: 1.1em;
+  line-height: 1.6;
+  font-weight: 500;
+  font-family: work-sans;
+  color: #415161;
 }
 
 
@@ -439,22 +464,6 @@ color: darkgrey;
 }
 
 /*folio*/
-.sec-brainstorming {
-position: relative;
-max-width: 100%;
-max-height: 100%;
-padding: 7em 0;
-color: black;
-background: #EDF9F9;
-background-size: cover;
-}
-
-.sec-brainstorming p {
-margin-top: 15px;
-font-size: 20px;
-
-letter-spacing: 2px;
-}
 
 .sec-brainstorming .row div{
 justify-content: space-evenly;
@@ -469,17 +478,18 @@ height: 23%
 position: relative;
 max-width: 100%;
 max-height: 100%;
-padding: 3em 0;
+padding: 1em 0;
 color: black;
 background: white;
 background-size: cover;
 }
 
 .sec-inspirations p {
-margin-top: 15px;
-font-size: 20px;
-
-letter-spacing: 2px;
+  font-size: 1em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: work-sans;
+  color: black;
 }
 
 .sec-inspirations .row div{
@@ -499,28 +509,6 @@ font-style: italic;
 
 
 
-/* design */
-
-.sec-design {
-position: relative;
-max-width: 100%;
-max-height: 100%;
-color: white;
-background: #192965;
-background-size: cover;
-}
-
-.sec-design p {
-margin-top: 15px;
-font-size: 20px;
-
-letter-spacing: 2px;
-}
-
-.sec-design .row div{
-justify-content: space-evenly;
-height: 23%
-}
 
 
 
@@ -600,9 +588,11 @@ color: black;
 }
 
 .sec-learned p {
-font-family: neue-haas-grotesk-display, sans-serif;
-font-size: 20px;
-letter-spacing: 2px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: work-sans;
+  color: #415161;
 }
 
 
@@ -724,16 +714,25 @@ letter-spacing: 2px;
 }
 
 .button {
-font-size: 16px;
+font-size: 12px;
 border-style: solid;
-border-color: grey;
+color: cornflowerblue;
+border-color: cornflowerblue;
 border-radius: 6px;
 padding-left: 40px;
 padding-right: 40px;
 padding-top: 10px;
 padding-bottom: 10px;
 border-width: 1px;
-margin: 40px;
+margin: auto;
+text-align: center;
+}
+
+.button:hover{
+background-color: cornflowerblue;
+color:white;
+text-decoration: none;
+
 }
 
 .reelphoto{
@@ -801,7 +800,7 @@ body{
   }
 
 
-  .desktopNav a:hover, #social-icons a:hover, header a:hover, body a:hover, .sec-writing a:hover{
+  .desktopNav a:hover, #social-icons a:hover, header a:hover,  .sec-writing a:hover{
     -webkit-animation:rainbow 1s infinite;
     -ms-animation:rainbow 1s infinite;
     -o-animation:rainbow 1s infinite;

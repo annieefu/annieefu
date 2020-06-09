@@ -15,37 +15,41 @@ $art = "notcurrentpage";
 <?php include("includes/header.php"); ?>
 <body class="home">
 <div class="bodybin">
-<h2 class="heading container space">Designing & Developing a Buddhist Pali Reader</h2>
-</div><div class="container">
-<hr width= "100%" class="border03"></div>
-<div class = "container hero">
-      <div class="row">
-        <div class="col-lg-6">
-<p> This semester, I worked with Sirimangalo International to build and refine two iterations of their Digital Pali Reader. </p>
-<p>I learned a great deal about working on UX in teams, tried my hand in React for efficient developing, and got a taste of the Pali language. 
-    <ul class="hero-deets">
+<h2 class="headingEDIT container space">Buddhist Pali Reader</h2>
+</div>
+<ul class="hero-deets">
 <li><strong>Organization:</strong> Sirimangalo International</li>
 <li><strong>My Role:</strong> UX/UI Designer, Frontend Developer</li>
-<li><strong>Tools:</strong> HTML/CSS, Javascript, User Testing</li>
 </ul>
+
+<div class="container text-center">
+</br>
+<a class="button" target="_blank" href="
+https://www.digitalpalireader.online/_dprhtml/index.html">INTERACT WITH APP</a>
+
+
+
+<img src="/images/siri_3.png" class = "mini-image2" alt="multiple devices"></img>
+</div></br></br>
+<div class = "container hero">
+        
+      <div class="row">
+        <div class="col-lg-8">
+<p> This semester, I worked with Sirimangalo International to build and refine two iterations of their Digital Pali Reader. </p>
+<p>I learned a great deal about working on UX in teams, tried my hand in React for efficient developing, and got a taste of the Pali language. 
+    
 </p>
 
-<p class="halfspace">
-<a class="button rainbow" target="_blank" href="
-https://www.digitalpalireader.online/DPRHTML/index.html">Try the Reader!</a>
-
-</p>
 </div>
-        <div class="col-lg-6">
+
+
+</div>
+<div class="row">
+
+<div class="col-lg-8">
 <img src="/images/pali.png" class = "hero-img" alt="A lot of Pali text"></img>
 </div>
-
-
 </div>
-
-
-
-
 
 </body>
 <?php include("includes/footer.php"); ?>
