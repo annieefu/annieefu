@@ -19,7 +19,7 @@ $art = "notcurrentpage";
 <ul class="hero-deets">
 <li><strong>Course:</strong> ARCH 3620: Visual Imaging in the Electronic Age</li>
 <li><strong>Role:</strong> Interaction Designer</li>
-<li><strong>Duration:</strong> 2 weeks</li></br>
+<li><strong>Duration:</strong> 2 weeks</li>
 <li><strong>Tools:</strong> Unreal Engine, Valve, Oculus</li>
 <li><strong>Team Members:</strong> Yaoyao Ma (Developer), Alex Kyaw (Modeller)</li>
 </ul>
@@ -33,46 +33,39 @@ $art = "notcurrentpage";
 
 <div class = "container hero">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-8 col-md-12 col-xs-12">
 <p> In Fall of 2019, I collaborated with my friends Alex and Yaoyao to bring one my favorite pieces of literature to Virtual Reality: <strong>The Library of Babel by Jorge Luis Borges.</strong>
 </ul>
 </p>
 </div>
-</div>
+        <div class="col-lg-8 col-md-12 col-xs-12">
 
 
   <section id="services" class="sec-inspirations sec">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
           <h1>The Prompt</h1>
           <hr />
         </div>
-    <div class="container-fluid">
+        <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-8 col-lg-8">
+        <div class="col-lg-8 col-md-12 col-xs-12">
           <p>Our professor challenged us to design a virtual reality experience that <strong>organically displayed a collection of 
               3D Models</strong> we had rendered in previous assignments, including a hollowed log of petrified wood. The virtual space needed to
               allow users to see the models from any angle and interact with their contents in a meaningful way.</div>
         </div>
-      </div>
 
+      </section>
     </div>
-  </section>
 
-
-
+      <div class="row">
+        <div class="col-lg-8 col-md-12 col-xs-12text-left">
 
   <section id="brainstorming" class="sec-inspirations sec">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 text-left">
           <h1>Brainstorming</h1>
         </div>
       </div>
-    <div class="container-fluid">
+
       
-      <div class="row">
+      <div class="row halfspace">
         <div class="col-xs-12 col-md-4 text-left">
 
           <p class="text-center"> 1</p>
@@ -103,33 +96,33 @@ $art = "notcurrentpage";
       </div>
 <div class = "row">
 
-<div class="col-xs-12 col-md-8">
+<div class="col-xs-12 col-md-12 col-lg-8">
           <p>We decided to pursue <strong>option three,</strong> since it excited us the most, contained more flexibility for implementing interactivity, and sparked thought of how media will progress past the status quo.</div>
 </div>
 </div>
       </div>
-    </div>
+
   </section>
+    </div>
 
 
 
   <section id="inspirations" class="sec-inspirations sec">
-    <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-8 col-lg-8 text-left">
+        <div class="col-xs-12 col-md-12 col-lg-8 text-left">
           <h1>Inspirations</h1>
-          <hr />
         </div>
       </div>
-    <div class="container-fluid margin">
-
+      <div class="row">
+    <div class="col-xs-12 col-md-12 col-lg-8 halfspace">
+      
     <q> The library will endure; it is the universe. As for us, everything has not been written; we are not turning into phantoms. 
       We walk the corridors, searching the shelves and rearranging them, looking for lines of 
       meaning amid leagues of cacophony and incoherence, reading the history of the past and our future, 
       collecting our thoughts and collecting the thoughts of others, and every so often glimpsing mirrors, 
       in which we may recognize creatures of the information.</q><p class="text-right author"> - Jorge Luis Borges, <em>The Library of Babel</em></p>
 </div>
-      
+</div> 
       <div class="row">
         <div class="col-xs-12 col-md-4 text-left">
 
@@ -163,10 +156,6 @@ $art = "notcurrentpage";
           </p><br>
         </div>
       </div>
-</div>
-</div>
-</div>
-</section>
 
 
 
@@ -178,9 +167,7 @@ $art = "notcurrentpage";
 
 
 <section id="design" class="sec-inspirations  sec">
-<div class="container">
-      <div class="row ">
-      
+      <div class="row">
         <div class="col-xs-12 col-lg-8 col-md-8">
           <h1>Our Design</h1>
           <hr color="white"/>
@@ -207,7 +194,6 @@ $art = "notcurrentpage";
             </div>
 
           </div>
-      </div> 
 
  <!-- ROW -->
 
@@ -256,10 +242,9 @@ $art = "notcurrentpage";
                       </div>
 
 
-<div class="container">
         <div class="row space">
 
-                <div class="col-xs-6 col-md-8 col-lg-8">
+                <div class="col-xs-12 col-md-12 col-lg-8">
 
                         <h3> Engineered Virtual Interactions</h3>
                         <p>Using the Unreal Engine's <strong>Blueprint </strong>programming interface and <strong>C++</strong> programming language, each world
@@ -270,7 +255,7 @@ $art = "notcurrentpage";
                         </p>
                 </div>
 
-                <div class="col-xs-6 col-md-8 col-lg-8">
+                <div class="col-xs-12 col-md-12 col-lg-8">
                       <img src="images/work.jpg" class="portfolio-img" alt="two people intensely working at a laptop"></img>
                         
                 </div>
@@ -313,7 +298,7 @@ $art = "notcurrentpage";
             </div>
 
             </div>
-    <div class="space"></div>
+    <div class="space">
   </section>
 
 
@@ -321,14 +306,12 @@ $art = "notcurrentpage";
 
 
   <section id="learned" class="sec-inspirations sec">
-  <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-8 col-xs-8">
           <h1 >What I Learned</h1>
           <hr />
         </div>
       </div>
-    <div class="container">
 
     <div class="row">
         <div class="col-xs-12 col-md-8 col-md 8">
@@ -387,14 +370,12 @@ we imagined, and lots of our debugging revolved around <strong>making items appe
 
 
   <section id="services" class="sec-inspirations sec">
-    <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-8 col-xs-12">
           <h1>Moving Forward</h1>
           <hr color="white"/>
         </div>
       </div>
-    <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-8 col-lg-8">
           <p>As one of the most interdisciplinary and challenging projects I've completed, the skills and resources I gained
@@ -411,32 +392,9 @@ we imagined, and lots of our debugging revolved around <strong>making items appe
         
         </div>
         </div>
-      </div>
-
+      
     </div>
   </section>
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

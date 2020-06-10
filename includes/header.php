@@ -42,13 +42,13 @@
 
  <nav class="navbar-expand-lg navbar-light desktopNav">
 
- <button onClick="myFunction()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ <!-- <button onClick="myFunction()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
-</button>
+</button> -->
 <div id="myDropdown" class="dropdown-content">
 </div>
 
-    <div class="collapse navbar-collapse block" id="navbarSupportedContent">
+    <!-- <div class="collapse navbar-collapse block" id="navbarSupportedContent"> -->
       <div class="navwrap">
       <ul class="container center2">
         <li class="headerlink <?php echo ($projects); ?>"> <a href="index.php">projects</li></a>
@@ -62,7 +62,7 @@
         <li class="rainbow <?php echo ($about); ?>"><a href="aboutme.php">about</li></a>
       </ul>
 </div>
-    </div>
+    <!-- </div> -->
 
   </nav>
 

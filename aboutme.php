@@ -160,23 +160,16 @@ $('#link7').hover(function(){
 
 
 <body class="home">
-<h2 class="headingabout container">About Me
-    <a href="mailto:af397@cornell.edu" class="aboutnav fas fa-envelope sm fa-fw" target="_blank" ></a>
-    <a href="https://linkedin.com/in/annie--fu/" class="aboutnav fab fa-linkedin sm fa-fw" target="_blank"></a>
-    <a href="https://medium.com/@annie99fu" class="fab fa-medium-m med fa-fw" target="_blank"></a>
-    <!-- <a href="https://instagram.com/annieefu" class="fab fa-instagram med fa-fw" target="_blank"></a> -->
-    <a href="https://twitter.com/annieefu" class="fab fa-twitter med fa-fw" target="_blank"></a>
-</h2>
-<div class="container">
-<hr width= "100%" class="border03"></div>
 <div class = "container heroabout">
       <div class="row">
         <div class="col-sm-12 col-lg-8">
-<p> Hello! Welcome to my work. I'm a designer and developer who enjoys using code and creativity 
-    to enrich the human experience. I believe well-designed technology holds the capability to <strong>heal, strengthen, and educate communities.</strong></p>
+<p> Hello! Welcome to my work. I'm a data-oriented developer and designer who enjoys using code and creativity 
+    to enrich the human experience. I believe well-designed technology holds the capability to heal, strengthen, and educate communities.</p>
+<p> I'm currently working for <strong> Weill Cornell Medicine </strong> as a Data Management Intern and the <strong> Cornell Sustainability Office</strong> as an Energy Data Coordinator.</p>
+
 
     <p>My work is often inspired by my favorite <strong> <a href="#" id="link1" class="hoverlink"> literature,</a>
-    <a href="#" id="link2" class="hoverlink"> artists,</a> and <a href="#" id="link3" class="hoverlink">my friends and family.</a></strong></p>
+    <a href="#" id="link2" class="hoverlink"> visual art,</a> </strong>and<strong> <a href="#" id="link3" class="hoverlink">friends and family.</a></strong></p>
     
 
 <p> In my free time, I like to <strong><a href="#" id="link4" class="hoverlink">run,</a> <a href="#" id="link5" class="hoverlink"> shoot in 35mm,</a> <a href="#" id="link6" class="hoverlink"> play and teach piano, </a><a href="#" id="link7" class="hoverlink"> and draw.</a></strong></p>

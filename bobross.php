@@ -14,17 +14,18 @@ $art = "notcurrentpage";
 
 <?php include("includes/header.php"); ?>
 
-<body class="home">
+<body>
 
 <!-- <h2 class="heading container"> Designing to Unify Detroit's Transit System</h2> -->
-<div class="bodybin container">
-<p>
+<!-- <div class="bodybin container"> -->
 
-    <h2 class="heading special">Painted Prevalence of Natural Elements throughout Bob Ross: The Joy of Painting</h2>
-<div class="hero bodybin"><p>A visualization I made for INFO 3300: Data-Driven Web Applications.</p></div>
-    <p>
+    <h2 class="heading special">The Analytics of Painting: Visualizing Bob Ross</h2>
+<div class="hero bodybin"><p>A visualization I designed using d3.js, HTML, and CSS for INFO 3300: Data-Driven Web Applications. Depicts the frequency and
+    variety of different natural and man-made elements throughout 31 seasons of his paintings.
+</p></div>
+</body>
     <svg id="bobmap" width = "1165" height ="590" >
-</svg></p>
+</svg>
     <script>
 
 
@@ -604,21 +605,9 @@ layer.append("g")
 
 }
   drawBobmap();
-  
-  
-
-
-
-
-
 
     </script>
-</div>
-<br/>
-<br />
 
-
-</body>
 
 <?php include("includes/footer.php"); ?>
 </html>

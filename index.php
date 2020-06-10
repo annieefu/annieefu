@@ -57,6 +57,12 @@ $art = "notcurrentpage";
 <p class="project-subname"> COMPUTATIONAL RESEARCH</p>
     </div>
 
+    <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="bobross.php"><img class="project-img" src="images/bobross2.png" /></a>
+<span class="project-name">Bob Ross: The Analytics of Painting</span>
+<p class="project-subname">DATA VISUALIZATION</p>
+    </div>
+
 
     <div class="col-xs-4 col-md-4 col-lg-4">
     <a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/prop3.png" /></a>
@@ -64,13 +70,6 @@ $art = "notcurrentpage";
 <p class="project-subname"> PRODUCT DESIGN</p>
     </div>
 
-
-    <div class="col-xs-12 col-md-4 col-lg-4">
-    <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" > <img class="project-img" src="images/sustainablemob.png" /></a>
-
-    <span class="project-name">Sustainable Mobility</span>
-      <p class="project-subname"> INDUSTRIAL DESIGN, SYSTEMS ENGINEERING</p>
-    </div>
 
 
   </div>
@@ -89,6 +88,14 @@ $art = "notcurrentpage";
      <p class="project-subname">UX/UI DESIGN</p>
     </div>
 
+     
+    <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" > <img class="project-img" src="images/sustainablemob.png" /></a>
+
+    <span class="project-name">Sustainable Mobility</span>
+      <p class="project-subname"> INDUSTRIAL DESIGN, SYSTEMS ENGINEERING</p>
+    </div>
+
 
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="eco.php"><img class="project-img" src="images/ECO.PNG" /></a>
@@ -96,23 +103,19 @@ $art = "notcurrentpage";
 <p class="project-subname"> APPAREL DESIGN</p>
     </div>
 
+  
+
 
     
-    
+<!--     
     <div class="project2 col-xs-12 col-md-4 col-lg-4">
    
 <img src ="images/muirr.png" width="100%" alt="a quote from Muir."></img>
     </div>
   </div>
-</div>
+</div> -->
 
-
-<!-- <div class="project">
-    <a href="https://uxplanet.org/forsight-a-hackathon-case-study-on-accessible-design-fccb1bffdd5c" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/forsight.png" /></a>
-    <span class="project-name">Dear Cornell Freshmen,</span>
-      <p class="project-subname"> </p>
-  </div>  
-  
+<!--
 
   <div class="project">
     <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
