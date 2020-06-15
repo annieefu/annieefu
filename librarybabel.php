@@ -21,7 +21,7 @@ $art = "notcurrentpage";
 <li><strong>Role:</strong> Interaction Designer</li>
 <li><strong>Duration:</strong> 2 weeks</li>
 <li><strong>Tools:</strong> Unreal Engine, Valve, Oculus</li>
-<li><strong>Team Members:</strong> Yaoyao Ma (Developer), Alex Kyaw (Modeller)</li>
+<li><strong>Team Members:</strong> Yaoyao Ma (Developer), Alex Kyaw (Modeler)</li>
 </ul>
 
 <div class="container">
@@ -43,7 +43,6 @@ $art = "notcurrentpage";
 
   <section id="services" class="sec-inspirations sec">
           <h1>The Prompt</h1>
-          <hr />
         </div>
         <div class="container">
       <div class="row">
@@ -54,10 +53,9 @@ $art = "notcurrentpage";
         </div>
 
       </section>
-    </div>
 
       <div class="row">
-        <div class="col-lg-8 col-md-12 col-xs-12text-left">
+        <div class="col-lg-8 col-md-12 col-xs-12 text-left">
 
   <section id="brainstorming" class="sec-inspirations sec">
           <h1>Brainstorming</h1>
@@ -65,7 +63,7 @@ $art = "notcurrentpage";
       </div>
 
       
-      <div class="row halfspace">
+      <div class="row">
         <div class="col-xs-12 col-md-4 text-left">
 
           <p class="text-center"> 1</p>
@@ -114,7 +112,7 @@ $art = "notcurrentpage";
         </div>
       </div>
       <div class="row">
-    <div class="col-xs-12 col-md-12 col-lg-8 halfspace">
+    <div class="col-xs-12 col-md-12 col-lg-8">
       
     <q> The library will endure; it is the universe. As for us, everything has not been written; we are not turning into phantoms. 
       We walk the corridors, searching the shelves and rearranging them, looking for lines of 
@@ -170,7 +168,6 @@ $art = "notcurrentpage";
       <div class="row">
         <div class="col-xs-12 col-lg-8 col-md-8">
           <h1>Our Design</h1>
-          <hr color="white"/>
             <p> 
               Establishing that our library wanted to convey a sense of time converging in one spacial experience, we decided to <strong> split our design
               into three different areas, each representing a different era of media and technology.</strong> The walker travels freely through each of the realms and 
@@ -309,7 +306,6 @@ $art = "notcurrentpage";
       <div class="row">
         <div class="col-lg-8 col-md-8 col-xs-8">
           <h1 >What I Learned</h1>
-          <hr />
         </div>
       </div>
 
@@ -373,7 +369,6 @@ we imagined, and lots of our debugging revolved around <strong>making items appe
       <div class="row">
         <div class="col-lg-8 col-md-8 col-xs-12">
           <h1>Moving Forward</h1>
-          <hr color="white"/>
         </div>
       </div>
       <div class="row">

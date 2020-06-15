@@ -8,6 +8,12 @@ body{
   width: 100%;
 }
 
+
+h6{
+font-family: work-sans;
+font-size: 12px;
+}
+
 .center2{
   margin: auto;
   text-align: center;
@@ -98,6 +104,7 @@ box-shadow: 15px 15px 15px #333333;
 .halfspace {
   margin-top:35px;
 }
+
 
 .doublespace {
   margin-top:110px;
@@ -318,7 +325,7 @@ text-decoration: underline;
 .hero-deets {
 list-style: none;
 margin-left: 0px;
-margin-top: 35px;
+margin-top: 15px;
 text-align: center;
 }
 
@@ -331,7 +338,8 @@ font-weight: 200;
 font-size: 16px; 
 
 text-align: center;
-padding: 20px;
+padding-top: 15px;
+padding-right: 25px;
 margin: auto;
 display: inline;
 }
@@ -341,11 +349,11 @@ margin-bottom: 20px;
 }
 
 .hero p {
-  font-size: 1em;
+  font-size: 14px;
   line-height: 1.6;
   font-weight: 400;
   font-family: work-sans;
-  color: black;
+  color: #415161;
 }
 
 .herog p {
@@ -429,7 +437,7 @@ margin-bottom: 15px;
 }
 
 .sec p {
-font-size: 25px;
+font-size: 14px;
 
 font-family: neue-haas-grotesk-display, sans-serif;
 /* font-family: open-sans, sans-serif; */
@@ -447,10 +455,11 @@ width: 50px;
 }
 
 .sec h1 {
-/* font-family: Georgia, 'Times New Roman', Times, serif; */
-font-family: neue-haas-grotesk-display, sans-serif;
+  font-size: 1.4rem;
+font-family: work-sans;
 font-weight: 400;
-
+margin-bottom: 12px;
+color: #415161;
 }
 
 /* .sec h2 {
@@ -459,7 +468,7 @@ margin: 1em 0;
 
 .sec h3 {
 font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 22px;
+font-size: 1.2rem;
 color: darkgrey;
 }
 
@@ -478,18 +487,17 @@ height: 23%
 position: relative;
 max-width: 100%;
 max-height: 100%;
-padding: 1em 0;
 color: black;
 background: white;
 background-size: cover;
 }
 
 .sec-inspirations p {
-  font-size: 1em;
+  font-size: .9em;
   line-height: 1.6;
   font-weight: 400;
   font-family: work-sans;
-  color: black;
+  color: #415161;
 }
 
 .sec-inspirations .row div{
@@ -499,19 +507,12 @@ height: 23%
 
 .sec-inspirations q{
 font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 18px;
+font-size: 15px;
 color: #605D63;
 text-align: left;
 font-style: italic;
 
 }
-
-
-
-
-
-
-
 
 
 .margin {
@@ -522,7 +523,7 @@ padding-right: 22%;
 .sec-inspirations .author{
 text-align: right;
 letter-spacing: 0px;
-font-size: 18px;
+font-size: 16px;
 color: darkgrey;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -1047,7 +1048,7 @@ padding:10px;
 .hero-deets {
   list-style: none;
   margin-left: 0px;
-  margin-top: 35px;
+  margin-top: 15px;
   text-align: center;
   }
   
@@ -1055,7 +1056,7 @@ padding:10px;
   .hero-deets li{
   font-family: futura-pt;
   font-weight: 200;
-  font-size: 16px; 
+  font-size: 17px; 
   text-align: center;
   display: inline-block;
   }
@@ -1312,7 +1313,7 @@ margin: 0px;
 .hero-deets {
   list-style: none;
   margin-left: 0px;
-  margin-top: 35px;
+  margin-top: 25px;
   text-align: center;
   padding: 0px;
   }

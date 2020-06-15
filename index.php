@@ -22,7 +22,7 @@ $art = "notcurrentpage";
 
     
     <div class="col-xs-4 col-md-4 col-lg-4">
-    <a href="https://medium.com/@annie99fu/forsight-proactively-refining-ux-design-to-prioritize-accessibility-5e42c2da0370?source=friends_link&sk=cfb8e9891c501f7b701d550757d82006" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/iMac-Pro-Mockup.png" /></a>
+    <a href="https://medium.com/@annie99fu/forsight-proactively-refining-ux-design-to-prioritize-accessibility-5e42c2da0370?source=friends_link&sk=cfb8e9891c501f7b701d550757d82006" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/iMac-Pro-Mockup2.png" /></a>
     <span class="project-name">Forsight: Hacking for Accessible Design</span>
       <p class="project-subname">UX DESIGN, FRONT-END</p>
     </div>
@@ -65,7 +65,7 @@ $art = "notcurrentpage";
 
 
     <div class="col-xs-4 col-md-4 col-lg-4">
-    <a href="https://uxplanet.org/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26?source=friends_link&sk=662cadea6d4c740eee01d57a61b23040" target="_blank"><img class="project-img" src="images/prop3.png" /></a>
+    <a href="propertypal.php"><img class="project-img" src="images/prop3.png" /></a>
 <span class="project-name">PropertyPal: Student Housing</span>
 <p class="project-subname"> PRODUCT DESIGN</p>
     </div>

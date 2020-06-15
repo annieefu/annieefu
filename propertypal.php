@@ -2,76 +2,93 @@
 // DO NOT REMOVE!
 include("includes/init.php");
 // // DO NOT REMOVE!
+
+
 $projects = "currentpage";
 $writing = "notcurrentpage";
 $resume = "notcurrentpage";
-$about="notcurrentpage";
+$about = "notcurrentpage";
 $art = "notcurrentpage";
 ?>
 
 
-
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="styles/all.css">
-
-  <!-- <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/> -->
-  <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://use.typekit.net/opt0ipj.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-  <title>Annie Fu</title>
-
-</head>
+<?php include("includes/header.php"); ?>
 
 <body class="home">
-<?php include("includes/header.php"); ?>
-<div class="bodybin">
-<h2 class="heading"> PropertyPal: Step-wise Refinement through Ithaca's Affordable Housing Crisis</h2>
-</div>
-<!-- <hr width = "80%" class ="line"/> -->
-<hr width= "80%" class="border03">
-<div class = "hero bodybin">
-<div class ="hero-left">
-<p> <ul class="hero-deets">
-<li>Read full case study on<a href="https://medium.com/@annie99fu/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26" class="red"> Medium</a></li>
-</ul>
-</p><p>
-    <ul class="hero-deets">
+    <div class="container hero">
+        <div class="bodybin">
+            <h2 class="headingEDIT space">PropertyPal: Designing for Ithaca Tenants</h2>
+        </div>
 
+        <ul class="hero-deets">
 <li><strong>My Role:</strong> UI/UX Designer, Copywriter</li>
 <li><strong>Tools:</strong> Pen + Paper, Balsamiq, Figma, Sketch</li>
 <li><strong>Team Members:</strong> Brady Dickens, Valentin Porcellini, Yiqing Luo</li>
+</ul>
+
+<div class="text-center halfspace">
+<a class="button" target="_blank" href="
+https://medium.com/@annie99fu/propertypal-step-wise-refinement-through-ithacas-affordable-housing-crisis-190430e62b26">View Full Case Study</a>
+</div>
+            <div class="row hero halfspace">
+                <div class="col-lg-8 col-md-12 col-xs-12">
+                <img src="/images/prop_banner.png" class = "hero-img" alt="a multi-screen preview of different panels of the app"></img>
+
+                </div></div>
+                <div class="row halfspace">
+        <div class="col-lg-8 col-md-12 col-xs-12">
+
+
+  <section id="services" class="sec-inspirations sec">
+          <h1>Overview</h1>
+        </div>
+        <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-12 col-xs-12">
+          <p>This past fall, my team’s Human-Computer Interaction Design course challenged us to design for communities. 
+            Our design needed to be both <strong>significant</strong> — improving the lives of those in our chosen community, and <strong>practical</strong> —
+             meaning we needed direct access to individuals in our community in order to best design and evaluate our 
+             product for them.</p>
+<p>
+
+Imagine you're an international student, excited because you just got off the waitlist to attend Cornell in the fall. It's already May, though,
+and you need to find reliable, safe, comfortable housing and you don't know where to start. Cornell has some resources, but not many. It looks like it's all up to you.
+
 </p>
-</div>
-<div class = "hero-middle"></div>
-<div class = "hero-right">
-<img src="/images/iMac-Pro-Mockup.png" class = "hero-img" alt="a picture of detroit's department of transportation logo"></img>
-</div>
+             </div>
+
+        </div>
+
+        <div class="row halfspace" style="margin-bottom:2%; padding-left:8%; padding-right:15%;">
+        <div class="col-lg-3 col-md-3 col-xs-3" style="border-right: 3px solid cornflowerblue;">
+        <h6 style="text-align:right" >PROBLEM </br>STATEMENT</h6>
+        </div>
+        <div class="col-lg-9 col-md-9 col-xs-9" ><p>
+        Cornell international students want to secure reliable, affordable housing that fits their needs. However, they cannot do that because:  <br><br>1)
+         They don't have a single, complete platform that lists available units according to their preferences. </br><br>
+         2) The leasing process is unfamiliar and opaque. They often get caught in exploitative housing relationships.</p></div>    
+        </div>
+
+      </section>
 
 
 
 
 
-</div>
+      
+           
+           
+           
+           
+           
+           
+           
+           
+              </div>
 
 
-<div class = "content1 bodybin">
-
-
-
-</div>
-
-
-
-
-
-
+    </div>
 </body>
 <?php include("includes/footer.php"); ?>
+
 </html>
