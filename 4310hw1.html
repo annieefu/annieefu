@@ -1,0 +1,661 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <title>af397 HW1 INFO 4310</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/default.min.css">
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+      <script src="https://d3js.org/d3.v5.min.js"></script>
+      <script src="https://d3js.org/topojson.v2.min.js"></script>
+
+      
+      <style>
+    
+      .neighborhood {
+        fill: rgba(34, 63, 124, 0.788);
+        stroke: rgba(99, 165, 209, 0.733);
+        stroke-width: 2px;
+      }
+
+      .h1 {
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      b{
+          font-size: 28px;
+          font-family: Cormorant-Garamond;
+      }
+
+body{
+    background-color: #043a44;
+}
+strong{
+    color: rgba(243, 104, 104, 0.959)
+}
+    
+      </style>
+    
+    </head>
+    <body>
+
+<h1 style="font-family: Raleway; text-align: left; color: whitesmoke; font-size: 45; padding-left: 35px; padding-top: 35px;"> The San Francisco Heritage Tree Walk</h1>
+<p style="font-family: Open Sans; color: white; font-size: 16px; margin-top: -6px; margin-left: 20px; width: 860px; margin-bottom: 15px; padding-left: 35px;"><b> heritage tree: <i>noun. </i></b> Typically a large, individual tree with unique value, which is considered <strong>irreplaceable.</strong> 
+From a dataset of 50,000 trees, these trees had some of the largest DBH (Diameter at Breast Height) and no more than 7 of their species across all of San Francisco, qualifying them as heritage trees.</p>
+
+      <div class="container larger" style = "margin: 50px;">
+        
+      <svg id="tree1" height="220" width="220" style=" position: absolute; margin-left: 190px; margin-top: 20px; border-radius: 10px;"></svg>
+      <svg id="tree2" height="220" width="250" style=" position: absolute; margin-left: 55px; margin-top: 260px; border-radius: 10px;"></svg>
+      <svg id="tree3" height="220" width="280" style=" position: absolute; margin-left: 0px; margin-top: 525px; border-radius: 10px;"></svg>
+      <svg id="tree4" height="220" width="220" style=" position: absolute; margin-left: 190px; margin-top: 715px; border-radius: 10px;"></svg>
+      <svg id="tree5" height="220" width="220" style=" position: absolute; margin-left: 458px; margin-top: 670px; border-radius: 10px;"></svg>
+      <svg id="tree6" height="220" width="270" style=" position: absolute; margin-left: 780px; margin-top: 688px; border-radius: 10px;"></svg>
+      <svg id="tree7" height="220" width="270" style=" position: absolute; margin-left: 878px; margin-top: 435px; border-radius: 10px;"></svg>
+      <svg id="tree8" height="240" width="220" style=" position: absolute; margin-left: 840px; margin-top: 248px; border-radius: 10px;"></svg>
+      <svg id="tree9" height="220" width="260" style=" position: absolute; margin-left: 765px; margin-top: -40px; border-radius: 10px;"></svg>
+      <svg id="tree10" height="220" width="260" style=" position: absolute; margin-left: 470px; margin-top: 14px; border-radius: 10px;"></svg>
+    
+      <svg id="treemap" height="500" width="500" style=" margin-left: 332px; margin-bottom: 250px; margin-top: 180px;position: relative;" > 
+    </svg>
+
+      <script id="notes1">
+    
+      const svg = d3.select("#treemap");
+      const width = svg.attr("width");
+      const height = svg.attr("height");
+      const margin = { top: 20, right: 20, bottom: 20, left:20};
+      const mapWidth = width - margin.left - margin.right;
+      const mapHeight = height - margin.top - margin.bottom;
+
+      const map = svg.append("g")
+                      .attr("transform","translate("+margin.left+","+margin.top+")");
+    
+    
+      const requestData = async function() {
+        
+        const sf = await d3.json("SF-Neighborhoods.geo.json");
+        console.log(sf);
+        
+        var neighborhoods = topojson.feature(sf, sf.objects.SFNeighborhoods);
+        
+        var projection = d3.geoMercator().fitSize([mapWidth, mapHeight], neighborhoods);
+        var path = d3.geoPath().projection(projection);
+        
+        map.selectAll("path.neighborhood").data(neighborhoods.features)
+          .join("path")
+          .attr("class", "neighborhood")
+          .attr("d", path);
+          
+          
+        const trees = await d3.csv("walking_update.csv");
+        console.log(trees);
+        console.log(trees[2])
+
+
+        var node = svg.selectAll("g")
+                .data(trees)
+                .enter()
+                .append("g");
+
+        
+
+    var nodes = svg.selectAll("g")
+                .data(trees)
+                .append("g");
+
+
+        
+        trees.forEach( d => {
+          d.Position = projection( [d.Longitude, d.Latitude] );
+          
+        });
+
+        colorScale = d3.scaleOrdinal(d3.schemeDark2.map( color => d3.interpolateRgb(color, "#fff")(0) ));
+    
+
+
+        node.append("text")
+            .attr("x", d => (d.Position[0])-20*1.1)
+            .attr("y", d => (d.Position[1])+10)
+            .text(d => d.index)
+            .attr("font-family", "Raleway")
+            .attr("margin", "4px")
+            .attr("font-size", "20")
+            .attr("font-weight", 700)
+            .attr("fill", "rgba(243, 104, 104, 0.959)");
+
+
+
+
+  // line generator
+  var lineGen = d3.line()
+                  .x( d => (d.Position[0]+2.1*d.index) )
+                  .y( d => (d.Position[1]) )
+                  .curve(d3.curveCatmullRom);
+
+
+  // appending paths
+  node.append("path")
+           .datum(trees)
+           .attr("class", "line")
+           .style("stroke-dasharray", ("8, 5"))
+           .attr("fill", "none")
+           .attr("stroke", "rgba(243, 104, 104, 0.959)")
+           .attr("stroke-width", 2.5)
+           .attr("d", lineGen);
+
+
+        node.selectAll("circle").data(trees)
+           .join("circle")
+           .attr("r", 8)
+           .attr("stroke-width", 3)
+           .attr("stroke", "whitesmoke")
+           .attr("fill", "rgba(243, 104, 104, 0.959)")
+           .attr("opacity", 1)
+           .attr("border-style", "solid")
+           .attr("border-radius", "3px")
+           .attr("cx", d => (d.Position[0]+2.1*d.index))
+           .attr("cy", d => d.Position[1]);
+
+
+
+
+        //    BOXES
+    
+
+
+            var svg1 = d3.select("#tree1").data(trees);
+                svg1.append("svg:image")
+                .attr('x', 67)
+                .attr('y', 68)
+                .attr('width', 150)
+                .attr('height', 150)
+                .attr('opacity', 1)
+                .attr("xlink:href", "douglas.png");
+                svg1.append("text")
+                .attr("x", -5)
+                .attr("y", 56)
+                .text(d=>d.index)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "65")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg1.append("text")
+                .attr("x", 45)
+                .attr("y", 31)
+                .text(d=>d.qSpecies)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "20")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg1.append("text")
+                .attr("x", 45)
+                .attr("y", 51)
+                .text(d => d.qAddress)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+                svg1.append("text")
+                .attr("x", 45)
+                .attr("y", 71)
+                .text(d => "DBH: " + String(d.DBH) + " in.")
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+
+
+
+
+                var svg2 = d3.select("#tree2").datum(trees[1]);
+                svg2.append("svg:image")
+                .attr('x', -15)
+                .attr('y', 55)
+                .attr('width', 175)
+                .attr('height', 175)
+                .attr('opacity', 1)
+                .attr("xlink:href", "sweetgum.png");
+                svg2.append("text")
+                .attr("x", -4)
+                .attr("y", 55)
+                .text(d=>d.index)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "65")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg2.append("text")
+                .attr("x", 49)
+                .attr("y", 45)
+                .text(d=>d.qSpecies)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "20")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg2.append("text")
+                .attr("x", 119)
+                .attr("y", 70)
+                .text(d => d.qAddress)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+                svg2.append("text")
+                .attr("x", 149)
+                .attr("y", 88)
+                .text(d => "DBH: " + String(d.DBH) + " in.")
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+
+
+
+                var svg3 = d3.select("#tree3").datum(trees[2]);
+                svg3.append("svg:image")
+                .attr('x', -56)
+                .attr('y', 65)
+                .attr('width', 230)
+                .attr('height', 190)
+                .attr('opacity', 1)
+                .attr("xlink:href", "date3.png");
+                svg3.append("text")
+                .attr("x", 145)
+                .attr("y", 105)
+                .text(d=>d.index)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "65")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg3.append("text")
+                .attr("x", -2)
+                .attr("y", 20)
+                .text(d=>d.qSpecies)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "20")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg3.append("text")
+                .attr("x", -1)
+                .attr("y", 45)
+                .text(d => d.qAddress)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+                svg3.append("text")
+                .attr("x", -1)
+                .attr("y", 68)
+                .text(d => "DBH: " + String(d.DBH) + " in.")
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+
+
+
+                var svg4 = d3.select("#tree4").datum(trees[3]);
+                svg4.append("svg:image")
+                .attr('x', -45)
+                .attr('y', 25)
+                .attr('width', 250)
+                .attr('height', 200)
+                .attr('opacity', 1)
+                .attr("xlink:href", "fan.png");
+                svg4.append("text")
+                .attr("x", 0)
+                .attr("y", 35)
+                .text(d=>d.index)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "65")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg4.append("text")
+                .attr("x", 36)
+                .attr("y", 15)
+                .text(d=>d.qSpecies)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "20")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg4.append("text")
+                .attr("x", 119)
+                .attr("y", 43)
+                .text(d => d.qAddress)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+                svg4.append("text")
+                .attr("x", 132)
+                .attr("y", 61)
+                .text(d => "DBH: " + String(d.DBH) + " in.")
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+
+
+
+
+                var svg5 = d3.select("#tree5").datum(trees[4]);
+                svg5.append("svg:image")
+                .attr('x', 45)
+                .attr('y', 28)
+                .attr('width', 250)
+                .attr('height', 200)
+                .attr('opacity', 1)
+                .attr("xlink:href", "fan.png");
+                svg5.append("text")
+                .attr("x", 15)
+                .attr("y", 95)
+                .text(d=>d.index)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "65")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg5.append("text")
+                .attr("x", 5)
+                .attr("y", 210)
+                .text(d=>d.qSpecies)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "20")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg5.append("text")
+                .attr("x", 10)
+                .attr("y", 153)
+                .text(d => d.qAddress)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+                svg5.append("text")
+                .attr("x", 10)
+                .attr("y", 171)
+                .text(d => "DBH: " + String(d.DBH) + " in.")
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+
+
+
+
+
+
+
+
+
+                var svg6 = d3.select("#tree6").datum(trees[5]);
+                svg6.append("svg:image")
+                .attr('x', 95)
+                .attr('y', 40)
+                .attr('width', 150)
+                .attr('height', 150)
+                .attr('opacity', 1)
+                .attr("xlink:href", "bloodgood.png");
+                svg6.append("text")
+                .attr("x", 5)
+                .attr("y", 65)
+                .text(d=>d.index)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "65")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg6.append("text")
+                .attr("x", 5)
+                .attr("y", 210)
+                .text(d=>d.qSpecies)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "20")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg6.append("text")
+                .attr("x", 10)
+                .attr("y", 163)
+                .text(d => d.qAddress)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+                svg6.append("text")
+                .attr("x", 10)
+                .attr("y", 181)
+                .text(d => "DBH: " + String(d.DBH) + " in.")
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+
+
+
+
+
+
+
+
+
+
+                var svg7 = d3.select("#tree7").datum(trees[6]);
+                svg7.append("svg:image")
+                .attr('x', 85)
+                .attr('y', 25)
+                .attr('width', 150)
+                .attr('height', 150)
+                .attr('opacity', 1)
+                .attr("xlink:href", "bloodgood.png");
+                svg7.append("text")
+                .attr("x", 5)
+                .attr("y", 85)
+                .text(d=>d.index)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "65")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg7.append("text")
+                .attr("x", 5)
+                .attr("y", 210)
+                .text(d=>d.qSpecies)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "20")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg7.append("text")
+                .attr("x", 5)
+                .attr("y", 163)
+                .text(d => d.qAddress)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+                svg7.append("text")
+                .attr("x", 5)
+                .attr("y", 181)
+                .text(d => "DBH: " + String(d.DBH) + " in.")
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+
+
+
+
+
+
+
+                var svg8 = d3.select("#tree8").datum(trees[7]);
+                svg8.append("svg:image")
+                .attr('x', -47)
+                .attr('y', -10)
+                .attr('width', 225)
+                .attr('height', 225)
+                .attr('opacity', 1)
+                .attr("xlink:href", "bay.png");
+                svg8.append("text")
+                .attr("x", 180)
+                .attr("y", 165)
+                .text(d=>d.index)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "65")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg8.append("text")
+                .attr("x", 83)
+                .attr("y", 15)
+                .text(d=>d.qSpecies)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "20")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg8.append("text")
+                .attr("x", 95)
+                .attr("y", 38)
+                .text(d => d.qAddress)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+                svg8.append("text")
+                .attr("x", 130)
+                .attr("y", 54)
+                .text(d => "DBH: " + String(d.DBH) + " in.")
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+
+
+
+
+                var svg9 = d3.select("#tree9").datum(trees[8]);
+                svg9.append("svg:image")
+                .attr('x', 48)
+                .attr('y', 12)
+                .attr('width', 300)
+                .attr('height', 200)
+                .attr('opacity', 1)
+                .attr("xlink:href", "soap2.png");
+                svg9.append("text")
+                .attr("x", 5)
+                .attr("y", 170)
+                .text(d=>d.index)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "65")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg9.append("text")
+                .attr("x", 5)
+                .attr("y", 54)
+                .text(d=>d.qSpecies)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "20")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg9.append("text")
+                .attr("x", 5)
+                .attr("y", 84)
+                .text(d => d.qAddress)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+                svg9.append("text")
+                .attr("x", 5)
+                .attr("y", 106)
+                .text(d => "DBH: " + String(d.DBH) + " in.")
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+
+
+
+                var svg10 = d3.select("#tree10").datum(trees[9]);
+                svg10.append("svg:image")
+                .attr('x', -5)
+                .attr('y', 45)
+                .attr('width', 200)
+                .attr('height', 200)
+                .attr('opacity', 1)
+                .attr("xlink:href", "beech2.png");
+                svg10.append("text")
+                .attr("x", 0)
+                .attr("y", 55)
+                .text(d=>d.index)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "65")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg10.append("text")
+                .attr("x", 85)
+                .attr("y", 28)
+                .text(d=>d.qSpecies)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "20")
+                .attr("font-weight", 600)
+                .attr("fill", "whitesmoke");
+                svg10.append("text")
+                .attr("x", 85)
+                .attr("y", 54)
+                .text(d => d.qAddress)
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+                svg10.append("text")
+                .attr("x", 165)
+                .attr("y", 76)
+                .text(d => "DBH: " + String(d.DBH) + " in.")
+                .attr("font-family", "Raleway")
+                .attr("font-size", "16")
+                .attr("font-weight", 300)
+                .attr("fill", "whitesmoke");
+      
+      }
+
+    
+      requestData();
+    
+      </script>
+    
+    
+    
+    
+    
+      
+    
+      </div>
+
+
+
+<p style="font-family: Open Sans; font-size: 16px;color: white;"><i>Sources:</i></br>
+(1) Original image from <a href="https://www.growerssolution.com/fir-douglas-potted/douglas-fir-pseudotsuga-menziesii-potted-plant.html" style="color:white;">Growers Solutions</a>, edited by me.</br>
+
+(2) Original image from <a href="https://www.botanic.cam.ac.uk/the-garden/gardens-plantings/trees/liquidambar/liquidambar-orientalis-autumn-foliage-december/" style="color:white;">Botanic</a>, edited by me.</br>
+
+
+(3) Original image from <a href="https://sf.curbed.com/maps/map-sf-landmark-tree" style="color:white;">Curbed</a>, edited by me.</br>
+
+(4 & 5) Original image from <a href="https://bearessentialnews.com/content/tree-week-washingtonia-filifera-california-fan-palm" style="color:white;">Bear Essential News</a>, edited by me.</br>
+
+(6 & 7) Original image from <a href=" https://gardengoodsdirect.com/products/bloodgood-sycamore-trees" style="color:white;">Garden Goods Direct</a>, edited by me.</br>
+
+(8) Original image from <a href="https://hort.ifas.ufl.edu/woody/Pages/perbor/perbor2.shtml" style="color:white;">University of Florida Landscape Plants</a>, edited by me.</br>
+
+(9) Original image from <a href="https://www.pacifichorticulture.org/articles/striving-for-diversity-quillaja-saponaria/" style="color:white;">Pacific Horticulture</a>, edited by me.</br>
+
+(10) Original image from <a href="https://store.speedtree.com/store/european-beech/" style="color:white;">Speed Tree</a>, edited by me.</br>
+
+
+</p>
+
+    </body>
+    </html>

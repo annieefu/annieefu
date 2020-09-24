@@ -30,7 +30,7 @@ $art = "notcurrentpage";
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
   <span class="project-name">Connecting Transit Systems</span>
-<p class="project-subname"> PRODUCT DESIGN</p>
+<p class="project-subname"> UX RESEARCH, PRODUCT DESIGN</p>
     </div>
 
   <div class="col-xs-4 col-md-4 col-lg-4">
@@ -67,7 +67,7 @@ $art = "notcurrentpage";
     <div class="col-xs-4 col-md-4 col-lg-4">
     <a href="propertypal.php"><img class="project-img" src="images/prop3.png" /></a>
 <span class="project-name">PropertyPal: Student Housing</span>
-<p class="project-subname"> PRODUCT DESIGN</p>
+<p class="project-subname"> UX DESIGN</p>
     </div>
 
 
@@ -85,7 +85,7 @@ $art = "notcurrentpage";
     <a href="pali.php" alt ="Developing for a International Buddhist Organization" ><img class="project-img" src="images/siri_3.png"/></a>
 
     <span class="project-name">Buddhist Pali Reader</span>
-     <p class="project-subname">UX/UI DESIGN</p>
+     <p class="project-subname">UX DESIGN</p>
     </div>
 
      
