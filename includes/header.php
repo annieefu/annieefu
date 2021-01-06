@@ -37,7 +37,7 @@
   <div class="navwrap">
 </br></br>
 <h1 class="heading container"><a href="aboutme.php"><strong class="rainbow-text">Annie Fu</a></strong></h2>
-<h2 class="homeheading container"> Data Analyst and Digital Product Designer at Cornell University.</h2>
+<h2 class="homeheading container"> is a Data Analyst and Developer at Cornell University.</h2>
 </div>
 
  <nav class="navbar-expand-lg navbar-light desktopNav">
@@ -54,7 +54,7 @@
         <li class="headerlink <?php echo ($projects); ?>"> <a href="index.php">projects</li></a>
 
         <li class="headerlink <?php echo ($writing); ?>"><a href="writing.php">writing</li></a>
-        <li class="headerlink <?php echo ($art);?>"><a href="art.php">photo</li></a>
+        <!-- <li class="headerlink <?php echo ($art);?>"><a href="art.php">photo</li></a> -->
         
         <!-- <li class="rainbow -->
         <!-- <?php echo ($resume); ?> -->

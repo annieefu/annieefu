@@ -73,7 +73,7 @@ $art = "notcurrentpage";
         <div class="row">
         <div class="col-xs-12 col-md-6 col-lg-6">
           <p>
-          "A change to the Depop’s search algorithm makes ethical, value-based purchasing easier and more beneficial for the future of the app, its users, and our planet." 
+          "A change to Depop’s search algorithm makes ethical, value-based purchasing easier and more beneficial for the app, its users, and our planet." 
 </p>
           <ul class="hero-deets">
 <li><strong>Course:</strong> INFO 4240: Designing Technology for Social Impact</li>

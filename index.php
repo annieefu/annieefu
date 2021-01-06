@@ -29,17 +29,25 @@ $art = "notcurrentpage";
 
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
-  <span class="project-name">Connecting Transit Systems</span>
+  <span class="project-name">Reconnecting Detroit's Transit Systems</span>
 <p class="project-subname"> UX RESEARCH, PRODUCT DESIGN</p>
     </div>
 
-  <div class="col-xs-4 col-md-4 col-lg-4">
-    <a href="librarybabel.php" alt = "Virtual Reality Case Study" ><img class="project-img" src="images/library-bab.png" /></a>
-  <span class="project-name">The Library of Babel in Virtual Reality</span>
-   <p class="project-subname"> INTERACTION DESIGN, VR DEVELOPMENT</p>
-    </div>
-    
- 
+
+    <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="https://cornelldatajourn.al/articles/wings-of-change" target="_blank" alt ="Data Visualization article about the Wood Thrush and Climate Change" > <img class="project-img" src="images/bird_thumbnail.png" /></a>
+    <span class="project-name">How Global Warming Impacts Migratory Birds</span>
+      <p class="project-subname"> DATA VISUALIZATION, DIGITAL STORYTELLING</p>
+    </div> 
+
+<!--  
+    <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" > <img class="project-img" src="images/sustainablemob.png" /></a>
+
+    <span class="project-name">Sustainable Mobility</span>
+      <p class="project-subname"> INDUSTRIAL DESIGN, SYSTEMS ENGINEERING</p>
+    </div> -->
+
 
   </div>
 </div>
@@ -48,13 +56,16 @@ $art = "notcurrentpage";
 <div class="container">
   <div class="row rowspace">
 
+  <div class="col-xs-4 col-md-4 col-lg-4">
+    <a href="propertypal.php"><img class="project-img" src="images/prop3.png" /></a>
+<span class="project-name">PropertyPal: More Transparency in Housing</span>
+<p class="project-subname"> UX DESIGN</p>
+    </div>
 
-
-  <div class="col-xs-12 col-md-4 col-lg-4">
-    <a href="globalization.php" ><img class="project-img" src="images/cornellsoc1.png" /></a>
-<span class="project-name">How Ideas Spread: Globalization in Code
-</span>
-<p class="project-subname"> COMPUTATIONAL RESEARCH</p>
+  <div class="col-xs-4 col-md-4 col-lg-4">
+    <a href="librarybabel.php" alt = "Virtual Reality Case Study" ><img class="project-img" src="images/library-bab.png" /></a>
+  <span class="project-name">The Library of Babel in Virtual Reality</span>
+   <p class="project-subname"> INTERACTION DESIGN, VR DEVELOPMENT</p>
     </div>
 
     <div class="col-xs-12 col-md-4 col-lg-4">
@@ -62,15 +73,6 @@ $art = "notcurrentpage";
 <span class="project-name">Bob Ross: The Analytics of Painting</span>
 <p class="project-subname">DATA VISUALIZATION</p>
     </div>
-
-
-    <div class="col-xs-4 col-md-4 col-lg-4">
-    <a href="propertypal.php"><img class="project-img" src="images/prop3.png" /></a>
-<span class="project-name">PropertyPal: Student Housing</span>
-<p class="project-subname"> UX DESIGN</p>
-    </div>
-
-
 
   </div>
 </div>
@@ -88,13 +90,21 @@ $art = "notcurrentpage";
      <p class="project-subname">UX DESIGN</p>
     </div>
 
-     
     <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="globalization.php" ><img class="project-img" src="images/cornellsoc1.png" /></a>
+<span class="project-name">How Ideas Spread: Globalization in Code
+</span>
+<p class="project-subname"> COMPUTATIONAL RESEARCH</p>
+    </div>
+
+
+     
+    <!-- <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="mobility.php " alt ="Sustainble Mobility Work Case Study" > <img class="project-img" src="images/sustainablemob.png" /></a>
 
     <span class="project-name">Sustainable Mobility</span>
       <p class="project-subname"> INDUSTRIAL DESIGN, SYSTEMS ENGINEERING</p>
-    </div>
+    </div> -->
 
 
     <div class="col-xs-12 col-md-4 col-lg-4">

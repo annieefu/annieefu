@@ -35,9 +35,8 @@ https://www.digitalpalireader.online/_dprhtml/index.html">INTERACT WITH APP</a>
         
       <div class="row">
         <div class="col-lg-8">
-<p> This semester, I worked with Sirimangalo International to build and refine two iterations of their Digital Pali Reader. </p>
+<p> I've worked with Sirimangalo International as a freelancer for a year now, building and refining their Digital Pali Reader. </p>
 <p>I learned a great deal about working on UX in teams, tried my hand in React for efficient developing, and got a taste of the Pali language. 
-    
 </p>
 
 </div>

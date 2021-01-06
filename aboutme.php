@@ -165,14 +165,14 @@ $('#link7').hover(function(){
         <div class="col-sm-12 col-lg-8">
 <p> Hello! Welcome to my work. I'm a data-oriented developer and designer who enjoys using code and creativity 
     to enrich the human experience. I believe well-designed technology holds the capability to heal, strengthen, and educate communities.</p>
-<p> I'm currently working for <strong> Weill Cornell Medicine </strong> as a Data Management Intern and the <strong> Cornell Sustainability Office</strong> as an Energy Data Coordinator.</p>
+<p> I'm currently building software for <strong> Smart Wires</strong>, a renewable energy technology company, and I previously built tools for the Cornell Sustainability Office. </p>
 
 
     <p>My work is often inspired by my favorite <strong> <a href="#" id="link1" class="hoverlink"> literature,</a>
     <a href="#" id="link2" class="hoverlink"> visual art,</a> </strong>and<strong> <a href="#" id="link3" class="hoverlink">friends and family.</a></strong></p>
     
 
-<p> In my free time, I like to <strong><a href="#" id="link4" class="hoverlink">run,</a> <a href="#" id="link5" class="hoverlink"> shoot in 35mm,</a> <a href="#" id="link6" class="hoverlink"> play and teach piano, </a><a href="#" id="link7" class="hoverlink"> and draw.</a></strong></p>
+<p> In my free time, I like to <strong><a href="#" id="link4" class="hoverlink">run,</a> <a href="#" id="link5" class="hoverlink"> shoot in 35mm,</a></strong> play piano, <a href="#" id="link7" class="hoverlink"> and draw.</a></strong></p>
 <p>I hope you enjoy browsing my work, and I'm always looking for new opportunities to learn and create. Feel free to reach out with questions or musings!</p>
 <p class="right"><strong>-Annie</strong></p>
 
