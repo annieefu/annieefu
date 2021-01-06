@@ -87,7 +87,7 @@ $art = "notcurrentpage";
     <a href="pali.php" alt ="Developing for a International Buddhist Organization" ><img class="project-img" src="images/siri_3.png"/></a>
 
     <span class="project-name">Buddhist Pali Reader</span>
-     <p class="project-subname">UX DESIGN</p>
+     <p class="project-subname">UX DESIGN, FRONT-END DEVELOPMENT</p>
     </div>
 
     <div class="col-xs-12 col-md-4 col-lg-4">

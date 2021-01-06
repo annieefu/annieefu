@@ -165,7 +165,7 @@ $('#link7').hover(function(){
         <div class="col-sm-12 col-lg-8">
 <p> Hello! Welcome to my work. I'm a data-oriented developer and designer who enjoys using code and creativity 
     to enrich the human experience. I believe well-designed technology holds the capability to heal, strengthen, and educate communities.</p>
-<p> I'm currently building software for <strong> Smart Wires</strong>, a renewable energy technology company, and I previously built tools for the Cornell Sustainability Office. </p>
+<p> I'm currently building software for <strong> Smart Wires</strong>, a renewable energy technology company, and I previously built tools for the <strong>Cornell Sustainability Office.</strong> </p>
 
 
     <p>My work is often inspired by my favorite <strong> <a href="#" id="link1" class="hoverlink"> literature,</a>
