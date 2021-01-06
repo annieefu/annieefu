@@ -37,7 +37,7 @@
   <div class="navwrap">
 </br></br>
 <h1 class="heading container"><a href="aboutme.php"><strong class="rainbow-text">Annie Fu</a></strong></h2>
-<h2 class="homeheading container"> is a Data Analyst and Developer at Cornell University.</h2>
+<h2 class="homeheading container"> is a Data-Oriented Developer and Designer at Cornell University.</h2>
 </div>
 
  <nav class="navbar-expand-lg navbar-light desktopNav">
