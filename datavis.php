@@ -16,12 +16,48 @@ $art = "notcurrentpage";
 
 <body>
 
-<!-- <h2 class="heading container"> Designing to Unify Detroit's Transit System</h2> -->
-<!-- <div class="bodybin container"> -->
 
-    <h2 class="heading special">The Analytics of Painting: Visualizing Bob Ross</h2>
-<div class="hero bodybin"><p>A visualization I designed using d3.js, HTML, and CSS for INFO 3300: Data-Driven Web Applications. Depicts the frequency and
-    variety of different natural and man-made elements throughout 31 seasons of his paintings.
+
+
+<h2 class="heading special">Assorted Data Visualizations</h2>
+<div class="hero bodybin"><p>
+Visualizations created for homework, projects, or for fun!</br></br>
+</p></div>
+
+<h3 class="heading special2"> BostonEats: Exploring Beantown Eateries </h3>
+<div class="hero bodybin"><p>
+Of all the goodeats in Boston, the multitude of equally mouthwatering choices can be overwhelming to even the most seasoned foodies. This visualization aims to provide smart recommendations
+and simplify the search for your next great meal.
+</br>Created with Python, D3.js, HTML/CSS.
+</p></div>
+
+<div class="text-center halfspace">
+<a class="button" target="_blank" href="
+https://hw3-4310-dbs264-jjr265-af397.herokuapp.com/static/index.html">Live Version Here</a>
+</div>
+<img src="images/bostoneats.png" class="treeimg" alt="10 numbered images of trees, each with an address and a description, corresponding to a map of San Francisco county.">
+
+
+
+<h3 class="heading special2">The San Francisco Heritage Tree Walk</h3>
+<div class="hero bodybin"><p>Tall skyscrapers and cultural diversity are common ways to characterize a city,
+    but what about more subtle markers of urban uniqueness? By parsing a dataset of over 500,000 San Francisco trees,
+    I identified some of the city's rarest, most unique, and oldest trees in a rare celebration of greenery within Silicon Valley.
+</br>Created with D3.js, HTML/CSS, and Adobe Illustrator.
+</p></div>
+
+<div class="text-center halfspace">
+<a class="button" target="_blank" href="
+https://af397-info4310-hw1.herokuapp.com/static/">Live Version Here</a>
+</div>
+<img src="images/treewalk.png" class="treeimg" alt="10 numbered images of trees, each with an address and a description, corresponding to a map of San Francisco county.">
+
+
+
+
+    <h3 class="heading special2">The Analytics of Painting: Visualizing Bob Ross</h3>
+<div class="hero bodybin"><p>Depicts the frequency and
+    variety of different natural and man-made elements throughout 31 seasons of his paintings. </br>Created using D3.js and HTML/CSS.
 </p></div>
 </body>
     <svg id="bobmap" width = "1165" height ="590" >

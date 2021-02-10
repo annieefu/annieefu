@@ -8,6 +8,12 @@ body{
   width: 100%;
 }
 
+.treeimg {
+  width: 100%;
+  padding: 4rem;
+  padding-top: 2rem;
+}
+
 
 h6{
 font-family: work-sans;
@@ -295,6 +301,12 @@ body {
 
 .special {
   font-size: 1.8em;
+}
+
+
+
+.special2 {
+  font-size: 1.5em;
 }
 
 #bobmap {
@@ -1220,6 +1232,10 @@ font-family: Georgia, 'Times New Roman', Times, serif;
  
 .content {
   display: none;
+}
+.treeimg {
+  width: 100%;
+  padding: 10px;
 }
 
 .scroll-message {
