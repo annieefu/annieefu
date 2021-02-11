@@ -28,7 +28,7 @@ Visualizations created for homework, projects, or for fun!</br></br>
 <div class="hero bodybin"><p>
 Of all the goodeats in Boston, the multitude of equally mouthwatering choices can be overwhelming to even the most seasoned foodies. This visualization aims to provide smart recommendations
 and simplify the search for your next great meal.
-</br>Created with Python, D3.js, HTML/CSS.
+</br>Created with Python, Leaflet.js, D3.js, and HTML/CSS.
 </p></div>
 
 <div class="text-center halfspace">
