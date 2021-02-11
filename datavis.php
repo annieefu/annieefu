@@ -21,7 +21,7 @@ $art = "notcurrentpage";
 
 <h2 class="heading special">Assorted Data Visualizations</h2>
 <div class="hero bodybin"><p>
-Visualizations created for homework, projects, or for fun!</br></br>
+Visualizations created for homework, projects, or fun.</br></br>
 </p></div>
 
 <h3 class="heading special2"> BostonEats: Exploring Beantown Eateries </h3>
