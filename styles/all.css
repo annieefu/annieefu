@@ -793,7 +793,6 @@ body{
 
   .desktopNav a {
     font-size:18px;
-    /* font-family: "Work Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-family: futura-pt;
     font-weight: 400;
     color: cornflowerblue;
@@ -812,8 +811,16 @@ body{
     display: inline-block;
   }
 
+  .desktopNav a:hover,header a:hover, .sec-writing a:hover{
+    text-decoration: underline;
+  }
 
-  .desktopNav a:hover, #social-icons a:hover, header a:hover,  .sec-writing a:hover{
+  .inlineTextLink {
+    color: cornflowerblue;
+    font-weight: 400;
+  }
+
+  #social-icons a:hover {
     -webkit-animation:rainbow 1s infinite;
     -ms-animation:rainbow 1s infinite;
     -o-animation:rainbow 1s infinite;

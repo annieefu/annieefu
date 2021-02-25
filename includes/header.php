@@ -37,8 +37,8 @@
   <div class="navwrap">
 </br></br>
 <h1 class="heading container"><a href="aboutme.php"><strong class="rainbow-text">Annie Fu</a></strong></h2>
-<h2 class="homeheading container"> is a designer, developer, and aspiring data journalist at Cornell University.
-</br></br>She's currently designing data visualizations to illuminate student career pathways at the<a href="https://learning.cis.cornell.edu/" target="_blank"><u> Future of Learning Lab.</u></a> Previously, she was a Software Engineering Intern at <a href="https://www.smartwires.com/" target="_blank"><u>Smart Wires</u></a>, building web tools for the renewable energy transition. </h2>
+<h2 class="homeheading container"> I'm a designer, developer, and aspiring data journalist at Cornell University.
+</br></br>Currently designing data visualizations at the <a href="https://learning.cis.cornell.edu/" target="_blank" class="inlineTextLink">Future of Learning Lab</a>. Previously, I built data-driven web apps to aid the renewable energy transition at <a href="https://www.smartwires.com/" target="_blank" class="inlineTextLink">Smart Wires</a>. </h2>
 </div>
 
  <nav class="navbar-expand-lg navbar-light desktopNav">
