@@ -5,7 +5,7 @@ include("includes/init.php");
 
 
 $projects = "currentpage";
-$writing = "notcurrentpage";
+$blog = "notcurrentpage";
 $resume = "notcurrentpage";
 $about="notcurrentpage";
 $art = "notcurrentpage";
@@ -20,26 +20,26 @@ $art = "notcurrentpage";
 
   <div class="row rowspace space">
 
-    
+  
 
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://annieefu.github.io/motorcycle-culture/" alt ="Motorcycle Data Journalism Piece" target="_blank"><img class="project-img" src="images/motorcycle_icon.png"/></a>
   <span class="project-name">Motorcycle Subculture in Pandemic America</span>
-<p class="project-subname"> DATA JOURNALISM, FRONTEND DEVELOPMENT</p>
+<p class="project-subname"> DATA JOURNALISM</p>
     </div>
 
 
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://cornelldatajourn.al/articles/wings-of-change" target="_blank" alt ="Data Visualization article about the Wood Thrush and Climate Change" > <img class="project-img" src="images/bird_thumbnail.png" /></a>
     <span class="project-name">Global Warming's Impact on Migratory Birds</span>
-      <p class="project-subname"> DATA JOURNALISM, FRONTEND DEVELOPMENT</p>
+      <p class="project-subname"> DATA JOURNALISM</p>
     </div> 
 
     
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://annieefu.github.io/4310hw2/" target="_blank"><img class="project-img" src="images/water-footprint.png" alt="A horizontal bar chart with the U.S. highlighted in blue, ranked in the middle." /></a>
 <span class="project-name">How Sustainable is your Grocery Cart?</span>
-<p class="project-subname">DATA VISUALIZATION</p>
+<p class="project-subname">DATA ESSAY</p>
     </div>
 
 

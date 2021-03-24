@@ -8,6 +8,14 @@ body{
   width: 100%;
 }
 
+
+.navwrap-blog{
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
 .treeimg {
   width: 100%;
   padding: 4rem;
@@ -184,7 +192,7 @@ background-image: linear-gradient(to left, cyan, blue, violet);   -webkit-backgr
 color: transparent;
 }
 
-.heading strong {
+.heading strong, .heading-blog strong {
 font-family: benton-modern-display, serif;
 font-weight: 300;
 font-style: normal;
@@ -276,6 +284,24 @@ body {
   margin-top: 15px;
 }
 
+
+.heading-blog {
+  /* font-family: neue-haas-grotesk-display, sans-serif; */
+  font-family: futura-pt;
+  font-weight: 500;
+  color: #415161;
+  font-size: 2em;
+  display: inline;
+  text-align:left;
+  letter-spacing: 1px;
+  margin-right: 65%;
+}
+
+.blogpage-title{
+  font-family: futura-pt;
+  margin-top: 20px;
+}
+
 .headingEDIT {
   /* font-family: neue-haas-grotesk-display, sans-serif; */
   font-family: work-sans;
@@ -365,6 +391,14 @@ margin-bottom: 20px;
   line-height: 1.6;
   font-weight: 400;
   font-family: work-sans;
+  color: #415161;
+}
+
+.hero-blog p{
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #415161;
 }
 
@@ -757,6 +791,18 @@ body{
   margin: auto;
 }
 
+.blog-container ol b {
+  font-family: futura-pt;
+  font-size: 18px;
+  color: #415161;
+}
+
+.blog-container ol li{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: #415161;
+}
+
 
 /********* DESKTOP STYLING **********/
 /********* DESKTOP STYLING **********/
@@ -791,13 +837,13 @@ body{
     margin-left: inherit;
   }
 
-  .desktopNav a {
+  .desktopNav a, .desktopNav-blog a {
     font-size:18px;
     font-family: futura-pt;
     font-weight: 400;
     color: cornflowerblue;
     text-decoration: none;
-    word-spacing: 30px;
+    /* word-spacing: 30px; */
     padding: 14px;
   }
 
@@ -806,6 +852,28 @@ body{
     display:inline-block;
     padding: none;
   }
+
+  .desktopNav-blog li{
+    list-style-type: none;
+    display:inline-block;
+    padding: none;
+    position: relative;
+    white-space:nowrap
+  }
+
+  
+
+
+
+  .desktopNav-blog {
+    display: inline-block;
+    white-space:nowrap;
+  }
+
+  .blog-wrap{
+    display:inline;
+  }
+
 
   .dropdown-content{
     display: inline-block;
@@ -983,7 +1051,7 @@ box-shadow: 4px 6px 6px #999999;
   .project {
     width: auto;
     height: auto;
-    flex-shrink: 0;
+    flex-shrink: 1;
     margin: 0 3%;
     height: 27%;
     -webkit-user-select: none;
@@ -1002,7 +1070,7 @@ box-shadow: 4px 6px 6px #999999;
     position: absolute;
     margin-left:0px;
     font-family: futura-pt;
-    font-size: 16px;
+    font-size: 1.2vw;
     font-weight: 500;
     width: 300px;
     text-align: left;
@@ -1012,12 +1080,55 @@ box-shadow: 4px 6px 6px #999999;
   }
 
 
+  .blog-date{
+    margin-top: 20px;
+    margin-left:0px;
+    margin-bottom: 0px;
+    font-family: futura-pt;
+    width: 300px;
+    font-size: 11px;
+    font-weight: 400;
+    color: black;
+    letter-spacing:1px;
+    opacity: 1;
+  }
+
+
+  .blog-title {
+    position: absolute;
+    margin-left:0px;
+    font-family: futura-pt;
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
+    text-align: left;
+    margin-top: 6px;
+    color: black;
+    opacity: 1;
+  }
+
+  .blog-caption{
+    margin-top: 20px;
+    margin-left:0px;
+    margin-bottom: 0px;
+    font-family: Tinos;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    opacity: 1;
+  }
+
+.blog-container{
+  margin:4rem;
+}
+
   .project-subname {
     margin-top: 35px;
     margin-left:0px;
     font-family: futura-pt;
     width: 300px;
-    font-size: 11px;
+    font-size: 1vw;
     font-weight: 400;
     color: black;
     letter-spacing:1px;
@@ -1219,8 +1330,14 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-
-
+.blog-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  box-shadow: 2px 2px 2px 1px #e1e1e1;
+  
+}
 
 
 
@@ -1236,6 +1353,29 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 /********** MOBILE STYLING ************/
 /********** MOBILE STYLING ************/
 @media only screen and (max-device-width: 768px) {
+
+  .blog-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  box-shadow: 2px 2px 2px 1px #e1e1e1;
+  
+}
+
+.navwrap-blog{
+  text-align: center;
+  width: 100%;
+}
+
+
+.blog-container{
+  margin:0rem;
+}
+
+.homeheading {
+  display: none;
+}
  
 .content {
   display: none;
@@ -1262,6 +1402,11 @@ display:none;
 }
 
 
+body{
+  width: 90%;
+  margin: auto;
+}
+
 
 .photodiv {
 display:none;
@@ -1275,24 +1420,24 @@ display: none;
 border-color: white;
 }
 
-.desktopNav{
+.desktopNav, .desktopNav-blog{
 display: flex;
 flex-direction: row;
 }
 
-.desktopNav .container {
+.desktopNav .container .desktopNav-blog{
 justify-content: space-evenly;
 display: inline;
 white-space: nowrap;
 }
 
-.desktopNav a{
+.desktopNav a, .desktopNav-blog a{
 
 display:inline;
 padding:none;
 }
 
-.desktopNav li, .dropdown-content{
+.desktopNav li, .dropdown-content, .desktopNav-blog li{
   display: block;
 }
 

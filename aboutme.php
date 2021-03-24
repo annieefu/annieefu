@@ -5,7 +5,7 @@ include("includes/init.php");
 
 
 $projects = "notcurrentpage";
-$writing = "notcurrentpage";
+$blog = "notcurrentpage";
 $resume = "notcurrentpage";
 $about = "currentpage";
 $art = "notcurrentpage";

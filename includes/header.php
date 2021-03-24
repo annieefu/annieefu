@@ -18,7 +18,8 @@
 <link rel="stylesheet" href="https://use.typekit.net/opt0ipj.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
 
 <meta name="viewport" content="initial-scale=1">
@@ -54,7 +55,7 @@
       <ul class="container center2">
         <li class="headerlink <?php echo ($projects); ?>"> <a href="index.php">projects</li></a>
 
-        <li class="headerlink <?php echo ($writing); ?>"><a href="writing.php">writing</li></a>
+        <li class="headerlink <?php echo ($blog); ?>"><a href="blog.php">blog</li></a>
         <!-- <li class="headerlink <?php echo ($art);?>"><a href="art.php">photo</li></a> -->
         
         <!-- <li class="rainbow -->
