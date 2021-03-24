@@ -1129,11 +1129,16 @@ margin-bottom:20px;
     margin-left:0px;
     font-family: futura-pt;
     width: 300px;
-    font-size: 12px;
+    font-size: .8em;
     font-weight: 400;
     color: black;
     letter-spacing:1px;
     opacity: 1;
+
+    width: auto;
+    height: auto;
+    flex-shrink: 1;
+    height: 27%;
   }
 
 
@@ -1339,6 +1344,11 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   box-shadow: 2px 2px 2px 1px #e1e1e1;
   
 }
+
+
+
+
+
 
 
 
