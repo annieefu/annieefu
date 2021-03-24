@@ -31,7 +31,7 @@ $art = "notcurrentpage";
 
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://cornelldatajourn.al/articles/wings-of-change" target="_blank" alt ="Data Visualization article about the Wood Thrush and Climate Change" > <img class="project-img" src="images/bird_thumbnail.png" /></a>
-    <span class="project-name">Global Warming's Impact on Migratory Birds</span>
+    <span class="project-name">Global Warming and Migratory Birds</span>
       <p class="project-subname"> DATA JOURNALISM</p>
     </div> 
 
