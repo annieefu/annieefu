@@ -21,6 +21,11 @@ $art = "notcurrentpage";
   <div class="row rowspace space">
 
   
+  <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="chalkbeat.php" alt ="Chalkbeat" ><img class="project-img" src="images/colorado.png"/></a>
+  <span class="project-name">Data and Visual Reporting for Chalkbeat</span>
+<p class="project-subname"> DATA JOURNALISM</p>
+    </div>
 
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://annieefu.github.io/motorcycle-culture/" alt ="Motorcycle Data Journalism Piece" target="_blank"><img class="project-img" src="images/motorcycle_icon.png"/></a>
@@ -43,6 +48,43 @@ $art = "notcurrentpage";
     </div>
 
 
+    <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="datavis.php"><img class="project-img" src="images/boston-thumb.png" /></a>
+<span class="project-name">Assorted Data Visualizations</span>
+<p class="project-subname">DATA VISUALIZATION</p>
+    </div>
+
+    <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
+  <span class="project-name">Reconnecting Detroit's Transit</span>
+<p class="project-subname"> UX RESEARCH, PRODUCT DESIGN</p>
+    </div>
+
+    <div class="col-xs-4 col-md-4 col-lg-4">
+    <a href="https://medium.com/@annie99fu/forsight-proactively-refining-ux-design-to-prioritize-accessibility-5e42c2da0370?source=friends_link&sk=cfb8e9891c501f7b701d550757d82006" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/iMac-Pro-Mockup2.png" /></a>
+    <span class="project-name">Forsight: Hacking for Accessible Design</span>
+      <p class="project-subname">UX DESIGN, FRONT-END</p>
+    </div>
+<!-- 
+    <div class="col-xs-4 col-md-4 col-lg-4">
+    <a href="propertypal.php"><img class="project-img" src="images/prop3.png" /></a>
+<span class="project-name">PropertyPal: Transparency in Leasing</span>
+<p class="project-subname"> UX DESIGN</p>
+    </div> -->
+  
+    <div class="col-xs-4 col-md-4 col-lg-4">
+    <a href="librarybabel.php" alt = "Virtual Reality Case Study" ><img class="project-img" src="images/library-bab.png" /></a>
+  <span class="project-name">The Library of Babel in VR</span>
+   <p class="project-subname"> INTERACTION DESIGN, VR DEVELOPMENT</p>
+    </div>
+
+
+  <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="pali.php" alt ="Developing for a International Buddhist Organization" ><img class="project-img" src="images/siri_3.png"/></a>
+
+    <span class="project-name">Buddhist Pali Reader</span>
+     <p class="project-subname">UX DESIGN, FRONT-END DEVELOPMENT</p>
+    </div>
 
 <!--  
     <div class="col-xs-12 col-md-4 col-lg-4">
@@ -60,7 +102,7 @@ $art = "notcurrentpage";
 <div class="container">
   <div class="row rowspace">
 
-
+<!-- 
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="datavis.php"><img class="project-img" src="images/boston-thumb.png" /></a>
 <span class="project-name">Assorted Data Visualizations</span>
@@ -71,14 +113,14 @@ $art = "notcurrentpage";
     <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
   <span class="project-name">Reconnecting Detroit's Transit</span>
 <p class="project-subname"> UX RESEARCH, PRODUCT DESIGN</p>
-    </div>
+    </div> -->
 
-
+<!-- 
     <div class="col-xs-4 col-md-4 col-lg-4">
     <a href="https://medium.com/@annie99fu/forsight-proactively-refining-ux-design-to-prioritize-accessibility-5e42c2da0370?source=friends_link&sk=cfb8e9891c501f7b701d550757d82006" alt ="ForSight Hackathon Case Study" target="_blank"> <img class="project-img" src="images/iMac-Pro-Mockup2.png" /></a>
     <span class="project-name">Forsight: Hacking for Accessible Design</span>
       <p class="project-subname">UX DESIGN, FRONT-END</p>
-    </div>
+    </div> -->
 
 
   </div>
@@ -92,7 +134,7 @@ $art = "notcurrentpage";
 
 
   <div class="col-xs-4 col-md-4 col-lg-4">
-    <a href="propertypal.php"><img class="project-img" src="images/prop3.png" /></a>
+    <!-- <a href="propertypal.php"><img class="project-img" src="images/prop3.png" /></a>
 <span class="project-name">PropertyPal: Transparency in Leasing</span>
 <p class="project-subname"> UX DESIGN</p>
     </div>
@@ -109,7 +151,7 @@ $art = "notcurrentpage";
 
     <span class="project-name">Buddhist Pali Reader</span>
      <p class="project-subname">UX DESIGN, FRONT-END DEVELOPMENT</p>
-    </div>
+    </div> -->
 
     <!-- <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="globalization.php" ><img class="project-img" src="images/cornellsoc1.png" /></a>
