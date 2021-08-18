@@ -22,7 +22,8 @@ $art = "notcurrentpage";
         <h2 class="heading special">Data Visualizations and Graphics for Chalkbeat</h2>
         <div class="hero bodybin">
             <p>
-                As a Data and Visual Reporting Intern for Chalkbeat, a non-profit newsroom focusing on the public education beat,
+                As a Data and Visual Reporting Intern for Chalkbeat, I create graphics, tools, and data visualizations to tell the story of 
+                K-12 public education in America.
                 </br></br>
             </p>
 
