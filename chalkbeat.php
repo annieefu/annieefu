@@ -23,9 +23,26 @@ $art = "notcurrentpage";
         <div class="hero bodybin">
             <p>
                 As a Data and Visual Reporting Intern for Chalkbeat, I create graphics, tools, and data visualizations to tell the story of 
-                K-12 public education in America.
+            public education in America.
                 </br></br>
             </p>
+
+
+            <div class="row rowspace space chalkbeat">
+
+                <div class="chalk">
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                        <a href="https://ny.chalkbeat.org/2021/8/25/22634623/ventilation-can-curb-the-spread-of-covid-heres-what-we-know-about-ventilation-inside-nyc-schools" target="_blank" alt="NYC Schools Ventilation Map"> <img class="project-img" src="images/vent.jpeg" /></a>
+                    </div>
+
+                    <div class="col-xs-12 col-md-7 col-lg-7 ">
+
+                        <h2 class="heading special3"><a href="https://ny.chalkbeat.org/2021/8/25/22634623/ventilation-can-curb-the-spread-of-covid-heres-what-we-know-about-ventilation-inside-nyc-schools" target="_blank" alt="New York City Classroom Ventilation Analysis">New York City Classroom Ventilation Analysis</a></h2>
+                        <p>I conducted a two month investigation into New York City Public Schools ventilation standards for the in-person school year. <br/><br/> My work prompted multiple teachers to write to their schools about classroom ventilation, and the Department of Education
+                        also edited the public portal to provide transparency on what rooms lack mechanical ventilation. </p>
+                    </div>
+                </div>
+            </div>
 
 
             <div class="row rowspace space chalkbeat">
