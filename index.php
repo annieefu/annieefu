@@ -12,6 +12,7 @@ $art = "notcurrentpage";
 ?>
 
 <?php include("includes/header.php"); ?>
+
 <body>
 
 <div id="fadein2">

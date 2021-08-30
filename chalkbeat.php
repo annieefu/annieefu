@@ -3,17 +3,16 @@
 include("includes/init.php");
 // // DO NOT REMOVE!
 
-
 $projects = "currentpage";
-$writing = "notcurrentpage";
+$blog = "notcurrentpage";
 $resume = "notcurrentpage";
-$about = "notcurrentpage";
+$about="notcurrentpage";
 $art = "notcurrentpage";
 ?>
 
-<?php include("includes/header.php"); ?>
 
-<body>
+<?php include("includes/header.php"); ?>
+<body class="home">
 
 
     <div class="container">
@@ -77,6 +76,7 @@ $art = "notcurrentpage";
                 </div>
 
 
+                </div>
 
             <div class="row rowspace space chalkbeat">
                 <div class="chalk" >
@@ -91,12 +91,10 @@ $art = "notcurrentpage";
                     </div>
                 </div>
 
-
-
-
             </div>
-        </div>
+</div>
+</div>
 
-        <?php include("includes/footer.php"); ?>
-
-        </html>
+</body>
+<?php include("includes/footer.php"); ?>
+</html>
