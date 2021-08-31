@@ -33,21 +33,20 @@ $art = "notcurrentpage";
 
 <div class = "container hero">
       <div class="row">
-        <div class="col-lg-8 col-md-12 col-xs-12">
-<p> In Fall of 2019, I collaborated with my friends Alex and Yaoyao to bring one my favorite pieces of literature to Virtual Reality: <strong>The Library of Babel by Jorge Luis Borges.</strong>
-</ul>
+        <div class="col-lg-12 col-md-12 col-xs-12">
+<p class="text-align: center;"> In Fall of 2019, I collaborated with my friends Alex and Yaoyao to bring one my favorite pieces of literature to Virtual Reality: <strong>The Library of Babel by Jorge Luis Borges.</strong>
+
 </p>
 </div>
-        <div class="col-lg-8 col-md-12 col-xs-12">
+        <div class="col-lg-12 col-md-12 col-xs-12">
 
 
   <section id="services" class="sec-inspirations sec">
           <h1>The Prompt</h1>
-        </div>
         <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-12 col-xs-12">
-          <p>Our professor challenged us to design a virtual reality experience that <strong>organically displayed a collection of 
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <p style="text-align: center;">Our professor challenged us to design a virtual reality experience that <strong>organically displayed a collection of 
               3D Models</strong> we had rendered in previous assignments, including a hollowed log of petrified wood. The virtual space needed to
               allow users to see the models from any angle and interact with their contents in a meaningful way.</div>
         </div>
@@ -55,7 +54,7 @@ $art = "notcurrentpage";
       </section>
 
       <div class="row">
-        <div class="col-lg-8 col-md-12 col-xs-12 text-left">
+        <div class="col-lg-12 col-md-12 col-xs-12 text-left">
 
   <section id="brainstorming" class="sec-inspirations sec">
           <h1>Brainstorming</h1>
@@ -94,7 +93,7 @@ $art = "notcurrentpage";
       </div>
 <div class = "row">
 
-<div class="col-xs-12 col-md-12 col-lg-8">
+<div class="col-xs-12 col-md-12 col-lg-12">
           <p>We decided to pursue <strong>option three,</strong> since it excited us the most, contained more flexibility for implementing interactivity, and sparked thought of how media will progress past the status quo.</div>
 </div>
 </div>
@@ -107,12 +106,12 @@ $art = "notcurrentpage";
 
   <section id="inspirations" class="sec-inspirations sec">
       <div class="row">
-        <div class="col-xs-12 col-md-12 col-lg-8 text-left">
+        <div class="col-xs-12 col-md-12 col-lg-12 text-left">
           <h1>Inspirations</h1>
         </div>
       </div>
       <div class="row">
-    <div class="col-xs-12 col-md-12 col-lg-8">
+    <div class="col-xs-12 col-md-12 col-lg-12">
       
     <q> The library will endure; it is the universe. As for us, everything has not been written; we are not turning into phantoms. 
       We walk the corridors, searching the shelves and rearranging them, looking for lines of 
@@ -166,7 +165,7 @@ $art = "notcurrentpage";
 
 <section id="design" class="sec-inspirations  sec">
       <div class="row">
-        <div class="col-xs-12 col-lg-8 col-md-8">
+        <div class="col-xs-12 col-lg-12 col-md-12">
           <h1>Our Design</h1>
             <p> 
               Establishing that our library wanted to convey a sense of time converging in one spacial experience, we decided to <strong> split our design
@@ -195,7 +194,7 @@ $art = "notcurrentpage";
  <!-- ROW -->
 
     <div class="row space">
-                    <div class="col-xs-6 col-md-8 col-lg-8">
+                    <div class="col-xs-6 col-md-12 col-lg-12">
 
             <h3> Adaptable Pod Model</h3>
                     <p class="text-left">We used one tiered, asymmetrical Rhino model to serve as the base for all three eras, 
@@ -241,7 +240,7 @@ $art = "notcurrentpage";
 
         <div class="row space">
 
-                <div class="col-xs-12 col-md-12 col-lg-8">
+                <div class="col-xs-12 col-md-12 col-lg-12">
 
                         <h3> Engineered Virtual Interactions</h3>
                         <p>Using the Unreal Engine's <strong>Blueprint </strong>programming interface and <strong>C++</strong> programming language, each world
@@ -252,7 +251,7 @@ $art = "notcurrentpage";
                         </p>
                 </div>
 
-                <div class="col-xs-12 col-md-12 col-lg-8">
+                <div class="col-xs-12 col-md-12 col-lg-12">
                       <img src="images/work.jpg" class="portfolio-img" alt="two people intensely working at a laptop"></img>
                         
                 </div>
@@ -260,20 +259,20 @@ $art = "notcurrentpage";
 
 
       <div class="row">
-        <div class="col-xs-12 col-md-8 col-lg-8  text-left">
+        <div class="col-xs-12 col-md-12 col-lg-12  text-left">
                       </br>
             <p class="text-center"> <strong>Era 1:</strong> Opening, Throwing Books</p>
               <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/Uv2bNElYLfB10KoxKE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/Uv2bNElYLfB10KoxKE">via GIPHY</a></p>
             <p><strong>Tools: </strong>VR mesh interaction, trigger boxes</p>
         </div>
 
-        <div class="col-xs-12 col-md-8 col-lg-8  text-left">
+        <div class="col-xs-12 col-md-12 col-lg-12  text-left">
         </br>
               <p class="text-center"> <strong>Era 2:</strong> Turning on TVs</p>
               <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/Xf7MEhRs8NRGf1IHmj" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/Xf7MEhRs8NRGf1IHmj">via GIPHY</a></p>
                 <p><strong>Tools: </strong>Trigger boxes, media player blueprinting, video editing</p>
         </div>
-        <div class="col-xs-12 col-md-8 col-lg-8 text-left">
+        <div class="col-xs-12 col-md-12 col-lg-12 text-left">
         </br>
               <p class="text-center"> <strong>Era 3: </strong> Hologram Transformations</p>
               <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/KCdW03qLVNYBYJDOnP" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/KCdW03qLVNYBYJDOnP">via GIPHY</a></p>
@@ -286,7 +285,7 @@ $art = "notcurrentpage";
             
 
 <div class="row">
-  <div class="col-xs-12 text-center">
+  <div class="col-xs-12 col-lg-12 text-center">
           <h3 class="space text-center"> Video of all the implemented interactions:</h3>
 
           <div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/t1DrEnHWVjA" frameborder="0" allowfullscreen></iframe></div>
@@ -304,16 +303,16 @@ $art = "notcurrentpage";
 
   <section id="learned" class="sec-inspirations sec">
       <div class="row">
-        <div class="col-lg-8 col-md-8 col-xs-8">
+        <div class="col-lg-8 col-md-12 col-xs-8">
           <h1 >What I Learned</h1>
         </div>
       </div>
 
     <div class="row">
-        <div class="col-xs-12 col-md-8 col-md 8">
+        <div class="col-xs-12 col-md-12 col-md-12">
 <h3>Utilizing Open Source Resources</h3>
         </div>
-          <div class="col-xs-12 col-md-8 col-md 8">
+          <div class="col-xs-12 col-md-12 col-lg-12">
 <p>I've never consulted the internet for more resources or information than I did with this project. I learned <strong> immense gratitude for the Information Age!</strong>
   For a project that in part reminisces about the pre-technological age of print media, this is a bold statement.</p>
 
@@ -322,11 +321,11 @@ $art = "notcurrentpage";
 
 
 
-      <div class="row space">
-        <div class="col-xs-12 col-md-8 col-md 8">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
           <h3>Multidimensional User Testing</h3>
         </div>
-          <div class="col-xs-12 col-md-8 col-md 8">
+          <div class="col-xs-12 col-md-12 col-lg-12">
 <p>In keyboard-control player mode, on the Oculus Headset, and on the Valve headset,
 each test would highlight new issues. <strong>Sometimes solving an issue in one headset would cause a problem in the other.</strong>
 We needed to make compromises for the sake of compatability.
@@ -334,11 +333,11 @@ We needed to make compromises for the sake of compatability.
           </p></div>
         </div>
 
-        <div class="row space">
-        <div class="col-xs-12 col-md-8 col-md 8">
+        <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
  <h3>Environmental Analysis & Design</h3>
         </div>
-          <div class="col-xs-12 col-md-8 col-md 8">
+          <div class="col-xs-12 col-md-12 col-lg-12">
 
           <p>Scaling, interaction, and lighting all worked in a more nuanced way in VR than
 we imagined, and lots of our debugging revolved around <strong>making items appear and interact naturally/comfortably within their built environment.</strong>
@@ -347,11 +346,11 @@ we imagined, and lots of our debugging revolved around <strong>making items appe
         </div>
 
 
-        <div class="row space">
-        <div class="col-xs-12 col-md-8 col-md 8">
+        <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
  <h3>Stepwise Development</h3>
         </div>
-          <div class="col-xs-12 col-md-8 col-md 8">
+          <div class="col-xs-12 col-md-12 col-lg-12">
 <p>
   By the end of the project, we were saving and testing after even the slightest 
   change, and it saved us a lot of time towards the end.
@@ -366,13 +365,10 @@ we imagined, and lots of our debugging revolved around <strong>making items appe
 
 
   <section id="services" class="sec-inspirations sec">
-      <div class="row">
-        <div class="col-lg-8 col-md-8 col-xs-12">
           <h1>Moving Forward</h1>
-        </div>
-      </div>
+        
       <div class="row">
-        <div class="col-xs-12 col-md-8 col-lg-8">
+        <div class="col-xs-12 col-md-12 col-lg-12">
           <p>As one of the most interdisciplinary and challenging projects I've completed, the skills and resources I gained
             from the experience have enriched my understanding of what it means to be a designer and developer. Unreal Engine is a 
           powerful tool that I'll no doubt use again for showcasing architectural and experiential design, and I now know
