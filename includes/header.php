@@ -39,7 +39,8 @@
 </br></br>
 <h1 class="heading container"><a href="aboutme.php"><strong class="rainbow-text">Annie Fu</a></strong></h2>
 <h2 class="homeheading container"> I'm a Data and Visual Reporting Intern at <a href="https://www.chalkbeat.org/" class="inlineTextLink" target="_blank">Chalkbeat</a>, and I conduct data visualization research at the <a href="https://learning.cis.cornell.edu/" class="inlineTextLink"> Cornell Future of Learning Lab. </a>
-</br></br>Previously, I was Editor-in-Chief of <a href="https://cornelldatajourn.al/" class="inlineTextLink"> Cornell Data Journal</a> and built data-driven web apps for the renewable energy transition at <a href="https://www.smartwires.com/" target="_blank" class="inlineTextLink">Smart Wires</a>. </h2>
+</br></br>Previously, I was Editor-in-Chief of <a href="https://cornelldatajourn.al/" class="inlineTextLink"> Cornell Data Journal</a> and built data-driven web apps for the renewable energy transition at <a href="https://www.smartwires.com/" target="_blank" class="inlineTextLink">Smart Wires</a>. <br/><br/>
+<!-- If you have questions about my work or would just like to chat, write me at <a href="mailto:annieccfu@gmail.com" class="inlineTextLink" alt="annieccfu@gmail.com">annieccfu@gmail.com</a>.</h2> -->
 </div>
 
  <nav class="navbar-expand-lg navbar-light desktopNav">
