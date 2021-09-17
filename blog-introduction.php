@@ -39,7 +39,7 @@ Most of these are semester-long pieces for publication in May, so I thought I'd 
 </br></br>
 
 This project has brought up plenty of interesting design decisions so far, including how to organize the nodes themselves and present information in a concise way, so as to not overwhelm the viewer. Along the way, I’ve heard plenty of heartwarming anecdotes about Dara’s family, as well as some tragic history on family members who were killed in the Holocaust. Overall, I’m grateful to be creating something with so much historical and personal value for a dear friend of mine, while learning new visualization techniques along the way.
-I'm looking forward to adding the complete set of nodes 
+I'm looking forward to adding the complete set of nodes once the complicated ties between everyone are sorted out.
 
 </li></br>
 <li><b> Tent Cities </b></br></br>
