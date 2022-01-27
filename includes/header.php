@@ -56,7 +56,7 @@
       <ul class="container center2">
         <li class="headerlink <?php echo ($projects); ?>"> <a href="index.php">projects</li></a>
 
-        <li class="headerlink <?php echo ($blog); ?>"><a href="blog.php">blog</li></a>
+        <!-- <li class="headerlink <?php echo ($blog); ?>"><a href="blog.php">blog</li></a> -->
         <!-- <li class="headerlink <?php echo ($art);?>"><a href="art.php">photo</li></a> -->
         
         <!-- <li class="rainbow -->
