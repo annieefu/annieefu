@@ -22,7 +22,7 @@ $art = "notcurrentpage";
         <div class="hero bodybin">
             <p>
                 As a Data and Visual Reporting Intern for Chalkbeat, I created graphics, tools, and data visualizations to tell the story of 
-            public education in America.
+            public education in America. 
                 </br></br>
             </p>
 
