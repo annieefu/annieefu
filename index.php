@@ -23,6 +23,13 @@ $art = "notcurrentpage";
 
   
   <div class="col-xs-12 col-md-4 col-lg-4">
+    <a href="insider.php" alt ="Insider" ><img class="project-img" src="images/chinatown.png"/></a>
+  <span class="project-name">Visual and Interative Journalism for Insider</span>
+<p class="project-subname">REPORTING, DATA JOURNALISM</p>
+    </div>
+
+
+  <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="chalkbeat.php" alt ="Chalkbeat" ><img class="project-img" src="images/colorado.png"/></a>
   <span class="project-name">Data and Visual Reporting for Chalkbeat</span>
 <p class="project-subname"> DATA JOURNALISM</p>
@@ -48,12 +55,12 @@ $art = "notcurrentpage";
 <p class="project-subname">DATA ESSAY</p>
     </div>
 
-
+<!-- 
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="datavis.php"><img class="project-img" src="images/boston-thumb.png" /></a>
 <span class="project-name">Assorted Data Visualizations</span>
 <p class="project-subname">DATA VISUALIZATION</p>
-    </div>
+    </div> -->
 
     <div class="col-xs-12 col-md-4 col-lg-4">
     <a href="https://medium.com/@annie99fu/connecting-the-d-ot-a-study-of-detroits-public-transit-e6541620c01b?source=friends_link&sk=393f3951ae76b860c894b0e6ff5ef3b0" alt ="Detroit Transit Case Study" target="_blank"><img class="project-img" src="images/ddoticon.png"/></a>
