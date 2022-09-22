@@ -165,7 +165,7 @@ $('#link7').hover(function(){
         <div class="col-sm-12 col-lg-8">
 <p> Hello! Welcome to my work. I'm a data-oriented developer and designer who enjoys using code and creativity 
     to enrich the human experience. I believe well-designed technology holds the capability to heal, strengthen, and educate communities.</p>
-<p> I'm currently crafting data visualizations and interactive graphics at <a href="https://www.businessinsider.com/author/annie-fu">Insider</a>. Previously, I also worked at Chalkbeat, a non-profit newsroom that reports on public education in the United States. I also built software for <strong> Smart Wires</strong>, a renewable energy technology company, and managed renewable energy data at the <strong>Cornell Sustainability Office.</strong> </p>
+<p> I'm currently crafting data visualizations and interactive graphics at <a href="https://www.businessinsider.com/author/annie-fu"><strong>Insider</strong></a>. Previously, I also worked at Chalkbeat, a non-profit newsroom that reports on public education in the United States. I also built software for <strong> Smart Wires</strong>, a renewable energy technology company, and managed renewable energy data at the <strong>Cornell Sustainability Office.</strong> </p>
 
 
     <p>My work is often inspired by my favorite <strong> <a href="#" id="link1" class="hoverlink"> literature,</a>
