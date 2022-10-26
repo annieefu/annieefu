@@ -38,7 +38,7 @@
   <div class="navwrap">
 </br></br>
 <h1 class="heading container"><a href="aboutme.php"><strong class="rainbow-text">Annie Fu</a></strong></h2>
-<h2 class="homeheading container"> I'm a Associate Data Graphics Developer at <a href="https://www.businessinsider.com/author/annie-fu" class="inlineTextLink" target="_blank">Insider</a>,  where my role involves research, data analysis, and writing. I'm also a Data Science Fellow at the <a href="https://downtownny.com/" class="inlineTextLink"> Alliance for Downtown New York. </a>
+<h2 class="homeheading container"> I'm an Associate Data Graphics Developer at <a href="https://www.businessinsider.com/author/annie-fu" class="inlineTextLink" target="_blank">Insider</a>,  where my role involves research, data analysis, and writing. I'm also a Data Science Fellow at the <a href="https://downtownny.com/" class="inlineTextLink"> Alliance for Downtown New York. </a>
 </br></br>Previously, I was a Data and Visual Reporting Intern at <a href="https://www.chalkbeat.org/" class="inlineTextLink"> Chalkbeat,</a> and I designed and built a data-driven educational equity tool for the <a href="https://learning.cis.cornell.edu/" target="_blank" class="inlineTextLink">Cornell Future of Learning Lab</a>. <br/><br/>
 <!-- If you have questions about my work or would just like to chat, write me at <a href="mailto:annieccfu@gmail.com" class="inlineTextLink" alt="annieccfu@gmail.com">annieccfu@gmail.com</a>.</h2> -->
 </div>
